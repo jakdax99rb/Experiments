@@ -25,32 +25,117 @@ class Item():
 
 def wikiScraper():
 
+    # Remember to clear dupes after you run the scraper itself since the mods page has two links for each item.
+
+    # selector for bottom section of funtional mods, for harris bipod.
+    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(1) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(1)
+    # SV-98 bipod
+    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(1) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(2)
+    # Armytek flashlight
+    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(3) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(1)
+    # it skips even tr:nth-child(x) groups
     mainSite = 'https://escapefromtarkov.gamepedia.com'
     modsPage = 'https://escapefromtarkov.gamepedia.com/Weapon_mods'
 
     res = requests.get(modsPage)
     res.raise_for_status
     scraper = bs4.BeautifulSoup(res.text, 'html.parser')
+    itemArray = []
 
 
 def itemScraper(itemLink):
 
-    # right hand panel template for label '<td class="va-infobox-label" title="" colspan="1" style="">.?</td>'
-    # The target is whatever is in the .? section.
-    # wrap loop in a try catch just incase a catagory isnt there like accuracy.
-
-    itemName = r'#va-infobox0 > tbody > tr.va-infobox-row-title > td > div'
-    typeSelector = r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(4) > td.va-infobox-content'
-    weightSelector = r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(6) > td.va-infobox-content'
-
-    recoilSelector = r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(4) > td.va-infobox-content > font'
-    ergonimicsSelector = r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(6) > td.va-infobox-content > font'
-    accuracySelector = r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(8) > td.va-infobox-content > font'
-
+    res = requests.get(itemLink)
+    res.raise_for_status
+    scraper = bs4.BeautifulSoup(res.text, 'html.parser')
     item = Item()
+    regSelect = '>.*<'
+    typeSelect = '/">.*<//a'
 
-    item.dict(link) = itemLink
+    selectorDict = {
+        'itemName': r'#va-infobox0 > tbody > tr.va-infobox-row-title > td > div',
+        'type': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(4) > td.va-infobox-content',
+        'weight': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(6) > td.va-infobox-content',
+        'recoil': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
+        'ergonimics': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(6) > td.va-infobox-content > font',
+        'accuracy': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(8) > td.va-infobox-content > font',
+        'muzzleVelocity': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
+        'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
+        'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content'
+    }
 
-# tabber-3ff1495eea2bae6d04667e261b9f12de > div:nth-child(2) > p > a
-# tabber-bbdbea9d2789de83c11cfc53c642181e > div:nth-child(2) > p > a
-#tabber-fe0ce6fd1b8cb8898b54974ed4a776fc > div > p > a
+    item.dict['itemLink'] = itemLink
+
+    for k, v in selectorDict.items():
+        if(k == 'type'):
+
+            target = re.search(typeSelect, str(scraper.select(v)))
+
+            if(target):
+
+                target = re.sub('/">', '', target.group(0))
+                target = re.sub('<//a', '', target)
+                target = target.strip()
+                item.dict[k] = str(target)
+
+        elif(k == 'weight'):
+
+            target = re.search(regSelect, str(scraper.select(v)))
+
+            if(target):
+
+                target = re.sub('>', '', target.group(0))
+                target = re.sub('<', '', target)
+                target = re.sub('kg', '', target)
+                target = target.strip()
+                item.dict[k] = float(target)
+
+        elif(k == 'itemName'):
+
+            target = re.search(regSelect, str(scraper.select(v)))
+
+            if(target):
+                target = re.sub('>', '', target.group(0))
+                target = re.sub('<', '', target)
+                target = target.strip()
+                item.dict[k] = str(target)
+
+        elif(k == 'seller'):
+
+            target = re.search(regSelect, str(scraper.select(v)))
+
+            if(target):
+                target = re.sub('>', '', target.group(0))
+                target = re.sub('<', '', target)
+                target = target.strip()
+                item.dict[k] = str(target)
+
+        # Base Case
+        else:
+
+            target = re.search(regSelect, str(scraper.select(v)))
+
+            if(target):
+
+                target = re.sub('>', '', target.group(0))
+                target = re.sub('<', '', target)
+                target = target.strip()
+                item.dict[k] = float(target)
+
+    # Loyalty level handling below
+    target = re.search(r'LL\d?', str(res.text))
+
+    if(target):
+
+        target = str(target.group(0))
+        target = target.strip()
+        item.dict['loyaltyLevel'] = str(target)
+
+    return item
+
+
+print('')
+print('')
+print(itemScraper('https://escapefromtarkov.gamepedia.com//TT-105_7.62x25_TT_Magazine'))
+print('')
+print('')
