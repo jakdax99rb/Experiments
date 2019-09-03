@@ -42,7 +42,10 @@ def wikiScraper():
     res = requests.get(modsPage)
     res.raise_for_status
     scraper = bs4.BeautifulSoup(res.text, 'html.parser')
-    itemArray = []
+    itemLinkArray = []
+    stillItems = True
+
+    # while(stillItems):
 
 
 def itemScraper(itemLink):
@@ -151,7 +154,13 @@ print('')
 print('')
 item = itemScraper(
     'https://escapefromtarkov.gamepedia.com/TT-105_7.62x25_TT_Magazine')
-for k, v in item.dict.items():
-    print(k, v)
+# for k, v in item.dict.items():
+#    print(k, v)
 print('')
 print('')
+res = requests.get('https://escapefromtarkov.gamepedia.com/Weapon_mods')
+res.raise_for_status
+scraper = bs4.BeautifulSoup(res.text, 'html.parser')
+test = scraper.select(
+    r'#tabber-91e2aae8c7c497707fd6f9912211f861 > div > p > a:nth-child(1)')
+print(test)
