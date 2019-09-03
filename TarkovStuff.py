@@ -34,6 +34,8 @@ def wikiScraper():
     # Armytek flashlight
     # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(3) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(1)
     # it skips even tr:nth-child(x) groups
+    # surefire flashlight
+    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(3) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(2)
     mainSite = 'https://escapefromtarkov.gamepedia.com'
     modsPage = 'https://escapefromtarkov.gamepedia.com/Weapon_mods'
 
@@ -61,7 +63,8 @@ def itemScraper(itemLink):
         'accuracy': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(8) > td.va-infobox-content > font',
         'muzzleVelocity': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
         'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
-        'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content'
+        'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content',
+        'caliber': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > a'
     }
 
     item.dict['itemLink'] = itemLink
@@ -110,6 +113,16 @@ def itemScraper(itemLink):
                 target = target.strip()
                 item.dict[k] = str(target)
 
+        elif(k == 'caliber'):
+
+            target = re.search(regSelect, str(scraper.select(v)))
+
+            if(target):
+                target = re.sub('>', '', target.group(0))
+                target = re.sub('<', '', target)
+                target = target.strip()
+                item.dict[k] = str(target)
+
         # Base Case
         else:
 
@@ -136,6 +149,9 @@ def itemScraper(itemLink):
 
 print('')
 print('')
-print(itemScraper('https://escapefromtarkov.gamepedia.com//TT-105_7.62x25_TT_Magazine'))
+item = itemScraper(
+    'https://escapefromtarkov.gamepedia.com/TT-105_7.62x25_TT_Magazine')
+for k, v in item.dict.items():
+    print(k, v)
 print('')
 print('')
