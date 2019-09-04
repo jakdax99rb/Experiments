@@ -7,6 +7,7 @@ import re
 import bs4
 import requests
 import lxml
+import csv
 import pygsheets
 
 
@@ -26,10 +27,43 @@ class Item():
 
 def wikiScraper():
 
-    gc = pygsheets.authorize(
-        service_file='./creds.json')
+    itemList = []
+    linkList = []
+    res = requests.get(
+        'https://docs.google.com/spreadsheets/d/1C4TVq6cIoJhXD_9Re2_FtWxHykZTRF1msvXsPV_-utc/export?format=tsv')
 
-    sh = gc.open('Copy of tarkovthingy')
+    for line in res.text.splitlines():
+
+        line_split = line.split("\t")
+
+        if(len(line_split) > 1 and line_split[1] != ""):
+
+            linkList.append(line_split[1])
+
+    for link in linkList:
+
+        itemList.append(itemScraper(link))
+
+    print(itemList[30].dict['itemName'])
+
+    '''
+    uri = 'https://docs.google.com/spreadsheets/d/1m8oFMO9OKdEg2nZdTytMTEl_oZfLl9AJIYdE5dalHUA/gviz/tq?tqx=out:csv'
+
+    with requests.Session() as session:
+        download session.get(uri)
+
+        content = download.content.decode('utf-8')
+
+        splitContent = csv.reader(decoded_content.splitlines(), delimiter=',')
+        tarkovDict = list(splitContent)
+        for row in tarkovDict
+        with open('tarkov.csv', mode='w') as csv_file:
+            fieldnames = ['endpoint', 'url']
+            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+
+            writer.writeheader()
+            writer.writerow({tarkovDict})
+        '''
 
 
 def itemScraper(itemLink):
@@ -49,7 +83,7 @@ def itemScraper(itemLink):
         'ergonimics': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(6) > td.va-infobox-content > font',
         'accuracy': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(8) > td.va-infobox-content > font',
         'muzzleVelocity': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
-        'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
+        # 'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
         'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content',
         'caliber': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > a',
         'compatibility': r'#mw-content-text > div > div'
@@ -77,9 +111,13 @@ def itemScraper(itemLink):
 
                 target = re.sub('>', '', target.group(0))
                 target = re.sub('<', '', target)
-                target = re.sub('kg', '', target)
+                target = re.sub('kg', '', target, flags=re.I)
                 target = target.strip()
-                item.dict[k] = float(target)
+                try:
+                    item.dict[k] = float(target)
+                except:
+                    print(itemLink)
+                    print(target)
 
         elif(k == 'itemName'):
 
@@ -113,28 +151,35 @@ def itemScraper(itemLink):
 
         elif(k == 'compatibility'):
 
-            compatList = []
             compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
 
-            for a in compatdiv.find_all("a"):
+            if compatdiv:
 
-                compatList.append(a.get_text())
+                compatList = []
 
-            item.dict[k] = compatList
+                for a in compatdiv.find_all("a"):
+
+                    compatList.append(a.get_text())
+
+                item.dict[k] = compatList
 
         # Base Case
         else:
 
-            target = re.search(regSelect, str(scraper.select(v)))
+            compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
 
-            if(target):
+            if compatdiv:
 
-                target = re.sub('>', '', target.group(0))
-                target = re.sub('<', '', target)
-                target = target.strip()
-                item.dict[k] = float(target)
+                compatList = []
+
+                for a in compatdiv.find_all("a"):
+
+                    compatList.append(a.get_text())
+
+                item.dict[k] = compatList
 
     # Loyalty level handling below
+    '''
     target = re.search(r'LL\d?', str(res.text))
 
     if(target):
@@ -142,6 +187,7 @@ def itemScraper(itemLink):
         target = str(target.group(0))
         target = target.strip()
         item.dict['loyaltyLevel'] = str(target)
+    '''
 
     return item
 
@@ -151,7 +197,7 @@ wikiScraper()
 print('')
 print('')
 item = itemScraper(
-    'https://escapefromtarkov.gamepedia.com/BCM_MOD.3_Tactical_grip')
+    'https://escapefromtarkov.gamepedia.com/Direct_Thread_Mount_adapter_for_Silencerco_Hybrid_46.')
 for k, v in item.dict.items():
     print(k, v)
 print('')

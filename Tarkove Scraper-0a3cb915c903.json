@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "tarkove-scraper",
+  "private_key_id": "0a3cb915c9034bf05f3eefb378963247ba36d6b6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCTHqDg4AzrhVCy\nZO1kGwK9OKfWl4jtguLnCeOdf4twTNjHA/UFggv6H4PK2TQBZds9SiDCx+sIJ6jj\n/9eg31YIztyp9T7IgK6vxTGLtopTqm8prHwnt7WsJrEuvecIaGOdvKoqVn+Wh7+B\nQKObtnzwZw76OKX9PaK3gdk2ku45Fja5iunGv0S8NEN2tU344Aziv4U4B1xmoNmh\n0hYoLDO+yUXhzuPEMtecLGDv7pwiDLk5OPmdBndtAq6y09rOe+e89XF78QRyaKQm\nmNudBdan9HrRbViFRmnCcqzBZ1elJqL8PXoQXsfKVtH0K3DFCV6Z/BBXH6dWimPn\n8aL3PkvhAgMBAAECggEAB6DcgEqHyvjMvVJLx595q/J1i/RLq56YObj+3BhcZGJc\nsW2SaXKjwLh8fMK4Tkv/8yiuRBFKDeBCEu/tuCwKbc6dnSOv+aUoAanSussIV0Qg\nq1dT8PqG7VYshOcghRRmGWxKYcN+TkGrz7W4ggsDZZL/cSCptTTKZJPjXZ++4ddx\nknbpaC911SgFO/fKM0TXSf1tvzrH+vu96/6IojLwqlGcytnJbRzMhHmJQA7JkefA\n24MhL8SIsiT5tAcJ6AjyyhEis3NoY0ltOS9GpVFBW2IZ3lFxPlV12GIstgkDquHl\nbIP7LFHsSRH8fdftHDs8I7sSfc4qX+3B/xXQHnyscQKBgQDKTCgp+WdOIEKTu8Rc\nDjMjY75xZex75sP29wWQt3j2bCOdrO2WKn+Amoh/KP7TIYE8yaSIiiWBqAFDfYTZ\nYyUFVGlWG4jPwsEn1rn6RFZmnfD5EU+C7dmoThkyZ/bDUB9+Yw1mXBe8fqYS8HHD\noDhMl0ICwd2givcUmZf/C1KzkQKBgQC6LKpXMXMGmqyqOhzxEJRgg3JX7z0Hqau1\nbN9uEHqF5uv0U0CvB4HALkHvZWd46ENLyZ6Rj1oef3Hp65cFSyBHwWB0PuYN8LSK\ni+cV7DdSpffeGPf/baViV7T1pqxiX9yga/AZaCxZWOG2prGToZwzOx8/d+AJOiC/\nAXK+g/hLUQKBgQCoSy0KplJ72zin4IhdsO54HY2clxdiiDs05JH7r7bxAkuq6+cH\nizlhSq4NY5SDHpd+c53ufUbwk0zh0bVIiEOPKIctPGDXvoSkWO2FN37Nhc2n1u/X\n03nEm5w4o+bU234nzc2i/zA7/vy4OtHZ1hugFCG1W4S9/33H5HNfmRLnEQKBgHOh\nSirdi5OOfa88aL1QjtdizKHQ9RbNSthjxmGV2oNP6TzWeFY9U1kJYepOEPYHS8TG\ndLXzUwWeIiInMKUZA/ONJ1sLtdbyqS9jtSLok3PBoTFQULdUYmOyFbJ80pRG9cCt\nSXJ+QQ09JvNKlQAcX+dx0PaafYs9jxkSzTGGxbABAoGAO1jXGGiSYO3pit53e6mI\n5GMFlyNvndugsqaVPAxxYN9m51Jrf4eLRHTXV44jaGc5bKtxuF9p4f+3y0aHhdLd\nBFacL7/7PSOeIt6UJBBTW7u63S/grjoeM1EI0iDwKCFTDg4szRfQUHBqeldObrVe\nCUES3NjxVee1m2hFrEe1kQc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "tarkovlinkgetter@tarkove-scraper.iam.gserviceaccount.com",
+  "client_id": "104854630494096018371",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/tarkovlinkgetter%40tarkove-scraper.iam.gserviceaccount.com"
+}
