@@ -7,6 +7,8 @@ import re
 import bs4
 import requests
 import json
+import lxml
+import pygsheets
 
 
 class Item():
@@ -25,27 +27,10 @@ class Item():
 
 def wikiScraper():
 
-    # Remember to clear dupes after you run the scraper itself since the mods page has two links for each item.
+    gc = pygsheets.authorize(
+        service_file='C:\\Users\\jakda\\Documents\\Work\\Experiments\\creds.json')
 
-    # selector for bottom section of funtional mods, for harris bipod.
-    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(1) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(1)
-    # SV-98 bipod
-    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(1) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(2)
-    # Armytek flashlight
-    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(3) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(1)
-    # it skips even tr:nth-child(x) groups
-    # surefire flashlight
-    # mw-content-text > div > table:nth-child(14) > tbody > tr > td > table > tbody > tr:nth-child(3) > td > table:nth-child(1) > tbody > tr:nth-child(3) > td.va-navbox-cell.va-navbox-cell-withgroups > a:nth-child(2)
-    mainSite = 'https://escapefromtarkov.gamepedia.com'
-    modsPage = 'https://escapefromtarkov.gamepedia.com/Weapon_mods'
-
-    res = requests.get(modsPage)
-    res.raise_for_status
-    scraper = bs4.BeautifulSoup(res.text, 'html.parser')
-    itemLinkArray = []
-    stillItems = True
-
-    # while(stillItems):
+    sh = gc.open('Copy of tarkovthingy')
 
 
 def itemScraper(itemLink):
@@ -67,7 +52,8 @@ def itemScraper(itemLink):
         'muzzleVelocity': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
         'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
         'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content',
-        'caliber': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > a'
+        'caliber': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > a',
+        'compatibility': r'#mw-content-text > div > div'
     }
 
     item.dict['itemLink'] = itemLink
@@ -126,6 +112,17 @@ def itemScraper(itemLink):
                 target = target.strip()
                 item.dict[k] = str(target)
 
+        elif(k == 'compatibility'):
+
+            compatList = []
+            compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
+
+            for a in compatdiv.find_all("a"):
+
+                compatList.append(a.get_text())
+
+            item.dict[k] = compatList
+
         # Base Case
         else:
 
@@ -150,17 +147,14 @@ def itemScraper(itemLink):
     return item
 
 
+wikiScraper()
+'''
 print('')
 print('')
 item = itemScraper(
-    'https://escapefromtarkov.gamepedia.com/TT-105_7.62x25_TT_Magazine')
-# for k, v in item.dict.items():
-#    print(k, v)
+    'https://escapefromtarkov.gamepedia.com/BCM_MOD.3_Tactical_grip')
+for k, v in item.dict.items():
+    print(k, v)
 print('')
 print('')
-res = requests.get('https://escapefromtarkov.gamepedia.com/Weapon_mods')
-res.raise_for_status
-scraper = bs4.BeautifulSoup(res.text, 'html.parser')
-test = scraper.select(
-    r'#tabber-91e2aae8c7c497707fd6f9912211f861 > div > p > a:nth-child(1)')
-print(test)
+'''
