@@ -6,7 +6,6 @@ Yea Ill try a crawler.
 import re
 import bs4
 import requests
-import json
 import lxml
 import pygsheets
 
@@ -28,7 +27,7 @@ class Item():
 def wikiScraper():
 
     gc = pygsheets.authorize(
-        service_file='C:\\Users\\jakda\\Documents\\Work\\Experiments\\creds.json')
+        service_file='./creds.json')
 
     sh = gc.open('Copy of tarkovthingy')
 
