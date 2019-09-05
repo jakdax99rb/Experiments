@@ -72,127 +72,40 @@ def itemScraper(itemLink):
     res.raise_for_status
     scraper = bs4.BeautifulSoup(res.text, 'html.parser')
     item = Item()
-    regSelect = '>.*<'
-    typeSelect = '/">.*<//a'
+    labelList = scraper.find_all("td", attrs={"class": "va-infobox-label"})
+    contentList = scraper.find_all("td", attrs={"class": "va-infobox-content"})
+    labelArray = []
+    contentArray = []
+    item = Item()
 
-    selectorDict = {
-        'itemName': r'#va-infobox0 > tbody > tr.va-infobox-row-title > td > div',
-        'type': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(4) > td.va-infobox-content',
-        'weight': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(6) > td.va-infobox-content',
-        'recoil': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
-        'ergonimics': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(6) > td.va-infobox-content > font',
-        'accuracy': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(8) > td.va-infobox-content > font',
-        'muzzleVelocity': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > font',
-        # 'seller': r'#va-infobox0-content > td > table:nth-child(3) > tbody > tr:nth-child(10) > td.va-infobox-content > a',
-        'capacity': r'#va-infobox0-content > td > table:nth-child(5) > tbody > tr:nth-child(14) > td.va-infobox-content',
-        'caliber': r'#va-infobox0-content > td > table:nth-child(7) > tbody > tr:nth-child(4) > td.va-infobox-content > a',
-        'compatibility': r'#mw-content-text > div > div'
-    }
+    for x in labelList:
 
-    item.dict['itemLink'] = itemLink
+        labelArray.append(x.get_text())
 
-    for k, v in selectorDict.items():
-        if(k == 'type'):
+    for y in contentList:
 
-            target = re.search(typeSelect, str(scraper.select(v)))
+        contentArray.append(y.get_text())
 
-            if(target):
+    for z in range(0, len(labelArray)):
 
-                target = re.sub('/">', '', target.group(0))
-                target = re.sub('<//a', '', target)
-                target = target.strip()
-                item.dict[k] = str(target)
+        item.dict[labelArray[z]] = contentArray[z]
 
-        elif(k == 'weight'):
+    compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
 
-            target = re.search(regSelect, str(scraper.select(v)))
+    if compatdiv:
 
-            if(target):
+        compatList = []
 
-                target = re.sub('>', '', target.group(0))
-                target = re.sub('<', '', target)
-                target = re.sub('kg', '', target, flags=re.I)
-                target = target.strip()
-                try:
-                    item.dict[k] = float(target)
-                except:
-                    print(itemLink)
-                    print(target)
+        for a in compatdiv.find_all("a"):
 
-        elif(k == 'itemName'):
+            compatList.append(a.get_text())
 
-            target = re.search(regSelect, str(scraper.select(v)))
-
-            if(target):
-                target = re.sub('>', '', target.group(0))
-                target = re.sub('<', '', target)
-                target = target.strip()
-                item.dict[k] = str(target)
-
-        elif(k == 'seller'):
-
-            target = re.search(regSelect, str(scraper.select(v)))
-
-            if(target):
-                target = re.sub('>', '', target.group(0))
-                target = re.sub('<', '', target)
-                target = target.strip()
-                item.dict[k] = str(target)
-
-        elif(k == 'caliber'):
-
-            target = re.search(regSelect, str(scraper.select(v)))
-
-            if(target):
-                target = re.sub('>', '', target.group(0))
-                target = re.sub('<', '', target)
-                target = target.strip()
-                item.dict[k] = str(target)
-
-        elif(k == 'compatibility'):
-
-            compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
-
-            if compatdiv:
-
-                compatList = []
-
-                for a in compatdiv.find_all("a"):
-
-                    compatList.append(a.get_text())
-
-                item.dict[k] = compatList
-
-        # Base Case
-        else:
-
-            compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
-
-            if compatdiv:
-
-                compatList = []
-
-                for a in compatdiv.find_all("a"):
-
-                    compatList.append(a.get_text())
-
-                item.dict[k] = compatList
-
-    # Loyalty level handling below
-    '''
-    target = re.search(r'LL\d?', str(res.text))
-
-    if(target):
-
-        target = str(target.group(0))
-        target = target.strip()
-        item.dict['loyaltyLevel'] = str(target)
-    '''
+        item.dict['Compatibility'] = compatList
 
     return item
 
 
-wikiScraper()
+# wikiScraper()
 '''
 print('')
 print('')
@@ -203,3 +116,7 @@ for k, v in item.dict.items():
 print('')
 print('')
 '''
+
+
+for k, v in itemScraper('https://escapefromtarkov.gamepedia.com/Magpul_AFG_grip').dict.items():
+    print(k, v)
