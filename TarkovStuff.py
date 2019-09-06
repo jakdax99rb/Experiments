@@ -9,20 +9,9 @@ import requests
 import lxml
 import csv
 import pygsheets
-
-
-class Item():
-
-    def __init__(self):
-
-        self.dict = {
-
-            # This dict wil be dynamically created based on the content of each page.
-            # Compatibilities will be stored as an array of strings.
-            # Delete every column after you get what you need.
-            # Use a while loop with that checks to see if there are any entries left to pull.
-            # Use the table to go through and get links to the object and not stats. Write scaper for individual pages first.
-        }
+import threading
+import operator
+import json
 
 
 def wikiScraper():
@@ -40,30 +29,45 @@ def wikiScraper():
 
             linkList.append(line_split[1])
 
-    for link in linkList:
+    for x in range(0, len(linkList)):
 
-        itemList.append(itemScraper(link))
+        itemList.append(itemScraper(linkList[x]))
 
-    print(itemList[30].dict['itemName'])
+    masterKeyList = []
 
-    '''
-    uri = 'https://docs.google.com/spreadsheets/d/1m8oFMO9OKdEg2nZdTytMTEl_oZfLl9AJIYdE5dalHUA/gviz/tq?tqx=out:csv'
+    for key in itemList[0].keys():
 
-    with requests.Session() as session:
-        download session.get(uri)
+        masterKeyList.append(str(key))
 
-        content = download.content.decode('utf-8')
+    with open('itemJSON.json', 'w') as file:
 
-        splitContent = csv.reader(decoded_content.splitlines(), delimiter=',')
-        tarkovDict = list(splitContent)
-        for row in tarkovDict
-        with open('tarkov.csv', mode='w') as csv_file:
-            fieldnames = ['endpoint', 'url']
-            writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+        file.write(json.dumps(itemList))
 
-            writer.writeheader()
-            writer.writerow({tarkovDict})
-        '''
+    return itemList
+
+
+def keyGetter(itemList):
+
+    masterKeyList = []
+    tempKeyList = []
+
+    for key in itemList[0].keys():
+
+        masterKeyList.append(str(key))
+
+    for x in range(1, len(itemList)):
+
+        for key in itemList[x].keys():
+
+            tempKeyList.append(str(key))
+
+        for key in tempKeyList:
+
+            if not (key in masterKeyList):
+
+                masterKeyList.append(key)
+
+    return masterKeyList
 
 
 def itemScraper(itemLink):
@@ -71,12 +75,40 @@ def itemScraper(itemLink):
     res = requests.get(itemLink)
     res.raise_for_status
     scraper = bs4.BeautifulSoup(res.text, 'html.parser')
-    item = Item()
     labelList = scraper.find_all("td", attrs={"class": "va-infobox-label"})
     contentList = scraper.find_all("td", attrs={"class": "va-infobox-content"})
     labelArray = []
     contentArray = []
-    item = Item()
+    item = {
+        'itemLink': '',
+        'itemName': '',
+        'Type': '',
+        'Weight': '',
+        'Grid size': '',
+        'Recoil\xa0%': '',
+        'Ergonomics': '',
+        'Loot experience': '',
+        'Examine experience': '',
+        'Compatibility': '',
+        'Sold by': '',
+        'Modes': '',
+        'Accuracy': '',
+        'Muzzle velocity': '',
+        'Sighting range': '',
+        'Caliber': '',
+        'Default ammo': '',
+        'Accepted ammunition': '',
+        'Ergonomics\xa0%': '',
+        'Check Speed Modifier\xa0%': '',
+        'Load/Unload Speed Modifier\xa0%': '',
+        'Capacity': '',
+        'Check Accuracy Level': '',
+        'Slot': ''
+    }
+
+    item['itemLink'] = itemLink
+    item['itemName'] = scraper.find(
+        'h1', attrs={'class': 'firstHeading'}).get_text()
 
     for x in labelList:
 
@@ -88,7 +120,7 @@ def itemScraper(itemLink):
 
     for z in range(0, len(labelArray)):
 
-        item.dict[labelArray[z]] = contentArray[z]
+        item[labelArray[z]] = contentArray[z]
 
     compatdiv = scraper.find("div", attrs={"title": "Compatibility"})
 
@@ -100,23 +132,23 @@ def itemScraper(itemLink):
 
             compatList.append(a.get_text())
 
-        item.dict['Compatibility'] = compatList
+        item['Compatibility'] = compatList
 
     return item
 
 
-# wikiScraper()
 '''
-print('')
-print('')
-item = itemScraper(
-    'https://escapefromtarkov.gamepedia.com/Direct_Thread_Mount_adapter_for_Silencerco_Hybrid_46.')
-for k, v in item.dict.items():
-    print(k, v)
-print('')
-print('')
-'''
-
-
+print('\n\n')
 for k, v in itemScraper('https://escapefromtarkov.gamepedia.com/Magpul_AFG_grip').dict.items():
     print(k, v)
+print('\n\n')
+'''
+wikiScraper()
+
+'''
+with open('itemJSON.json', 'r') as file:
+
+    myDict = json.loads(file.read())
+
+print(myDict[0]['itemName'])
+'''
