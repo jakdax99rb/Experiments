@@ -1,0 +1,58 @@
+[
+    {
+        "Accepted ammunition": "",
+        "Accuracy": "",
+        "Caliber": "",
+        "Capacity": "",
+        "Check Accuracy Level": "",
+        "Check Speed Modifier%": "",
+        "Compatibility": [
+            "500mm .308 barrel for DVL-10"
+        ],
+        "Default ammo": "",
+        "Ergonomics": "-5",
+        "Ergonomics%": "",
+        "Examine experience": "10",
+        "Grid size": "2x1",
+        "Load/Unload Speed Modifier%": "",
+        "Loot experience": "40",
+        "Modes": "",
+        "Muzzle velocity": "",
+        "Recoil%": "-5",
+        "Sighting range": "",
+        "Slot": "",
+        "Sold by": "",
+        "Type": "Bipod",
+        "Weight": "0.277 kg",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Harris_HBR_Bipod",
+        "itemName": "Harris HBR Bipod"
+    },
+    {
+        "Accepted ammunition": "",
+        "Accuracy": "",
+        "Caliber": "",
+        "Capacity": "",
+        "Check Accuracy Level": "",
+        "Check Speed Modifier%": "",
+        "Compatibility": [
+            "SV-98 bolt-action sniper rifle"
+        ],
+        "Default ammo": "",
+        "Ergonomics": "-5",
+        "Ergonomics%": "",
+        "Examine experience": "10",
+        "Grid size": "2x1",
+        "Load/Unload Speed Modifier%": "",
+        "Loot experience": "40",
+        "Modes": "",
+        "Muzzle velocity": "",
+        "Recoil%": "-5",
+        "Sighting range": "",
+        "Slot": "",
+        "Sold by": "",
+        "Type": "Bipod",
+        "Weight": "0.472 kg",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_SV-98_bipod",
+        "itemName": "Izhmash SV-98 bipod"
+    }
+]

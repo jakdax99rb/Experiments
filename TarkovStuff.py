@@ -1,8 +1,3 @@
-'''
-Not really sure what I'm going to do with this but I want to make something to help me in tarkov.
-If I can maybe crawl through the tarkov wiki to get up to date information on all weapon parts I could have something that will show me best in slot parts for each stat, weight, ergo, recoil, etc.
-Yea Ill try a crawler.
-'''
 import re
 import bs4
 import requests
@@ -41,7 +36,7 @@ def wikiScraper():
 
     with open('itemJSON.json', 'w') as file:
 
-        file.write(json.dumps(itemList))
+        file.write(json.dumps(itemList).replace('\xa0', ''))
 
     return itemList
 
@@ -82,10 +77,10 @@ def itemScraper(itemLink):
     item = {
         'itemLink': '',
         'itemName': '',
-        'Type': '',
+        'itemType': '',
         'Weight': '',
         'Grid size': '',
-        'Recoil\xa0%': '',
+        'Recoil%': '',
         'Ergonomics': '',
         'Loot experience': '',
         'Examine experience': '',
@@ -98,9 +93,9 @@ def itemScraper(itemLink):
         'Caliber': '',
         'Default ammo': '',
         'Accepted ammunition': '',
-        'Ergonomics\xa0%': '',
-        'Check Speed Modifier\xa0%': '',
-        'Load/Unload Speed Modifier\xa0%': '',
+        'Ergonomics%': '',
+        'Check Speed Modifier%': '',
+        'loads/Unloads Speed Modifier%': '',
         'Capacity': '',
         'Check Accuracy Level': '',
         'Slot': ''
@@ -116,7 +111,7 @@ def itemScraper(itemLink):
 
     for y in contentList:
 
-        contentArray.append(y.get_text())
+        contentArray.append(y.get_text().replace('+', ''))
 
     for z in range(0, len(labelArray)):
 
@@ -136,15 +131,94 @@ def itemScraper(itemLink):
 
     return item
 
+# only ever give numeric stats.
 
-'''
-print('\n\n')
-for k, v in itemScraper('https://escapefromtarkov.gamepedia.com/Magpul_AFG_grip').dict.items():
-    print(k, v)
-print('\n\n')
-'''
-wikiScraper()
 
+def getBestStat(itemType, stat):
+
+    if stat.lower().strip() == 'recoil':
+
+        stat = 'Recoil%'
+
+    elif stat.lower().strip() == ('ergo' or 'ergonomics'):
+
+        stat = 'Ergonomics'
+
+    itemType = itemType.replace(' ', '').lower()
+    itemType = itemType.replace('/', '')
+
+    with open(itemType + '.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    bestItem = myArray[0]
+
+    for item in myArray:
+
+        if stat == 'Ergonomics':
+
+            if float(item[stat]) > float(bestItem[stat]):
+
+                bestItem = item
+
+            elif float(item[stat]) == float(bestItem[stat]) and float(item['Recoil%']) < float(bestItem['Recoil%']):
+
+                bestItem = item
+
+        elif float(item[stat]) <= float(bestItem[stat]):
+
+            bestItem = item
+
+        elif float(item[stat]) == float(bestItem[stat]) and float(item['Ergonomics']) > float(bestItem['Ergonomics']):
+
+            bestItem = item
+
+    return bestItem
+
+
+def sortJSONByitemType():
+
+    # this array stores a string value for every array already created.
+    arraysAlreadyMade = []
+    bigArray = []
+
+    with open('itemJSON.json', 'r') as file:
+
+        myDict = json.loads(file.read())
+
+    for item in myDict:
+
+        itemType = item['Type']
+        itemType = itemType.replace(' ', '').lower()
+        itemType = itemType.replace('/', '')
+
+        if itemType == 'barrels':
+
+            itemType = 'barrel'
+
+        if itemType not in arraysAlreadyMade:
+
+            arraysAlreadyMade.append(itemType)
+            exec(itemType + '= []\n' + itemType +
+                 '.append(item)\nbigArray.append(' + itemType + ')')
+
+        else:
+
+            exec(itemType + '.append(item)')
+
+    for array in bigArray:
+
+        arrayType = array[0]['Type']
+        arrayType = arrayType.replace(' ', '').lower()
+        arrayType = arrayType.replace('/', '')
+
+        with open(arrayType+'.json', 'w') as file:
+
+            file.write(json.dumps(array, sort_keys=True, indent=4))
+
+
+# sortJSONByitemType()
+print(getBestStat('suppressor', 'recoil')['itemName'])
 '''
 with open('itemJSON.json', 'r') as file:
 
