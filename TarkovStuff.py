@@ -3,9 +3,6 @@ import bs4
 import requests
 import lxml
 import csv
-import pygsheets
-import threading
-import operator
 import json
 
 
@@ -20,7 +17,7 @@ def wikiScraper():
 
         line_split = line.split("\t")
 
-        if(len(line_split) > 1 and line_split[1] != ""):
+        if(len(line_split) > 1 and line_split[1] != "" and 'Weapons#' not in line_split[1]):
 
             linkList.append(line_split[1])
 
@@ -74,32 +71,7 @@ def itemScraper(itemLink):
     contentList = scraper.find_all("td", attrs={"class": "va-infobox-content"})
     labelArray = []
     contentArray = []
-    item = {
-        'itemLink': '',
-        'itemName': '',
-        'itemType': '',
-        'Weight': '',
-        'Grid size': '',
-        'Recoil%': '',
-        'Ergonomics': '',
-        'Loot experience': '',
-        'Examine experience': '',
-        'Compatibility': '',
-        'Sold by': '',
-        'Modes': '',
-        'Accuracy': '',
-        'Muzzle velocity': '',
-        'Sighting range': '',
-        'Caliber': '',
-        'Default ammo': '',
-        'Accepted ammunition': '',
-        'Ergonomics%': '',
-        'Check Speed Modifier%': '',
-        'loads/Unloads Speed Modifier%': '',
-        'Capacity': '',
-        'Check Accuracy Level': '',
-        'Slot': ''
-    }
+    item = {}
 
     item['itemLink'] = itemLink
     item['itemName'] = scraper.find(
@@ -155,23 +127,30 @@ def getBestStat(itemType, stat):
 
     for item in myArray:
 
-        if stat == 'Ergonomics':
+        try:
 
-            if float(item[stat]) > float(bestItem[stat]):
+            if stat == 'Ergonomics':
+
+                if float(item[stat]) > float(bestItem[stat]):
+
+                    bestItem = item
+
+                elif float(item[stat]) == float(bestItem[stat]) and float(item['Recoil%']) < float(bestItem['Recoil%']):
+
+                    bestItem = item
+
+            elif float(item[stat]) <= float(bestItem[stat]):
 
                 bestItem = item
 
-            elif float(item[stat]) == float(bestItem[stat]) and float(item['Recoil%']) < float(bestItem['Recoil%']):
+            elif float(item[stat]) == float(bestItem[stat]) and float(item['Ergonomics']) > float(bestItem['Ergonomics']):
 
                 bestItem = item
 
-        elif float(item[stat]) <= float(bestItem[stat]):
+        except:
 
-            bestItem = item
-
-        elif float(item[stat]) == float(bestItem[stat]) and float(item['Ergonomics']) > float(bestItem['Ergonomics']):
-
-            bestItem = item
+            print('Error in stat comparision process.\nStat given is: ' +
+                  stat + '\nItem given is: ' + item['itemLink'])
 
     return bestItem
 
@@ -218,7 +197,7 @@ def sortJSONByitemType():
 
 
 # sortJSONByitemType()
-print(getBestStat('suppressor', 'recoil')['itemName'])
+# print(getBestStat('suppressor', 'recoil')['itemName'])
 '''
 with open('itemJSON.json', 'r') as file:
 
