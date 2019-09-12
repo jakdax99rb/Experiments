@@ -17,9 +17,13 @@ def wikiScraper():
 
         line_split = line.split("\t")
 
-        if(len(line_split) > 1 and line_split[1] != "" and 'Weapons#' not in line_split[1]):
+        for x in range(0, len(line_split)):
 
-            linkList.append(line_split[1])
+            if x % 2 == 1:
+
+                if(line_split[x] != "" and 'Weapons#' not in line_split[x]):
+
+                    linkList.append(line_split[x])
 
     for x in range(0, len(linkList)):
 
@@ -94,29 +98,46 @@ def itemScraper(itemLink):
 
         elif labelList[z] == 'ergonomics':
 
-            item[labelList[z]] = float(
-                contentList[z].get_text().replace('+', '').replace(' ', ''))
+            contentList[z] = contentList[z].get_text().replace(
+                '+', '').replace(' ', '')
+
+            if len(re.findall(r'\d+', contentList[z])) > 1:
+
+                item[labelList[z]] = float(
+                    re.findall(r'\d+', contentList[z])[1])
+
+            else:
+
+                item[labelList[z]] = float(contentList[z])
 
         elif labelList[z] == 'examineexperience' and not contentList[z].get_text() == 'Examined by default':
 
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', ''))
-                
+
         elif labelList[z] == 'lootexperience':
 
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', ''))
-        
+
         elif labelList[z] == 'accuracy':
 
-            item[labelList[z]] = float(
-                re.findall(r'\d',contentList[z].get_text().replace('+', '').replace(' ', '')[1])
+            contentList[z] = contentList[z].get_text().replace(
+                '+', '').replace(' ', '')
+
+            if len(re.findall(r'\d+', contentList[z])) > 1:
+
+                item[labelList[z]] = float(
+                    re.findall(r'\d+', contentList[z])[1])
+
+            else:
+
+                item[labelList[z]] = float(contentList[z])
 
         elif labelList[z] == 'muzzlevelocity':
 
             item[labelList[z]] = float(
-                contentList[z].get_text().replace('+', '').replace(' ', ''))
-
+                contentList[z].get_text().replace('+', '').replace(' ', '').replace('m/s', ''))
 
         elif labelList[z] == 'recoil%' and not 'vertical' in contentList[z].get_text().lower().strip():
 
