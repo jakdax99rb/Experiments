@@ -42,6 +42,10 @@ def wikiScraper():
 
 
 def keyGetter(itemList):
+    '''
+    This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out 
+    it wasnt really needed.
+    '''
 
     masterKeyList = []
     tempKeyList = []
@@ -66,6 +70,9 @@ def keyGetter(itemList):
 
 
 def itemScraper(itemLink):
+
+    # This function actually gets the info from every link passed to it.
+    # Once its scraped everything dynamically it returns a dict called item that contains all the stuff
 
     res = requests.get(itemLink)
     res.raise_for_status
@@ -162,10 +169,10 @@ def itemScraper(itemLink):
 
     return item
 
-# only ever give numeric stats.
-
 
 def getBestStat(itemType, stat):
+
+    # This gets the item with the best stat(recoil, ergo, etc.) right now it only fully functions for recoil and ergo as they are the most important stats.
 
     if stat.lower().strip() == 'recoil':
 
@@ -215,7 +222,8 @@ def getBestStat(itemType, stat):
 
 
 def sortJSONByitemType():
-
+    # This function sorts all of the items in itemJSON.json into a bunch of individual json files to make it easier when looking for the best items in each catagory.
+    # I'll probably rewrite the logic behind choosing the best items in a catagory later so stuff doesnt need to be sorted into individual json files.
     # this array stores a string value for every array already created.
     arraysAlreadyMade = []
     bigArray = []
