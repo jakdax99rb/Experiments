@@ -163,7 +163,7 @@ def itemScraper(itemLink):
 
         for a in compatdiv.find_all("a"):
 
-            compatList.append(a.get_text())
+            compatList.append(a.get_href())
 
         item['Compatibility'] = compatList
 
@@ -234,7 +234,7 @@ def sortJSONByitemType():
 
     for item in myDict:
 
-        itemType = item['Type']
+        itemType = item['type']
         itemType = itemType.replace(' ', '').lower()
         itemType = itemType.replace('/', '')
 
@@ -254,7 +254,7 @@ def sortJSONByitemType():
 
     for array in bigArray:
 
-        arrayType = array[0]['Type']
+        arrayType = array[0]['type']
         arrayType = arrayType.replace(' ', '').lower()
         arrayType = arrayType.replace('/', '')
 
@@ -262,8 +262,8 @@ def sortJSONByitemType():
 
             file.write(json.dumps(array, sort_keys=True, indent=4))
 
-
-wikiScraper()
+print(itemScraper('https://escapefromtarkov.gamepedia.com/F-1_Hand_grenade'))
+# wikiScraper()
 # sortJSONByitemType()
 # print(getBestStat('suppressor', 'recoil')['itemName'])
 '''

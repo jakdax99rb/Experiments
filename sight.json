@@ -1,11 +1,5 @@
 [
     {
-        "Accepted ammunition": "",
-        "Accuracy": "0",
-        "Caliber": "",
-        "Capacity": "",
-        "Check Accuracy Level": "",
-        "Check Speed Modifier%": "",
         "Compatibility": [
             "DT MDR 5.56x45 Assault Rifle",
             "Noveske Gen.3 5.56x45 Upper receiver for AR systems",
@@ -14,22 +8,14 @@
             "Upper receiver HK 416A5 5.56x45 for 416A5",
             "Vltor MUR-1S 5.56x45 Upper receiver for AR systems"
         ],
-        "Default ammo": "",
-        "Ergonomics": "0",
-        "Ergonomics%": "",
-        "Examine experience": "",
-        "Grid size": "1x1",
-        "Load/Unload Speed Modifier%": "",
-        "Loot experience": "",
-        "Modes": "",
-        "Muzzle velocity": "",
-        "Recoil%": "",
-        "Sighting range": "600",
-        "Slot": "",
-        "Sold by": "Peacekeeper LL1",
-        "Type": "Sight",
-        "Weight": "0.15 kg",
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
         "itemLink": "https://escapefromtarkov.gamepedia.com/Rearsight_AR-15_Carry_Handle",
-        "itemName": "Rearsight AR-15 Carry Handle"
+        "itemName": "Rearsight AR-15 Carry Handle",
+        "sightingrange": "600",
+        "soldby": "Peacekeeper LL1",
+        "type": "Sight",
+        "weight": 0.15
     }
 ]
