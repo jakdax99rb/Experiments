@@ -1,11 +1,5 @@
 [
     {
-        "Accepted ammunition": "\n40 mm VOG-25",
-        "Accuracy": "",
-        "Caliber": "40x53mm",
-        "Capacity": "",
-        "Check Accuracy Level": "",
-        "Check Speed Modifier%": "",
         "Compatibility": [
             "AKS-74 5.45x39 assault rifle",
             "AK-74 5.45x39 assault rifle",
@@ -21,22 +15,15 @@
             "AK-74M 5.45x39 assault rifle",
             "AKS-74N 5.45x39 assault rifle"
         ],
-        "Default ammo": "40 mm VOG-25",
-        "Ergonomics": "-2",
-        "Ergonomics%": "",
-        "Examine experience": "",
-        "Grid size": "1x1",
-        "Load/Unload Speed Modifier%": "",
-        "Loot experience": "",
-        "Modes": "",
-        "Muzzle velocity": "",
-        "Recoil%": "-1",
-        "Sighting range": "",
-        "Slot": "",
-        "Sold by": "",
-        "Type": "Grenade launcher",
-        "Weight": "1.4 kg",
+        "acceptedammunition": "\n40 mm VOG-25",
+        "caliber": "40x53mm",
+        "defaultammo": "40 mm VOG-25",
+        "ergonomics": -2.0,
+        "gridsize": "1x1",
         "itemLink": "https://escapefromtarkov.gamepedia.com/GP-34_underbarrel_grenade_launcher",
-        "itemName": "GP-34 underbarrel grenade launcher"
+        "itemName": "GP-34 underbarrel grenade launcher",
+        "recoil%": -1.0,
+        "type": "Grenade launcher",
+        "weight": 1.4
     }
 ]

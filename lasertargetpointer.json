@@ -1,31 +1,18 @@
 [
     {
-        "Accepted ammunition": "",
-        "Accuracy": "",
-        "Caliber": "",
-        "Capacity": "",
-        "Check Accuracy Level": "",
-        "Check Speed Modifier%": "",
         "Compatibility": [
             "TT pistol 7.62x25 TT",
             "TT pistol 7.62x25 TT Gold"
         ],
-        "Default ammo": "",
-        "Ergonomics": "-1",
-        "Ergonomics%": "",
-        "Examine experience": "10",
-        "Grid size": "1x1",
-        "Load/Unload Speed Modifier%": "",
-        "Loot experience": "23",
-        "Modes": "1",
-        "Muzzle velocity": "",
-        "Recoil%": "",
-        "Sighting range": "",
-        "Slot": "",
-        "Sold by": "Mechanic LL2",
-        "Type": "Laser target pointer",
-        "Weight": "0.086 kg",
+        "ergonomics": -1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
         "itemLink": "https://escapefromtarkov.gamepedia.com/DLP_%22Tactical_Precision%22_LAM_Module_for_TT_Pistol",
-        "itemName": "DLP \"Tactical Precision\" LAM Module for TT Pistol"
+        "itemName": "DLP \"Tactical Precision\" LAM Module for TT Pistol",
+        "lootexperience": 23.0,
+        "modes": "1",
+        "soldby": "Mechanic LL2",
+        "type": "Laser target pointer",
+        "weight": 0.086
     }
 ]

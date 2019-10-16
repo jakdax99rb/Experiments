@@ -42,6 +42,10 @@ def wikiScraper():
 
 
 def keyGetter(itemList):
+    '''
+    This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out 
+    it wasnt really needed.
+    '''
 
     masterKeyList = []
     tempKeyList = []
@@ -66,6 +70,9 @@ def keyGetter(itemList):
 
 
 def itemScraper(itemLink):
+
+    # This function actually gets the info from every link passed to it.
+    # Once its scraped everything dynamically it returns a dict called item that contains all the stuff
 
     res = requests.get(itemLink)
     res.raise_for_status
@@ -156,16 +163,16 @@ def itemScraper(itemLink):
 
         for a in compatdiv.find_all("a"):
 
-            compatList.append(a.get_text())
+            compatList.append(a.get_href())
 
         item['Compatibility'] = compatList
 
     return item
 
-# only ever give numeric stats.
-
 
 def getBestStat(itemType, stat):
+
+    # This gets the item with the best stat(recoil, ergo, etc.) right now it only fully functions for recoil and ergo as they are the most important stats.
 
     if stat.lower().strip() == 'recoil':
 
@@ -215,7 +222,8 @@ def getBestStat(itemType, stat):
 
 
 def sortJSONByitemType():
-
+    # This function sorts all of the items in itemJSON.json into a bunch of individual json files to make it easier when looking for the best items in each catagory.
+    # I'll probably rewrite the logic behind choosing the best items in a catagory later so stuff doesnt need to be sorted into individual json files.
     # this array stores a string value for every array already created.
     arraysAlreadyMade = []
     bigArray = []
@@ -226,7 +234,7 @@ def sortJSONByitemType():
 
     for item in myDict:
 
-        itemType = item['Type']
+        itemType = item['type']
         itemType = itemType.replace(' ', '').lower()
         itemType = itemType.replace('/', '')
 
@@ -246,7 +254,7 @@ def sortJSONByitemType():
 
     for array in bigArray:
 
-        arrayType = array[0]['Type']
+        arrayType = array[0]['type']
         arrayType = arrayType.replace(' ', '').lower()
         arrayType = arrayType.replace('/', '')
 
@@ -254,8 +262,8 @@ def sortJSONByitemType():
 
             file.write(json.dumps(array, sort_keys=True, indent=4))
 
-
-wikiScraper()
+print(itemScraper('https://escapefromtarkov.gamepedia.com/F-1_Hand_grenade'))
+# wikiScraper()
 # sortJSONByitemType()
 # print(getBestStat('suppressor', 'recoil')['itemName'])
 '''

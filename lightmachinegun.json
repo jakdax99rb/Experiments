@@ -1,0 +1,25 @@
+[
+    {
+        "acceptedammunition": "\n5.45x39 mm 7N39 \"Igolnik\"\n5.45x39 mm BP\n5.45x39 mm BS\n5.45x39 mm BT\n5.45x39 mm FMJ\n5.45x39 mm HP\n5.45x39 mm PP\n5.45x39 mm PRS\n5.45x39 mm PS\n5.45x39 mm SP\n5.45x39 mm T\n5.45x39 mm US",
+        "caliber": "5.45x39mm",
+        "defaultammo": "5.45x39 mm BP",
+        "defaultmag": "95-round 5.45x39 magazine for RPK-16 and compatibles",
+        "effectivedistance": "650 m",
+        "ergonomics": 34.0,
+        "examineexperience": 10.0,
+        "firingmodes": "SingleFull Auto",
+        "gridsize": "5x2",
+        "horizontalRecoil": 387.0,
+        "itemLink": "https://escapefromtarkov.gamepedia.com/RPK-16",
+        "itemName": "RPK-16 5.45x39 light machine gun",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 839.0,
+        "rateoffire(rpm)": "650",
+        "sightingrange": "600",
+        "slot": "Primary",
+        "soldby": "Prapor LL4",
+        "type": "Light machine gun",
+        "verticalRecoil": 139.0,
+        "weight": 3.832
+    }
+]
