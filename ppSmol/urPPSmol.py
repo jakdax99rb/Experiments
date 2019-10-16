@@ -81,8 +81,6 @@ def bf(src, left, right, data, idx):
 
 beanPPSmolTxt = bf(ppTxt, 0, len(ppTxt)-1, '', 0)
 
-# calum.c.brookes@gmail.com
-
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
 server.login("email@gmail.com", "password")
