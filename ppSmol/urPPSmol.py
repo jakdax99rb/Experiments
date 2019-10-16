@@ -85,10 +85,10 @@ beanPPSmolTxt = bf(ppTxt, 0, len(ppTxt)-1, '', 0)
 
 server = smtplib.SMTP('smtp.gmail.com:587')
 server.starttls()
-server.login("rateMyMk18@gmail.com", "ztmkpgzhxjwcsqvc")
+server.login("email@gmail.com", "password")
 
-fromAddr = "rateMyMk18@gmail.com"
-toAddr = 'jakdax99rb@gmail.com'
+fromAddr = "email@gmail.com"
+toAddr = 'email@gmail.com'
 
 server.sendmail(fromAddr, toAddr, beanPPSmolTxt)
 server.quit()
