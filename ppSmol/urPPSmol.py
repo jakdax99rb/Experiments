@@ -1,7 +1,7 @@
+
+import os
 import smtplib
-
-
-ppTxt = open('ppSmol.Txt').read()
+import sys
 
 
 def bf(src, left, right, data, idx):
@@ -79,14 +79,24 @@ def bf(src, left, right, data, idx):
     return outPut
 
 
-beanPPSmolTxt = bf(ppTxt, 0, len(ppTxt)-1, '', 0)
+THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+my_file = os.path.join(THIS_FOLDER, 'myfile.txt')
 
-server = smtplib.SMTP('smtp.gmail.com:587')
-server.starttls()
-server.login("email@gmail.com", "password")
 
-fromAddr = "email@gmail.com"
-toAddr = 'email@gmail.com'
+def sendPPEmail(toAddr, fromAddr, password):
+    THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
+    ppTxt = open(os.path.join(THIS_FOLDER, 'ppSmol.txt')).read()
+    message = ppTxt
+    message += '\n\nTranslated: '
+    message += bf(ppTxt, 0, len(ppTxt)-1, [], 0)
+    server = smtplib.SMTP('smtp.gmail.com:587')
+    server.starttls()
+    server.login(fromAddr, password)
+    server.sendmail(fromAddr, toAddr, message)
+    server.quit()
 
-server.sendmail(fromAddr, toAddr, beanPPSmolTxt)
-server.quit()
+
+toAddr = str(input("Enter to address: "))
+fromAddr = str(input("Enter from address: "))
+password = str(input("Enter Password: "))
+sendPPEmail(toAddr, fromAddr, password)
