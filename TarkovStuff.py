@@ -43,7 +43,7 @@ def wikiScraper():
 
 def keyGetter(itemList):
     '''
-    This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out 
+    This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out
     it wasnt really needed.
     '''
 
@@ -92,18 +92,18 @@ def itemScraper(itemLink):
         labelList[z] = labelList[z].get_text().lower().replace(
             '\u00a0', '').replace(' ', '')
 
-        if 'vertical' in contentList[z].get_text().lower().strip():
+        if 'vertical' in contentList[z].get_text().lower().strip() and not ('?' in contentList[z].get_text()):
 
             recoilNumbers = re.findall(r'\d+', contentList[z].get_text())
             item['verticalRecoil'] = float(recoilNumbers[0])
             item['horizontalRecoil'] = float(recoilNumbers[1])
 
-        elif labelList[z] == 'weight':
+        elif labelList[z] == 'weight' and not ('?' in contentList[z].get_text()):
 
             item[labelList[z]] = float(
-                contentList[z].get_text().lower().replace(' ', '').replace('kg', ''))
+                contentList[z].get_text().lower().replace(' ', '').replace('kg', '').replace(',', ''))
 
-        elif labelList[z] == 'ergonomics':
+        elif labelList[z] == 'ergonomics' and not ('?' in contentList[z].get_text()):
 
             contentList[z] = contentList[z].get_text().replace(
                 '+', '').replace(' ', '')
@@ -122,12 +122,12 @@ def itemScraper(itemLink):
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', ''))
 
-        elif labelList[z] == 'lootexperience':
+        elif labelList[z] == 'lootexperience' and not ('?' in contentList[z].get_text()):
 
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', ''))
 
-        elif labelList[z] == 'accuracy':
+        elif labelList[z] == 'accuracy' and not ('?' in contentList[z].get_text()):
 
             contentList[z] = contentList[z].get_text().replace(
                 '+', '').replace(' ', '')
@@ -141,17 +141,17 @@ def itemScraper(itemLink):
 
                 item[labelList[z]] = float(contentList[z])
 
-        elif labelList[z] == 'muzzlevelocity':
+        elif labelList[z] == 'muzzlevelocity' and not ('?' in contentList[z].get_text()):
 
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', '').replace('m/s', ''))
 
-        elif labelList[z] == 'recoil%' and not 'vertical' in contentList[z].get_text().lower().strip():
+        elif labelList[z] == 'recoil%' and not 'vertical' in contentList[z].get_text().lower().strip() and not ('?' in contentList[z].get_text()):
 
             item[labelList[z]] = float(
                 contentList[z].get_text().replace('+', '').replace(' ', ''))
 
-        else:
+        elif not ('?' in contentList[z].get_text()):
 
             item[labelList[z]] = contentList[z].get_text().replace('+', '')
 
@@ -163,7 +163,7 @@ def itemScraper(itemLink):
 
         for a in compatdiv.find_all("a"):
 
-            compatList.append(a.get_href())
+            compatList.append(a.get('href'))
 
         item['Compatibility'] = compatList
 
@@ -185,7 +185,7 @@ def getBestStat(itemType, stat):
     itemType = itemType.replace(' ', '').lower()
     itemType = itemType.replace('/', '')
 
-    with open(itemType + '.json', 'r') as file:
+    with open('itemJSON.json', 'r') as file:
 
         myArray = json.loads(file.read())
 
@@ -193,30 +193,32 @@ def getBestStat(itemType, stat):
 
     for item in myArray:
 
-        try:
+        if item['type'].lower() == itemType.lower():
 
-            if stat == 'ergonomics':
+            try:
 
-                if item[stat] > bestItem[stat]:
+                if stat == 'ergonomics':
+
+                    if item[stat] > bestItem[stat]:
+
+                        bestItem = item
+
+                    elif item[stat] == bestItem[stat] and item['Recoil%'] < bestItem['Recoil%']:
+
+                        bestItem = item
+
+                elif item[stat] <= bestItem[stat]:
 
                     bestItem = item
 
-                elif item[stat] == bestItem[stat] and item['Recoil%'] < bestItem['Recoil%']:
+                elif item[stat] == bestItem[stat] and item['Ergonomics'] > bestItem['Ergonomics']:
 
                     bestItem = item
 
-            elif item[stat] <= bestItem[stat]:
+            except:
 
-                bestItem = item
-
-            elif item[stat] == bestItem[stat] and item['Ergonomics'] > bestItem['Ergonomics']:
-
-                bestItem = item
-
-        except:
-
-            print('Error in stat comparision process.\nStat given is: ' +
-                  stat + '\nItem given is: ' + item['itemLink'])
+                print('Error in stat comparision process.\nStat given is: ' +
+                      stat + '\nItem given is: ' + item['itemLink'])
 
     return bestItem
 
@@ -262,10 +264,9 @@ def sortJSONByitemType():
 
             file.write(json.dumps(array, sort_keys=True, indent=4))
 
-print(itemScraper('https://escapefromtarkov.gamepedia.com/F-1_Hand_grenade'))
-# wikiScraper()
+
 # sortJSONByitemType()
-# print(getBestStat('suppressor', 'recoil')['itemName'])
+print(getBestStat('Handguard', 'recoil')['itemLink'])
 '''
 with open('itemJSON.json', 'r') as file:
 
