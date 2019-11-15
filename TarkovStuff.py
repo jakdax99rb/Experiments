@@ -143,8 +143,17 @@ def itemScraper(itemLink):
 
         elif labelList[z] == 'muzzlevelocity' and not ('?' in contentList[z].get_text()):
 
-            item[labelList[z]] = float(
-                contentList[z].get_text().replace('+', '').replace(' ', '').replace('m/s', ''))
+            contentList[z] = contentList[z].get_text().replace(
+                '+', '').replace(' ', '').replace('m/s', '')
+
+            if len(re.findall(r'\d+', contentList[z])) > 1:
+
+                item[labelList[z]] = float(
+                    re.findall(r'\d+', contentList[z])[1])
+
+            else:
+
+                item[labelList[z]] = float(contentList[z])
 
         elif labelList[z] == 'recoil%' and not 'vertical' in contentList[z].get_text().lower().strip() and not ('?' in contentList[z].get_text()):
 
@@ -225,7 +234,6 @@ def getBestStat(itemType, stat):
 
 def sortJSONByitemType():
     # This function sorts all of the items in itemJSON.json into a bunch of individual json files to make it easier when looking for the best items in each catagory.
-    # I'll probably rewrite the logic behind choosing the best items in a catagory later so stuff doesnt need to be sorted into individual json files.
     # this array stores a string value for every array already created.
     arraysAlreadyMade = []
     bigArray = []
@@ -236,23 +244,29 @@ def sortJSONByitemType():
 
     for item in myDict:
 
-        itemType = item['type']
-        itemType = itemType.replace(' ', '').lower()
-        itemType = itemType.replace('/', '')
+        try:
 
-        if itemType == 'barrels':
+            itemType = item['type']
+            itemType = itemType.replace(' ', '').lower()
+            itemType = itemType.replace('/', '')
 
-            itemType = 'barrel'
+            if itemType == 'barrels':
 
-        if itemType not in arraysAlreadyMade:
+                itemType = 'barrel'
 
-            arraysAlreadyMade.append(itemType)
-            exec(itemType + '= []\n' + itemType +
-                 '.append(item)\nbigArray.append(' + itemType + ')')
+            if itemType not in arraysAlreadyMade:
 
-        else:
+                arraysAlreadyMade.append(itemType)
+                exec(itemType + '= []\n' + itemType +
+                     '.append(item)\nbigArray.append(' + itemType + ')')
 
-            exec(itemType + '.append(item)')
+            else:
+
+                exec(itemType + '.append(item)')
+
+        except:
+
+            print(item['itemLink'] + ' :This thing doesnt have a type.\n')
 
     for array in bigArray:
 
@@ -266,7 +280,9 @@ def sortJSONByitemType():
 
 
 # sortJSONByitemType()
-print(getBestStat('Handguard', 'recoil')['itemLink'])
+# wikiScraper()
+#print(getBestStat('Handguard', 'recoil')['itemLink'])
+sortJSONByitemType()
 '''
 with open('itemJSON.json', 'r') as file:
 

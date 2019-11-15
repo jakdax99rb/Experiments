@@ -1,0 +1,323 @@
+[
+    {
+        "Compatibility": [
+            "/Vepr_Hunter/VPO-101_7.62x51_carbine"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/VPO-101_Gas_tube",
+        "itemName": "VPO-101 Gas tube",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_SVDS_7.62x54"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SVDS_Gas_tube",
+        "itemName": "SVDS Gas tube",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_416A5_Regular_Low_Profile_Gas_Block",
+        "itemName": "HK 416A5 Regular Low Profile Gas Block",
+        "lootexperience": 30.0,
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL2",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AK-74_Gas_tube",
+        "itemName": "AK-74 Gas tube",
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL1",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AKM_(6P1_Sb.1-2)_gas_tube",
+        "itemName": "AKM (6P1 Sb.1-2) gas tube",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL1",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Molot_AKM_type_gas_tube",
+        "itemName": "Molot AKM type gas tube",
+        "recoil%": 0.0,
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Kiba_Arms_VDM_CS_gas_tube",
+        "itemName": "Kiba Arms VDM CS gas tube",
+        "recoil%": 0.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 6.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/UltiMAK_M1-B_gas_tube_for_AK",
+        "itemName": "UltiMAK M1-B gas tube for AK",
+        "lootexperience": 50.0,
+        "recoil%": -1.0,
+        "soldby": "Skier LL1",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 14.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Handguard_with_a_gas_block_combo_by_TROY_Industries_for_AK",
+        "itemName": "Handguard with a gas block combo by TROY Industries for AK",
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL4",
+        "type": "Gas block",
+        "weight": 0.55
+    },
+    {
+        "Compatibility": [
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PP-19-01_gas_tube",
+        "itemName": "PP-19-01 gas tube",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "type": "Gas block",
+        "weight": 0.11
+    },
+    {
+        "Compatibility": [
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AKS-74U_Gas_tube",
+        "itemName": "AKS-74U Gas tube",
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL1",
+        "type": "Gas block",
+        "weight": 0.03
+    },
+    {
+        "Compatibility": [
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MK12_Low_Profile_Gas_Block",
+        "itemName": "MK12 Low Profile Gas Block",
+        "recoil%": 0.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Gas block",
+        "weight": 0.053
+    },
+    {
+        "Compatibility": [
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Colt_M4_Front_sight",
+        "itemName": "Colt M4 Front sight",
+        "sightingrange": "0",
+        "type": "Gas block",
+        "weight": 0.15
+    },
+    {
+        "Compatibility": [
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Windham_Weaponry_Rail_Gas_Block",
+        "itemName": "Windham Weaponry Rail Gas Block",
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL2",
+        "type": "Gas block",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/JP_Enterprises_Gas_System-6",
+        "itemName": "JP Enterprises Gas System-6",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL3",
+        "type": "Gas block",
+        "weight": 0.218
+    },
+    {
+        "Compatibility": [
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/JP_Enterprises_Gas_System-5b",
+        "itemName": "JP Enterprises Gas System-5b",
+        "lootexperience": 50.0,
+        "recoil%": 0.0,
+        "type": "Gas block",
+        "weight": 0.064
+    }
+]

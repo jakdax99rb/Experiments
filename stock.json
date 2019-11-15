@@ -1,0 +1,1696 @@
+[
+    {
+        "Compatibility": [
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Buffer_Tube_adapter_for_SA-58",
+            "/ADAR_2-15_.223_Carbine",
+            "/ME_adapter_for_AK",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Colt_M4A1_5.56x45_Assault_Rifle"
+        ],
+        "accuracy": 5.0,
+        "ergonomics": 1.0,
+        "examineexperience": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SI_Advanced_receiver_extension_buffer_tube",
+        "itemName": "SI Advanced receiver extension buffer tube",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 2.0,
+        "recoil%": -4.0,
+        "soldby": "Mechanic LL4 (Black)",
+        "type": "Stock",
+        "weight": 0.11
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 10.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SI_Viper_Mod.1_Stock",
+        "itemName": "SI Viper Mod.1 Stock",
+        "lootexperience": 10.0,
+        "recoil%": -35.0,
+        "soldby": "Mechanic LL4",
+        "type": "Stock",
+        "weight": 0.188
+    },
+    {
+        "Compatibility": [
+            "/SVDS_7.62x54_Sniper_rifle"
+        ],
+        "ergonomics": 2.0,
+        "examineexperience": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Polymer_stock_for_SVDS",
+        "itemName": "Polymer stock for SVDS",
+        "lootexperience": 10.0,
+        "recoil%": -37.0,
+        "type": "Stock",
+        "weight": 0.35
+    },
+    {
+        "Compatibility": [
+            "/Vepr_Hunter/VPO-101_7.62x51_carbine"
+        ],
+        "ergonomics": 16.0,
+        "examineexperience": 3.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Regular_VPO-101_%22Vepr_Hunter%22_stock",
+        "itemName": "Regular VPO-101 \"Vepr Hunter\" stock",
+        "lootexperience": 10.0,
+        "recoil%": -46.0,
+        "type": "Stock",
+        "weight": 1.25
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 3.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_E1_Stock_for_AR-15_and_compatable",
+        "itemName": "HK E1 Stock for AR-15 and compatable",
+        "lootexperience": 10.0,
+        "recoil%": -39.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Stock",
+        "weight": 0.39
+    },
+    {
+        "Compatibility": [
+            "/SIG_MPX_9x19_Submachine_gun"
+        ],
+        "ergonomics": 2.0,
+        "examineexperience": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PMM_%22ULSS%22_foldable_MCX/MPX_stock",
+        "itemName": "PMM \"ULSS\" foldable MCX/MPX stock",
+        "lootexperience": 10.0,
+        "recoil%": -43.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.462
+    },
+    {
+        "Compatibility": [
+            "/SIG_MPX_9x19_Submachine_gun"
+        ],
+        "ergonomics": 13.0,
+        "examineexperience": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Maxim_Defence_CQB_collapsing/telescoping_MCX/MPX_stock",
+        "itemName": "Maxim Defence CQB collapsing/telescoping MCX/MPX stock",
+        "lootexperience": 10.0,
+        "recoil%": -36.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.501
+    },
+    {
+        "Compatibility": [
+            "/TOZ-106_bolt-action_shotgun"
+        ],
+        "ergonomics": 8.0,
+        "examineexperience": 3.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Custom_cut_mosin_stock_for_TOZ-106",
+        "itemName": "Custom cut mosin stock for TOZ-106",
+        "lootexperience": 10.0,
+        "recoil%": -50.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 1.29
+    },
+    {
+        "Compatibility": [
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/ADAR_2-15_.223_Carbine"
+        ],
+        "ergonomics": 11.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ADAR_2-15_wooden_stock",
+        "itemName": "ADAR 2-15 wooden stock",
+        "lootexperience": 10.0,
+        "recoil%": -33.0,
+        "type": "Stock",
+        "weight": 0.695
+    },
+    {
+        "Compatibility": [
+            "/HK_MP5_Upper_receiver",
+            "/HK_MP5SD_Upper_receiver"
+        ],
+        "ergonomics": 2.0,
+        "examineexperience": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_End_Cap_Stock_for_MP5",
+        "itemName": "HK End Cap Stock for MP5",
+        "lootexperience": 10.0,
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.18
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_700_Sniper_rifle"
+        ],
+        "ergonomics": 7.0,
+        "examineexperience": 3.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Hogue_%22Overmolded_ghillie%22_stock_for_Remington_Model_700",
+        "itemName": "Hogue \"Overmolded ghillie\" stock for Remington Model 700",
+        "lootexperience": 10.0,
+        "recoil%": -35.0,
+        "type": "Stock",
+        "weight": 1.8
+    },
+    {
+        "Compatibility": [
+            "/Fab_Defence_AGR-870_pistol_grip_for_Remington-870"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defence_buffer_tube_for_AGR-870",
+        "itemName": "Fab Defence buffer tube for AGR-870",
+        "lootexperience": 10.0,
+        "recoil%": -2.0,
+        "soldby": "Skier LL3",
+        "type": "Stock",
+        "weight": 0.162
+    },
+    {
+        "Compatibility": [
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 11.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defence_GLR-16-S_Stock",
+        "itemName": "Fab Defence GLR-16-S Stock",
+        "lootexperience": 10.0,
+        "recoil%": -32.0,
+        "soldby": "Skier LL3",
+        "type": "Stock",
+        "weight": 0.276
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 10.0,
+        "examineexperience": 3.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Mosin_carbine_stock",
+        "itemName": "Mosin carbine stock",
+        "lootexperience": 10.0,
+        "recoil%": -32.0,
+        "soldby": "Mechanic LL1",
+        "type": "Stock",
+        "weight": 1.6
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 6.0,
+        "examineexperience": 3.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Mosin_rifle_sniper_carbine_stock",
+        "itemName": "Mosin rifle sniper carbine stock",
+        "lootexperience": 10.0,
+        "recoil%": -32.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 1.55
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 14.0,
+        "examineexperience": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Sawn_off_regular_Mosin_rifle_stock",
+        "itemName": "Sawn off regular Mosin rifle stock",
+        "lootexperience": 10.0,
+        "recoil%": -4.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.8
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 14.0,
+        "examineexperience": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Sawn_off_Mosin_rifle_sniper_stock",
+        "itemName": "Sawn off Mosin rifle sniper stock",
+        "lootexperience": 10.0,
+        "recoil%": -4.0,
+        "type": "Stock",
+        "weight": 0.85
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 4.0,
+        "examineexperience": 3.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Infantry_Mosin_rifle_stock",
+        "itemName": "Infantry Mosin rifle stock",
+        "lootexperience": 10.0,
+        "recoil%": -34.0,
+        "type": "Stock",
+        "weight": 1.8
+    },
+    {
+        "Compatibility": [
+            "/Colt_buffer_tube",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 2.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_AK-12_regular_stock",
+        "itemName": "Izhmash AK-12 regular stock",
+        "lootexperience": 10.0,
+        "recoil%": -35.0,
+        "soldby": "Prapor LL3",
+        "type": "Stock",
+        "weight": 0.148
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/RPK-16_5.45x39_light_machine_gun",
+            "/Saiga_12ga_ver._10_12/76_shotgun"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_RPK-16_buffer_tube",
+        "itemName": "Izhmash RPK-16 buffer tube",
+        "lootexperience": 10.0,
+        "recoil%": -4.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.142
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 27.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ProMag_Archangel_OPFOR_PRS_Mosin_rifle_stock",
+        "itemName": "ProMag Archangel OPFOR PRS Mosin rifle stock",
+        "recoil%": -45.0,
+        "soldby": "Mechanic LL4 after completing his task The Tarkov shooter - Part 8",
+        "type": "Stock",
+        "weight": 2.0
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 13.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ATI_Monte_Carlo_Mosin_rifle_stock",
+        "itemName": "ATI Monte Carlo Mosin rifle stock",
+        "recoil%": -40.0,
+        "soldby": "Mechanic LL3 after completing his task The Tarkov shooter - Part 6",
+        "type": "Stock",
+        "weight": 1.2
+    },
+    {
+        "Compatibility": [
+            "/Custom_cut_mosin_stock_for_TOZ-106",
+            "/Infantry_Mosin_rifle_stock",
+            "/Mosin_carbine_stock",
+            "/Mosin_rifle_sniper_carbine_stock",
+            "/Regular_Mosin_rifle_stock"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Recoil_pad_from_Aim_Sports_for_Mosin_rifle",
+        "itemName": "Recoil pad from Aim Sports for Mosin rifle",
+        "recoil%": -5.0,
+        "soldby": "Mechanic LL2 after completing his task The Tarkov shooter - Part 3",
+        "type": "Stock",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/ME_adapter_for_AK",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Buffer_Tube_adapter_for_SA-58",
+            "/HK_416A5_5.56x45_Assault_Rifle",
+            "/Remington_R11_RSASS_7.62x51"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_%22Enhanced_Tube%22_buffer_tube",
+        "itemName": "HK \"Enhanced Tube\" buffer tube",
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.162
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)"
+        ],
+        "ergonomics": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_Slim_Line_Stock",
+        "itemName": "HK Slim Line Stock",
+        "recoil%": -36.0,
+        "soldby": "Mechanic LL4",
+        "type": "Stock",
+        "weight": 0.695
+    },
+    {
+        "Compatibility": [
+            "/HK_MP7A1_4.6x30_submachinegun",
+            "/HK_MP7A2_4.6x30_submachinegun"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Regular_stock_for_HK_MP7A1",
+        "itemName": "Regular stock for HK MP7A1",
+        "recoil%": -20.0,
+        "type": "Stock",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/HK_MP7A1_4.6x30_submachinegun",
+            "/HK_MP7A2_4.6x30_submachinegun"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Regular_stock_for_HK_MP7A2",
+        "itemName": "Regular stock for HK MP7A2",
+        "recoil%": -20.0,
+        "type": "Stock",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Polymer_stock_DSA_humpback_for_SA-58",
+        "itemName": "Polymer stock DSA humpback for SA-58",
+        "recoil%": -37.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.8
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": 6.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DSA_SPR_stock_for_SA-58",
+        "itemName": "DSA SPR stock for SA-58",
+        "recoil%": -43.0,
+        "soldby": "Mechanic LL4",
+        "type": "Stock",
+        "weight": 0.95
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DSA_Folding_stock_for_SA-58",
+        "itemName": "DSA Folding stock for SA-58",
+        "recoil%": -37.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.8
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": 8.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DSA_BRS_stock_for_SA-58",
+        "itemName": "DSA BRS stock for SA-58",
+        "recoil%": -37.0,
+        "type": "Stock",
+        "weight": 0.81
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": 14.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Magpul_PRS_2polymer_stock_for_FAL",
+        "itemName": "Magpul PRS 2polymer stock for FAL",
+        "recoil%": -36.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.86
+    },
+    {
+        "Compatibility": [
+            "/DS_Arms_SA-58_7.62x51"
+        ],
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Buffer_Tube_adapter_for_SA-58",
+        "itemName": "Buffer Tube adapter for SA-58",
+        "recoil%": 0.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.31
+    },
+    {
+        "Compatibility": [
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine"
+        ],
+        "ergonomics": 11.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zhukov-S_for_AK",
+        "itemName": "Zhukov-S for AK",
+        "recoil%": -49.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Stock",
+        "weight": 0.425
+    },
+    {
+        "Compatibility": [
+            "/HK_416A5_5.56x45_Assault_Rifle",
+            "/ADAR_2-15_.223_Carbine",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Remington_R11_RSASS_7.62x51",
+            "/ME_adapter_for_AK",
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Buffer_Tube_adapter_for_SA-58"
+        ],
+        "ergonomics": 12.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/F93_Pro_Stock",
+        "itemName": "F93 Pro Stock",
+        "recoil%": -35.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.59
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 8.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/EMOD_Stock",
+        "itemName": "EMOD Stock",
+        "recoil%": -37.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.39
+    },
+    {
+        "Compatibility": [
+            "/Tapco_INTRAFUSE_Stock_for_SKS"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Tapco_buffer_tube",
+        "itemName": "Tapco buffer tube",
+        "lootexperience": 5.0,
+        "recoil%": -1.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.19
+    },
+    {
+        "Compatibility": [],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ADAR_buffer_tube",
+        "itemName": "ADAR buffer tube",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 0.0,
+        "recoil%": 0.0,
+        "type": "Stock",
+        "weight": 0.19
+    },
+    {
+        "Compatibility": [
+            "/Springfield_Armory_M1A_7.62x51"
+        ],
+        "ergonomics": 15.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/M1A_Archangel_stock",
+        "itemName": "M1A Archangel stock",
+        "recoil%": -45.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 1.9
+    },
+    {
+        "Compatibility": [
+            "/M14_M14ALCS(MOD._0)_stock"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/M14_M14ALCS(MOD._0)_stock_(buttstock)",
+        "itemName": "M14 M14ALCS(MOD. 0) stock (buttstock)",
+        "recoil%": -35.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 1.004
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_870_12ga_shotgun"
+        ],
+        "ergonomics": 9.0,
+        "gridsize": "1x2",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/LEO_stock_adapter_for_M870",
+        "itemName": "LEO stock adapter for M870",
+        "recoil%": -2.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/TOZ-106_bolt-action_shotgun"
+        ],
+        "ergonomics": 6.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MC_20-01_stock",
+        "itemName": "MC 20-01 stock",
+        "recoil%": -45.0,
+        "soldby": "Mechanic LL1",
+        "type": "Stock",
+        "weight": 1.25
+    },
+    {
+        "Compatibility": [
+            "/Mosin_bolt-action_infantry_rifle",
+            "/Mosin_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 4.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Regular_Mosin_rifle_stock",
+        "itemName": "Regular Mosin rifle stock",
+        "recoil%": -34.0,
+        "type": "Stock",
+        "weight": 1.75
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/LMT_Sopmod_stock",
+        "itemName": "LMT Sopmod stock",
+        "recoil%": -34.0,
+        "soldby": "Mechanic LL2",
+        "type": "Stock",
+        "weight": 0.148
+    },
+    {
+        "Compatibility": [
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine"
+        ],
+        "ergonomics": 0.0,
+        "examineexperience": 4.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AKM/AK-74_PT_Lock",
+        "itemName": "AKM/AK-74 PT Lock",
+        "lootexperience": 10.0,
+        "recoil%": 0.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.31
+    },
+    {
+        "Compatibility": [
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/Submachinegun_19-01_Vityaz-SN_9x19",
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/Saiga-9_9x19_Carbine",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AK74/AK100_PT_Lock",
+        "itemName": "AK74/AK100 PT Lock",
+        "recoil%": 0.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.31
+    },
+    {
+        "Compatibility": [
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Polymer_stock_for_AK-74M_(6P34_Sb.15)",
+        "itemName": "Polymer stock for AK-74M (6P34 Sb.15)",
+        "recoil%": -37.0,
+        "type": "Stock",
+        "weight": 0.35
+    },
+    {
+        "Compatibility": [
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_shoulder_piece_for_AKMSN_(6P4_Sb.1-19)",
+        "itemName": "Izhmash shoulder piece for AKMSN (6P4 Sb.1-19)",
+        "recoil%": -36.0,
+        "type": "Stock",
+        "weight": 0.6
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/IzhMash_metal_stock_for_AKS-74_(6P21_Sb.5)",
+        "itemName": "IzhMash metal stock for AKS-74 (6P21 Sb.5)",
+        "recoil%": -35.0,
+        "type": "Stock",
+        "weight": 0.264
+    },
+    {
+        "Compatibility": [
+            "/Springfield_Armory_M1A_7.62x51"
+        ],
+        "ergonomics": 14.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/M1A_Socom_16_stock",
+        "itemName": "M1A Socom 16 stock",
+        "recoil%": -41.0,
+        "type": "Stock",
+        "weight": 1.004
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 11.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defence_GL_Shock_Stock",
+        "itemName": "Fab Defence GL Shock Stock",
+        "recoil%": -32.0,
+        "soldby": "Mechanic LL4",
+        "type": "Stock",
+        "weight": 0.308
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 7.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MOE_Carbine_stock",
+        "itemName": "MOE Carbine stock",
+        "recoil%": -35.0,
+        "soldby": "Skier LL3 (Black)Peacekeeper LL3 (FDE, FG, SG, OD)",
+        "type": "Stock",
+        "weight": 0.226
+    },
+    {
+        "Compatibility": [
+            "/HK_MP5SD_Upper_receiver",
+            "/HK_MP5_Upper_receiver"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_A2_Stock",
+        "itemName": "HK A2 Stock",
+        "recoil%": -45.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Stock",
+        "weight": 0.396
+    },
+    {
+        "Compatibility": [
+            "/MOE_Carbine_stock",
+            "/MOE_Carbine_stock_FDE",
+            "/MOE_Carbine_stock_FG",
+            "/MOE_Carbine_stock_OD",
+            "/MOE_Carbine_stock_SG"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Magpul_Rubber_Butt-Pad_for_Carbine_stock_series",
+        "itemName": "Magpul Rubber Butt-Pad for Carbine stock series",
+        "recoil%": -3.0,
+        "soldby": "Peacekeeper LL3Skier LL3",
+        "type": "Stock",
+        "weight": 0.055
+    },
+    {
+        "Compatibility": [
+            "/TOZ-106_bolt-action_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TOZ_stock_for_TOZ-106",
+        "itemName": "TOZ stock for TOZ-106",
+        "recoil%": -40.0,
+        "type": "Stock",
+        "weight": 1.25
+    },
+    {
+        "Compatibility": [
+            "/HK_MP5SD_Upper_receiver",
+            "/HK_MP5_Upper_receiver"
+        ],
+        "ergonomics": 6.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_A3_old_stock_model",
+        "itemName": "HK A3 old stock model",
+        "recoil%": -44.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Stock",
+        "weight": 0.43
+    },
+    {
+        "Compatibility": [
+            "/COLT_%22A2%22_buffer_tube"
+        ],
+        "ergonomics": 14.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Magpul_PRS_GEN2_FDE_stock",
+        "itemName": "Magpul PRS GEN2 FDE stock",
+        "recoil%": -36.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Stock",
+        "weight": 0.79
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/High_Standard_M4SS_Stock",
+        "itemName": "High Standard M4SS Stock",
+        "recoil%": -32.0,
+        "soldby": "Peacekeeper LL1",
+        "type": "Stock",
+        "weight": 0.695
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ME_adapter_for_AK",
+        "itemName": "ME adapter for AK",
+        "recoil%": -2.0,
+        "soldby": "Skier LL3",
+        "type": "Stock",
+        "weight": 0.31
+    },
+    {
+        "Compatibility": [
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_shoulder_piece_for_AKMS_(6P4_Sb.1-19)",
+        "itemName": "Izhmash shoulder piece for AKMS (6P4 Sb.1-19)",
+        "recoil%": -36.0,
+        "type": "Stock",
+        "weight": 0.6
+    },
+    {
+        "Compatibility": [
+            "/HK_416A5_5.56x45_Assault_Rifle",
+            "/ADAR_2-15_.223_Carbine",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Remington_R11_RSASS_7.62x51",
+            "/ME_adapter_for_AK",
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Buffer_Tube_adapter_for_SA-58"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/UBR_GEN2_stock",
+        "itemName": "UBR GEN2 stock",
+        "recoil%": -38.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.61
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AKS-74/AKS-74U_PT_Lock",
+        "itemName": "AKS-74/AKS-74U PT Lock",
+        "recoil%": 0.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.31
+    },
+    {
+        "Compatibility": [
+            "/Saiga_12ga_ver._10_12/76_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_SOK-12_AK_type_stock",
+        "itemName": "Izhmash SOK-12 AK type stock",
+        "recoil%": -40.0,
+        "soldby": "Prapor LL2",
+        "type": "Stock",
+        "weight": 0.35
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/Colt_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Izhmash_RPK-16_buffer_tube",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/Tapco_buffer_tube"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MFT_BUS_Stock",
+        "itemName": "MFT BUS Stock",
+        "recoil%": -39.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.255
+    },
+    {
+        "Compatibility": [
+            "/AK74/AK100_PT_Lock",
+            "/AKS-74/AKS-74U_PT_Lock"
+        ],
+        "ergonomics": 10.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zenit_PT-3_%22Klassika%22_stock",
+        "itemName": "Zenit PT-3 \"Klassika\" stock",
+        "recoil%": -45.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.218
+    },
+    {
+        "Compatibility": [
+            "/AK74/AK100_PT_Lock",
+            "/AKM/AK-74_PT_Lock",
+            "/AKS-74/AKS-74U_PT_Lock"
+        ],
+        "ergonomics": 8.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zenit_PT-1_%22Klassika%22_stock",
+        "itemName": "Zenit PT-1 \"Klassika\" stock",
+        "recoil%": -44.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.29
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Molot_wooden_VPO-136_stock",
+        "itemName": "Molot wooden VPO-136 stock",
+        "recoil%": -37.0,
+        "soldby": "Skier LL1",
+        "type": "Stock",
+        "weight": 0.45
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_metal_stock_for_AKS-74U_(6P26_Sb.5)",
+        "itemName": "Izhmash metal stock for AKS-74U (6P26 Sb.5)",
+        "recoil%": -36.0,
+        "soldby": "Prapor LL1",
+        "type": "Stock",
+        "weight": 0.218
+    },
+    {
+        "Compatibility": [
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39",
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39_Hunting_Rifle_Version"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Wooden_stock_for_Molot_OP-SKS",
+        "itemName": "Wooden stock for Molot OP-SKS",
+        "recoil%": -18.0,
+        "type": "Stock",
+        "weight": 0.913
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_wooden_AKM_stock_(6P1_Sb.5)",
+        "itemName": "Izhmash wooden AKM stock (6P1 Sb.5)",
+        "recoil%": -37.0,
+        "type": "Stock",
+        "weight": 0.45
+    },
+    {
+        "Compatibility": [
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39",
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39_Hunting_Rifle_Version"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "4x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Wooden_stock_56-A-231_Sb.5",
+        "itemName": "Wooden stock 56-A-231 Sb.5",
+        "recoil%": -18.0,
+        "type": "Stock",
+        "weight": 0.913
+    },
+    {
+        "Compatibility": [
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_polymer_AK-74_stock_(6P20_Sb.7)",
+        "itemName": "Izhmash polymer AK-74 stock (6P20 Sb.7)",
+        "recoil%": -38.0,
+        "soldby": "[Prapor]] LL1  (Black)",
+        "type": "Stock",
+        "weight": 0.35
+    },
+    {
+        "Compatibility": [
+            "/Special_Sniper_Rifle_VSS_Vintorez"
+        ],
+        "ergonomics": 13.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TSNIITochMash_VSS_Vintorez_stock",
+        "itemName": "TSNIITochMash VSS Vintorez stock",
+        "recoil%": -40.0,
+        "soldby": "Prapor LL3",
+        "type": "Stock",
+        "weight": 0.7
+    },
+    {
+        "Compatibility": [
+            "/MP-153_12ga_semi-automatic_shotgun",
+            "/MP-133_12ga_shotgun"
+        ],
+        "ergonomics": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Plastic_pistol_grip_for_MP-133/153",
+        "itemName": "Plastic pistol grip for MP-133/153",
+        "recoil%": -10.0,
+        "soldby": "Skier LL2",
+        "type": "Stock",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TSNIITochMash_AS_VAL_stock",
+        "itemName": "TSNIITochMash AS VAL stock",
+        "recoil%": -40.0,
+        "soldby": "Prapor LL3",
+        "type": "Stock",
+        "weight": 0.5
+    },
+    {
+        "Compatibility": [
+            "/Silenced_Stechkin_Automatic_Pistol_9x18PM",
+            "/Stechkin_Automatic_Pistol_9x18PM"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/APB_detachable_wire_stock",
+        "itemName": "APB detachable wire stock",
+        "recoil%": -45.0,
+        "soldby": "Prapor LL3",
+        "type": "Stock",
+        "weight": 0.15
+    },
+    {
+        "Compatibility": [
+            "/SIG_MPX_9x19_Submachine_gun"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SIG_retractable_stock_pipe_adapter",
+        "itemName": "SIG retractable stock pipe adapter",
+        "recoil%": 0.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Stock",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/HK_416A5_5.56x45_Assault_Rifle",
+            "/ADAR_2-15_.223_Carbine",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/ME_adapter_for_AK",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Buffer_Tube_adapter_for_SA-58"
+        ],
+        "ergonomics": 16.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Troy_M7A1_PDW_stock",
+        "itemName": "Troy M7A1 PDW stock",
+        "recoil%": -31.0,
+        "soldby": "Mechanic LL2 (Black)Mechanic LL3 (FDE)",
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/Buffer_Tube_adapter_for_SA-58",
+            "/ME_adapter_for_AK",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Armacon_Baskak_stock",
+        "itemName": "Armacon Baskak stock",
+        "recoil%": -41.0,
+        "soldby": "Skier LL3",
+        "type": "Stock",
+        "weight": 0.27
+    },
+    {
+        "Compatibility": [
+            "/MP-153_12ga_semi-automatic_shotgun",
+            "/MP-133_12ga_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Wooden_stock_for_MP-133/153",
+        "itemName": "Wooden stock for MP-133/153",
+        "recoil%": -40.0,
+        "type": "Stock",
+        "weight": 0.64
+    },
+    {
+        "Compatibility": [
+            "/SIG_MPX_9x19_Submachine_gun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Early_produced_SIG_collapsing/telescoping_MCX/MPX_stock",
+        "itemName": "Early produced SIG collapsing/telescoping MCX/MPX stock",
+        "recoil%": -40.0,
+        "type": "Stock",
+        "weight": 0.396
+    },
+    {
+        "Compatibility": [
+            "/MP-153_12ga_semi-automatic_shotgun",
+            "/MP-133_12ga_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Plastic_stock_for_MP-133/153",
+        "itemName": "Plastic stock for MP-133/153",
+        "recoil%": -40.0,
+        "type": "Stock",
+        "weight": 0.46
+    },
+    {
+        "Compatibility": [
+            "/IzhMash_metal_stock_for_AKS-74_(6P21_Sb.5)",
+            "/Izhmash_metal_stock_for_AKS-74U_(6P26_Sb.5)",
+            "/Izhmash_polymer_AK-74_stock_(6P20_Sb.7)",
+            "/Izhmash_shoulder_piece_for_AKMS_(6P4_Sb.1-19)",
+            "/Izhmash_shoulder_piece_for_AKMSN_(6P4_Sb.1-19)",
+            "/Izhmash_SOK-12_AK_type_stock",
+            "/Izhmash_wooden_AK-74_stock_(6P20_Sb.5)",
+            "/Izhmash_wooden_AKM_stock_(6P1_Sb.5)",
+            "/Metal_Izhmash_stock_for_PP-19-01",
+            "/Molot_wooden_VPO-136_stock",
+            "/Molot_wooden_VPO-209_stock",
+            "/Polymer_stock_for_AK-74M_(6P34_Sb.15)"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Recoil_pad_from_GP-25_for_AK_Accessory_Kit",
+        "itemName": "Recoil pad from GP-25 for AK Accessory Kit",
+        "recoil%": -5.0,
+        "soldby": "Prapor LL2",
+        "type": "Stock",
+        "weight": 0.155
+    },
+    {
+        "Compatibility": [
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/ADAR_2-15_.223_Carbine",
+            "/Remington_R11_RSASS_7.62x51",
+            "/ME_adapter_for_AK",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Buffer_Tube_adapter_for_SA-58"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/COLT_%22A2%22_buffer_tube",
+        "itemName": "COLT \"A2\" buffer tube",
+        "recoil%": -2.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Stock",
+        "weight": 0.162
+    },
+    {
+        "Compatibility": [
+            "/DVL-10_Saboteur_sniper_rifle"
+        ],
+        "ergonomics": 6.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/LOBAEV_Arms_Stock",
+        "itemName": "LOBAEV Arms Stock",
+        "recoil%": -41.0,
+        "type": "Stock",
+        "weight": 0.167
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Molot_wooden_VPO-209_stock",
+        "itemName": "Molot wooden VPO-209 stock",
+        "recoil%": -37.0,
+        "soldby": "Skier LL1",
+        "type": "Stock",
+        "weight": 0.45
+    },
+    {
+        "Compatibility": [
+            "/ADAR_2-15_.223_Carbine",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Remington_R11_RSASS_7.62x51",
+            "/ME_adapter_for_AK",
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14",
+            "/Buffer_Tube_adapter_for_SA-58"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Colt_buffer_tube",
+        "itemName": "Colt buffer tube",
+        "recoil%": -1.0,
+        "soldby": "Peacekeeper LL2Skier LL3",
+        "type": "Stock",
+        "weight": 0.162
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "ergonomics": 2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_wooden_AK-74_stock_(6P20_Sb.5)",
+        "itemName": "Izhmash wooden AK-74 stock (6P20 Sb.5)",
+        "recoil%": -37.0,
+        "soldby": "Prapor LL2",
+        "type": "Stock",
+        "weight": 0.45
+    },
+    {
+        "Compatibility": [
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Metal_Izhmash_stock_for_PP-19-01",
+        "itemName": "Metal Izhmash stock for PP-19-01",
+        "recoil%": -40.0,
+        "type": "Stock",
+        "weight": 0.218
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_870_12ga_shotgun"
+        ],
+        "ergonomics": 9.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SGA_stock_for_M870",
+        "itemName": "SGA stock for M870",
+        "recoil%": -50.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.5
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_870_12ga_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Remington_SPS_Polymer_stock_for_M870",
+        "itemName": "Remington SPS Polymer stock for M870",
+        "recoil%": -40.0,
+        "slot": "2x1",
+        "type": "Stock",
+        "weight": 0.64
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_870_12ga_shotgun"
+        ],
+        "ergonomics": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Raptor_grip_for_M870",
+        "itemName": "Raptor grip for M870",
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL3",
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "ergonomics": 14.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defense_UAS_for_AK",
+        "itemName": "Fab Defense UAS for AK",
+        "recoil%": -46.0,
+        "soldby": "Skier LL3",
+        "type": "Stock",
+        "weight": 0.45
+    },
+    {
+        "Compatibility": [
+            "/FN_P90_5.7x28_submachinegun"
+        ],
+        "ergonomics": 23.0,
+        "examineexperience": 2.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/FN_P90_stock",
+        "itemName": "FN P90 stock",
+        "lootexperience": 10.0,
+        "recoil%": -10.0,
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/FN_P90_5.7x28_submachinegun"
+        ],
+        "ergonomics": 23.0,
+        "examineexperience": 2.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/FN_PS90_stock",
+        "itemName": "FN PS90 stock",
+        "lootexperience": 10.0,
+        "recoil%": -10.0,
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/FN_P90_stock"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/FN_Butt_pad_for_P90",
+        "itemName": "FN Butt pad for P90",
+        "lootexperience": 20.0,
+        "recoil%": -3.0,
+        "type": "Stock",
+        "weight": 0.06
+    },
+    {
+        "Compatibility": [
+            "/FN_P90_stock"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Damage_Industries_Butt-pad_for_P90",
+        "itemName": "Damage Industries Butt-pad for P90",
+        "lootexperience": 20.0,
+        "recoil%": -5.0,
+        "type": "Stock",
+        "weight": 0.09
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_700_Sniper_rifle"
+        ],
+        "ergonomics": 8.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/M700_MOD_X_Gen.3_stock",
+        "itemName": "M700 MOD X Gen.3 stock",
+        "lootexperience": 10.0,
+        "recoil%": -10.0,
+        "type": "Stock",
+        "weight": 0.9
+    },
+    {
+        "Compatibility": [
+            "/M700_MOD_X_Gen.3_stock"
+        ],
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Buffer_tube_side_folder_adapter_for_M700",
+        "itemName": "Buffer tube side folder adapter for M700",
+        "lootexperience": 10.0,
+        "recoil%": 0.0,
+        "type": "Stock",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/Magpul_PRO_700_chassis"
+        ],
+        "ergonomics": 13.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PRO_700_folding_stock",
+        "itemName": "PRO 700 folding stock",
+        "lootexperience": 10.0,
+        "recoil%": -30.0,
+        "type": "Stock",
+        "weight": 0.4
+    },
+    {
+        "Compatibility": [
+            "/Remington_Model_700_Sniper_rifle"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 20.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Promag_Archangel_polymer_stock_for_M700",
+        "itemName": "Promag Archangel polymer stock for M700",
+        "lootexperience": 10.0,
+        "recoil%": -43.0,
+        "type": "Stock",
+        "weight": 2.2
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/Saiga_12ga_ver._10_12/76_shotgun",
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/CAA_AKTS_AK-74_Buffer_Tube_for_AK_and_compatable",
+        "itemName": "CAA AKTS AK-74 Buffer Tube for AK and compatable",
+        "lootexperience": 10.0,
+        "recoil%": -1.0,
+        "type": "Stock",
+        "weight": 0.25
+    },
+    {
+        "Compatibility": [
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39",
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39_Hunting_Rifle_Version"
+        ],
+        "ergonomics": 13.0,
+        "examineexperience": 2.0,
+        "gridsize": "3x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defence_UAS_Stock_for_SKS",
+        "itemName": "Fab Defence UAS Stock for SKS",
+        "lootexperience": 10.0,
+        "recoil%": -46.0,
+        "type": "Stock",
+        "weight": 1.034
+    },
+    {
+        "Compatibility": [
+            "/ADAR_2-15_.223_Carbine",
+            "/Buffer_Tube_adapter_for_SA-58",
+            "/Buffer_tube_side_folder_adapter_for_M700",
+            "/Colt_M4A1_5.56x45_Assault_Rifle",
+            "/Lone_Star_TX-15_DML_Rifle",
+            "/ME_adapter_for_AK",
+            "/SIG_retractable_stock_pipe_adapter",
+            "/Troy_S.A.S.S._Chassis_stock_for_M14"
+        ],
+        "ergonomics": 3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Double_Star_Ace_Socom_gen.4_stock_for_AR-15",
+        "itemName": "Double Star Ace Socom gen.4 stock for AR-15",
+        "lootexperience": 10.0,
+        "recoil%": -38.0,
+        "type": "Stock",
+        "weight": 0.47
+    },
+    {
+        "Compatibility": [
+            "/Double_Star_Ace_Socom_gen.4_stock_for_AR-15"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Double_Star_recoil_pad_0.5_for_ACE_stock_series",
+        "itemName": "Double Star recoil pad 0.5 for ACE stock series",
+        "lootexperience": 20.0,
+        "recoil%": -3.0,
+        "type": "Stock",
+        "weight": 0.22
+    },
+    {
+        "Compatibility": [
+            "/Izhmash_RPK-16_buffer_tube",
+            "/Tapco_buffer_tube",
+            "/HK_%22Enhanced_Tube%22_buffer_tube",
+            "/Fab_Defence_buffer_tube_for_AGR-870",
+            "/LEO_stock_adapter_for_M870",
+            "/SI_Advanced_receiver_extension_buffer_tube",
+            "/SI_Advanced_receiver_extension_buffer_tube_(anodized_red)",
+            "/AS_VAL_Pistol_grip-buffer_tube",
+            "/CAA_AKTS_AK-74_Buffer_Tube_for_AK_and_compatable",
+            "/Colt_buffer_tube",
+            "/CAA_AKTS_AK-74_Buffer_Tube_for_AK_and_compatable",
+            "/ADAR_buffer_tube"
+        ],
+        "ergonomics": 6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Magpul_CTR_Carbine_stock",
+        "itemName": "Magpul CTR Carbine stock",
+        "lootexperience": 10.0,
+        "recoil%": -36.0,
+        "type": "Stock",
+        "weight": 0.226
+    },
+    {
+        "Compatibility": [
+            "/GLOCK_18C_9x19_pistol"
+        ],
+        "ergonomics": 3.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fab_Defence_GLR-17_Stock_for_Glock_and_compatable",
+        "itemName": "Fab Defence GLR-17 Stock for Glock and compatable",
+        "lootexperience": 10.0,
+        "recoil%": -39.0,
+        "type": "Stock",
+        "weight": 0.39
+    }
+]

@@ -1,0 +1,730 @@
+[
+    {
+        "Compatibility": [
+            "/Direct_Thread_Mount_adapter_for_Gemtech_ONE."
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -5.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Gemech_ONE_7.62x51_Sound_Suppressor",
+        "itemName": "Gemech ONE 7.62x51 Sound Suppressor",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -4.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Suppressor",
+        "weight": 0.46
+    },
+    {
+        "Compatibility": [
+            "/3_Lug_threaded_protector",
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX",
+            "/PM_(t)_9x18PM_pistol",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms",
+            "/Threaded_barrel_for_P226_9x19"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AAC_Illusion_9_9x19mm_silencer",
+        "itemName": "AAC Illusion 9 9x19mm silencer",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL2",
+        "type": "Suppressor",
+        "weight": 0.294
+    },
+    {
+        "Compatibility": [
+            "/3_Lug_threaded_protector",
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX",
+            "/PM_(t)_9x18PM_pistol",
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms",
+            "/Threaded_barrel_for_P226_9x19"
+        ],
+        "accuracy": 1.0,
+        "ergonomics": -5.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Sig_SRD_9_9x19mm_sound_suppressor",
+        "itemName": "Sig SRD 9 9x19mm sound suppressor",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -5.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Suppressor",
+        "weight": 0.255
+    },
+    {
+        "Compatibility": [
+            "/Thread_adapter_7.62x54_for_SV-98"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -5.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Regular_SV-98_7.62x54_silencer",
+        "itemName": "Regular SV-98 7.62x54 silencer",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -9.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.27
+    },
+    {
+        "Compatibility": [
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45",
+            "/Surefire_SF3P_5.56x45_Flashhider_for_AR-15",
+            "/Surefire_WarComp_5.56x45_Flashhider_for_AR-15"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Surefire_SOCOM556-MONSTER_5.56x45_silencer",
+        "itemName": "Surefire SOCOM556-MONSTER 5.56x45 silencer",
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL4",
+        "type": "Suppressor",
+        "weight": 0.496
+    },
+    {
+        "Compatibility": [
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45",
+            "/Surefire_SF3P_5.56x45_Flashhider_for_AR-15",
+            "/Surefire_WarComp_5.56x45_Flashhider_for_AR-15"
+        ],
+        "accuracy": -3.0,
+        "ergonomics": -2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Surefire_SOCOM556-MINI_MONSTER_5.56x45_Silencer",
+        "itemName": "Surefire SOCOM556-MINI MONSTER 5.56x45 Silencer",
+        "muzzlevelocity": 0.0,
+        "recoil%": -1.0,
+        "soldby": "Mechanic LL3",
+        "type": "Suppressor",
+        "weight": 0.413
+    },
+    {
+        "Compatibility": [
+            "/HK_A1_4.6x30_Flashhider_for_MP7"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/B%26T_Rotex_2_4.6x30_silencer",
+        "itemName": "B&T Rotex 2 4.6x30 silencer",
+        "muzzlevelocity": 5.0,
+        "recoil%": -2.0,
+        "soldby": "Mechanic LL4",
+        "type": "Suppressor",
+        "weight": 0.607
+    },
+    {
+        "Compatibility": [
+            "/Regular_514mm_Mosin_carabine_barrel",
+            "/Regular_730mm_Mosin_barrel"
+        ],
+        "accuracy": -3.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Bramit_silencer_for_a_Mosin_rifle",
+        "itemName": "Bramit silencer for a Mosin rifle",
+        "muzzlevelocity": 75.0,
+        "recoil%": -2.0,
+        "type": "Suppressor",
+        "weight": 1.1
+    },
+    {
+        "Compatibility": [
+            "/ME_Cylinder_muzzle_adapter_12_ga",
+            "/Saiga_12ga_ver._10_12/76_shotgun"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -9.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Hexagon_12K_sound_suppressor",
+        "itemName": "Hexagon 12K sound suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "soldby": "Prapor LL2 after completing his task Shaking up teller",
+        "type": "Suppressor",
+        "weight": 0.493
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74UN_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -7.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PBS-4_5.45x39_Silencer",
+        "itemName": "PBS-4 5.45x39 Silencer",
+        "muzzlevelocity": 75.0,
+        "recoil%": -5.0,
+        "soldby": "Prapor LL3 after completing his task Shaking up teller",
+        "type": "Suppressor",
+        "weight": 0.7
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -7.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Hexagon_AK-74_5.45x39_sound_suppressor",
+        "itemName": "Hexagon AK-74 5.45x39 sound suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "soldby": "Skier LL2 after completing Peacekeeper's task Humanitarian Supplies",
+        "type": "Suppressor",
+        "weight": 0.462
+    },
+    {
+        "Compatibility": [
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39",
+            "/Simonov_Semi-Automatic_Carbine_SKS_7.62x39_Hunting_Rifle_Version"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -6.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Hexagon_SKS_7.62x39_sound_suppressor",
+        "itemName": "Hexagon SKS 7.62x39 sound suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -2.0,
+        "soldby": "Skier LL3",
+        "type": "Suppressor",
+        "weight": 0.462
+    },
+    {
+        "Compatibility": [
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/Taktika_Tula_AK_and_AKM_adapter"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zenit_DTK-4M_muzzle_brake",
+        "itemName": "Zenit DTK-4M muzzle brake",
+        "muzzlevelocity": 75.0,
+        "recoil%": -4.0,
+        "soldby": "Skier LL3",
+        "type": "Suppressor",
+        "weight": 0.354
+    },
+    {
+        "Compatibility": [
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKM_7.62x39_assault_rifle"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -7.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Hexagon_AKM_7.62x39_sound_suppressor",
+        "itemName": "Hexagon AKM 7.62x39 sound suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "soldby": "Skier LL3",
+        "type": "Suppressor",
+        "weight": 0.462
+    },
+    {
+        "Compatibility": [
+            "/3_Lug_threaded_protector",
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX",
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Rotor_43_9x19_muzzle_brake",
+        "itemName": "Rotor 43 9x19 muzzle brake",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "type": "Suppressor",
+        "weight": 0.49
+    },
+    {
+        "Compatibility": [
+            "/AK-104_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Rotor_43_7.62x39_muzzle_brake",
+        "itemName": "Rotor 43 7.62x39 muzzle brake",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "type": "Suppressor",
+        "weight": 0.57
+    },
+    {
+        "Compatibility": [
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Rotor_43_.366TKM_muzzle_brake",
+        "itemName": "Rotor 43 .366TKM muzzle brake",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "soldby": "Skier LL2",
+        "type": "Suppressor",
+        "weight": 0.57
+    },
+    {
+        "Compatibility": [
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45"
+        ],
+        "accuracy": -2.0,
+        "ergonomics": -6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Rotor_43_5.56x45_muzzle_brake",
+        "itemName": "Rotor 43 5.56x45 muzzle brake",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "type": "Suppressor",
+        "weight": 0.57
+    },
+    {
+        "Compatibility": [
+            "/Silenced_Stechkin_Automatic_Pistol_9x18PM"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -6.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Silencer_APB_9x18PM",
+        "itemName": "Silencer APB 9x18PM",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -3.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.49
+    },
+    {
+        "Compatibility": [
+            "/SilencerCo_choke_adapter_for_12ga_shotguns",
+            "/SilencerCo_Salvo_12_thread_adapter"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": -8.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SilencerCo_Salvo_12_sound_suppressor",
+        "itemName": "SilencerCo Salvo 12 sound suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -5.0,
+        "soldby": "Mechanic LL4",
+        "type": "Suppressor",
+        "weight": 0.97
+    },
+    {
+        "Compatibility": [
+            "/HK_MP5SD_Upper_receiver"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MP5SD_9x19_silencer",
+        "itemName": "MP5SD 9x19 silencer",
+        "muzzlevelocity": 2.0,
+        "recoil%": -20.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Suppressor",
+        "weight": 0.496
+    },
+    {
+        "Compatibility": [
+            "/AAC_Blackout_51T_5.56x45_flash-hider",
+            "/AAC_Blackout_51T_flash_hider_(7.62x51)"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -6.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AAC_762_SDN-6_7.62x51_Sound_Suppressor",
+        "itemName": "AAC 762 SDN-6 7.62x51 Sound Suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -5.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Suppressor",
+        "weight": 0.567
+    },
+    {
+        "Compatibility": [
+            "/3_Lug_threaded_protector",
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX",
+            "/PM_(t)_9x18PM_pistol",
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms",
+            "/Threaded_barrel_for_P226_9x19"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SilencerCo_Osprey_9_9x19mm_sound_suppressor",
+        "itemName": "SilencerCo Osprey 9 9x19mm sound suppressor",
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "soldby": "Mechanic LL3",
+        "type": "Suppressor",
+        "weight": 0.27
+    },
+    {
+        "Compatibility": [
+            "/SR1MP_silencer_mount"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SR1MP_silencer_9x21",
+        "itemName": "SR1MP silencer 9x21",
+        "muzzlevelocity": 5.0,
+        "recoil%": -1.0,
+        "soldby": "Prapor LL4",
+        "type": "Suppressor",
+        "weight": 0.49
+    },
+    {
+        "Compatibility": [
+            "/Direct_Thread_Mount_adapter_for_Silencerco_Hybrid_46."
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Silencerco_Hybrid_46_multi-caliber_silencer",
+        "itemName": "Silencerco Hybrid 46 multi-caliber silencer",
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Suppressor",
+        "weight": 0.49
+    },
+    {
+        "Compatibility": [
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Vityaz_9x19_sound_suppressing_device",
+        "itemName": "Vityaz 9x19 sound suppressing device",
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "soldby": "Mechanic LL2",
+        "type": "Suppressor",
+        "weight": 0.53
+    },
+    {
+        "Compatibility": [
+            "/Homespun_121mm_7.62x25_TT_barrel_with_threading"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Makeshift_7.62x25_TT_silencer",
+        "itemName": "Makeshift 7.62x25 TT silencer",
+        "muzzlevelocity": 75.0,
+        "recoil%": -10.0,
+        "soldby": "Skier LL2Prapor LL2",
+        "type": "Suppressor",
+        "weight": 0.332
+    },
+    {
+        "Compatibility": [
+            "/GLOCK_17_9x19_pistol"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -10.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fischer_Development_FD917_suppressor",
+        "itemName": "Fischer Development FD917 suppressor",
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL4",
+        "type": "Suppressor",
+        "weight": 0.35
+    },
+    {
+        "Compatibility": [
+            "/PM_(t)_9x18PM_pistol",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_P226_9x19",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": -3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Alpha_Dog_Alpha_9_9x19_sound_suppressor",
+        "itemName": "Alpha Dog Alpha 9 9x19 sound suppressor",
+        "muzzlevelocity": 2.0,
+        "recoil%": -4.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Suppressor",
+        "weight": 0.29
+    },
+    {
+        "Compatibility": [
+            "/KAC_QD_Compensator_5.56x45"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/KAC_QDSS_NT-4_5.56x45_silencer",
+        "itemName": "KAC QDSS NT-4 5.56x45 silencer",
+        "muzzlevelocity": 75.0,
+        "recoil%": -4.0,
+        "soldby": "Peacekeeper LL3 (black) after completing his task Cargo X - Part 2",
+        "type": "Suppressor",
+        "weight": 0.68
+    },
+    {
+        "Compatibility": [
+            "/165_mm_9x19_barrel_for_MPX-SD"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -2.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/MPX-SD_9x19_Integrated_silencer",
+        "itemName": "MPX-SD 9x19 Integrated silencer",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "soldby": "Mechanic LL3",
+        "type": "Suppressor",
+        "weight": 0.6
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL",
+            "/Special_Sniper_Rifle_VSS_Vintorez"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/VSS_9x39_integral_barrel-suppressor",
+        "itemName": "VSS 9x39 integral barrel-suppressor",
+        "muzzlevelocity": 2.0,
+        "recoil%": -20.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.496
+    },
+    {
+        "Compatibility": [
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -9.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PBS-1_7.62x39_silencer",
+        "itemName": "PBS-1 7.62x39 silencer",
+        "muzzlevelocity": 75.0,
+        "recoil%": -4.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.435
+    },
+    {
+        "Compatibility": [
+            "/PB_9x18PM_silenced_pistol"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -2.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Stock_silencer_for_PB_9x18_PM",
+        "itemName": "Stock silencer for PB 9x18 PM",
+        "muzzlevelocity": 1.0,
+        "recoil%": -20.0,
+        "type": "Suppressor",
+        "weight": 0.131
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TGP-A_5.45x39_muzzle_device/suppressor",
+        "itemName": "TGP-A 5.45x39 muzzle device/suppressor",
+        "muzzlevelocity": 75.0,
+        "recoil%": -1.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.7
+    },
+    {
+        "Compatibility": [
+            "/AS_VAL",
+            "/Special_Sniper_Rifle_VSS_Vintorez"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AS_VAL_9x39_integral_barrel-suppressor",
+        "itemName": "AS VAL 9x39 integral barrel-suppressor",
+        "muzzlevelocity": 2.0,
+        "recoil%": -20.0,
+        "soldby": "Prapor LL3",
+        "type": "Suppressor",
+        "weight": 0.496
+    },
+    {
+        "Compatibility": [
+            "/PP-91-01_Kedr-B_muzzle_thread_piece"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PP-91-01_Kedr-B_9x18PM_suppressor",
+        "itemName": "PP-91-01 Kedr-B 9x18PM suppressor",
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "type": "Suppressor",
+        "weight": 0.13
+    },
+    {
+        "Compatibility": [
+            "/ASh-12_12.7x55_assault_rifle"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": -5.0,
+        "examineexperience": 4.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ASh-12_12.7x55_tactical_suppressor",
+        "itemName": "ASh-12 12.7x55 tactical suppressor",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -15.0,
+        "type": "Suppressor",
+        "weight": 0.7
+    },
+    {
+        "Compatibility": [
+            "/FN_P90_5.7x28_flash_hider"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -5.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/FN_Attenuator_5.7x28_silencer",
+        "itemName": "FN Attenuator 5.7x28 silencer",
+        "lootexperience": 30.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -4.0,
+        "type": "Suppressor",
+        "weight": 0.677
+    },
+    {
+        "Compatibility": [
+            "/Daniel_Defense_Wave_Muzzle_Brake_5.56x45",
+            "/Daniel_Defence_Wave_Muzzle_Brake_7.62x51"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": -3.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Daniel_Defence_Wave_QD_Sound_Suppressor",
+        "itemName": "Daniel Defence Wave QD Sound Suppressor",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -2.0,
+        "type": "Suppressor",
+        "weight": 0.488
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "effect": "Max heal per use:  50  Removes: Radiation Exposure Adds:",
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AI-2_medikit",
+        "itemName": "AI-2 medikit",
+        "lootexperience": 25.0,
+        "soldby": "Therapist LL1",
+        "type": "Medkit",
+        "usetime": "2s",
+        "weight": 0.5
+    },
+    {
+        "effect": "Max heal per use:  70 Removes:, Toxication, Radiation ExposureAdds:",
+        "examineexperience": 10.0,
+        "gridsize": "2x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Car_first_aid_kit",
+        "itemName": "Car first aid kit",
+        "lootexperience": 25.0,
+        "soldby": "Therapist LL1 after completing her task Sanitary Standards - Part 1",
+        "type": "Medkit",
+        "usetime": "3s",
+        "weight": 1.0
+    },
+    {
+        "effect": "Max heal per use:  85 Removes:Adds:",
+        "examineexperience": 6.0,
+        "gridsize": "1x2",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Salewa_FIRST_AID_KIT",
+        "itemName": "Salewa FIRST AID KIT",
+        "lootexperience": 20.0,
+        "soldby": "Therapist LL2 after completing her task Postman Pat - Part 2",
+        "type": "Medkit",
+        "usetime": "3s",
+        "weight": 0.6
+    },
+    {
+        "effect": "Max heal per use:  50 Removes:, Toxication, Radiation ExposureAdds:",
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/IFAK_personal_tactical_first_aid_kit",
+        "itemName": "IFAK personal tactical first aid kit",
+        "lootexperience": 25.0,
+        "soldby": "Therapist LL3 after completing her task Health Care Privacy - Part 1",
+        "type": "Medkit",
+        "usetime": "3s",
+        "weight": 0.8
+    },
+    {
+        "effect": "Max heal per use:  175 Removes:Adds:",
+        "examineexperience": 10.0,
+        "gridsize": "2x2",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Grizzly_First_Aid_Kit",
+        "itemName": "Grizzly First Aid Kit",
+        "lootexperience": 40.0,
+        "soldby": "Therapist LL4",
+        "type": "Medkit",
+        "usetime": "5s",
+        "weight": 1.6
+    }
+]

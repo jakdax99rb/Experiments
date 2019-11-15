@@ -1,0 +1,1634 @@
+[
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_7.62x39_AKM_muzzlebrake_%26_compensator_(6P1_0-14)",
+        "itemName": "Izhmash 7.62x39 AKM muzzlebrake & compensator (6P1 0-14)",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL1",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Molot_7.62x39_Vepr_KM_/_VPO-136_muzzlebrake_%26_compensator",
+        "itemName": "Molot 7.62x39 Vepr KM / VPO-136 muzzlebrake & compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Thread_protection_for_AKM/VPO-209",
+        "itemName": "Thread protection for AKM/VPO-209",
+        "muzzlevelocity": 5.0,
+        "recoil%": 0.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/KAC_QD_Compensator_5.56x45",
+        "itemName": "KAC QD Compensator 5.56x45",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Peacekeeper LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.063
+    },
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_7.62x39_flash_hider_for_AKML_system",
+        "itemName": "Izhmash 7.62x39 flash hider for AKML system",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": 0.0,
+        "soldby": "Prapor LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.15
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 3.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AAC_Blackout_51T_flash_hider_(7.62x51)",
+        "itemName": "AAC Blackout 51T flash hider (7.62x51)",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.122
+    },
+    {
+        "Compatibility": [
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Taktika_Tula_AK_and_AKM_adapter",
+        "itemName": "Taktika Tula AK and AKM adapter",
+        "muzzlevelocity": 0.0,
+        "recoil%": 0.0,
+        "soldby": "Skier LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Carver_Custom_4_Port_9x19_muzzle_brake",
+        "itemName": "Carver Custom 4 Port 9x19 muzzle brake",
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.036
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Decelerator_3_Port_9x19_Compensator",
+        "itemName": "Decelerator 3 Port 9x19 Compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -9.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.063
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Double_Diamond_flash_hider",
+        "itemName": "Double Diamond flash hider",
+        "muzzlevelocity": 5.0,
+        "recoil%": -7.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.063
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Alpha_Wolf_Bullnose_9x19_Compensator",
+        "itemName": "Alpha Wolf Bullnose 9x19 Compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Mechanic LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.063
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Double_Diamond",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Lone_Wolf.",
+            "/Threaded_barrel_for_Glock_9x19_manufactured_by_Salient_Arms"
+        ],
+        "accuracy": -3.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Lone_Wolf_Compensator_9_9x19",
+        "itemName": "Lone Wolf Compensator 9 9x19",
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.036
+    },
+    {
+        "Compatibility": [
+            "/Glock_9x19_Moto_Cut_slide",
+            "/Glock_9x19_slide",
+            "/Glock_9x19_Viper_Cut_slide",
+            "/Glock_Alpha_Wolf_Custom_slide",
+            "/Glock_Alpha_Wolf_slide",
+            "/Glock_Zev_Tech_Hex_Spartan_slide",
+            "/Polymer80_PS9_Glock_slide",
+            "/Zev_Tech_Hex_Gen3_slide"
+        ],
+        "accuracy": 3.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Strike_Industries_G4_slide_compensator_9x19",
+        "itemName": "Strike Industries G4 slide compensator 9x19",
+        "muzzlevelocity": 5.0,
+        "recoil%": -11.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.105
+    },
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Lantac_Drakon_7.62x39_muzzlebrake_%26_compensator_for_AK",
+        "itemName": "Lantac Drakon 7.62x39 muzzlebrake & compensator for AK",
+        "lootexperience": 34.0,
+        "muzzlevelocity": 4.0,
+        "recoil%": -12.0,
+        "soldby": "Skier LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.09
+    },
+    {
+        "Compatibility": [
+            "/SAI_10%22_QD_Rail_foregrip_for_AR15",
+            "/SAI_14.5%22_QD_Rail_foregrip_for_AR15"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SAI_Jail_Break_5.56x45_for_AR-15",
+        "itemName": "SAI Jail Break 5.56x45 for AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -7.0,
+        "soldby": "Skier LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AAC_Blackout_51T_5.56x45_flash-hider",
+        "itemName": "AAC Blackout 51T 5.56x45 flash-hider",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -6.0,
+        "soldby": "Peacekeeper LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.122
+    },
+    {
+        "Compatibility": [
+            "/SV-98_bolt-action_sniper_rifle"
+        ],
+        "accuracy": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Thread_adapter_7.62x54_for_SV-98",
+        "itemName": "Thread adapter 7.62x54 for SV-98",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -2.0,
+        "soldby": "Prapor LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.06
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 2.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Surefire_WarComp_5.56x45_Flashhider_for_AR-15",
+        "itemName": "Surefire WarComp 5.56x45 Flashhider for AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Skier LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(threaded)"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Lantac_Dragon_7.62x51_muzzlebrake",
+        "itemName": "Lantac Dragon 7.62x51 muzzlebrake",
+        "lootexperience": 34.0,
+        "muzzlevelocity": 4.0,
+        "recoil%": -12.0,
+        "soldby": "Peacekeeper LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.09
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_SVDS_7.62x54"
+        ],
+        "accuracy": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_7.62x54_SVDS_muzzlebrake_%26_compensator",
+        "itemName": "Izhmash 7.62x54 SVDS muzzlebrake & compensator",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/SV-98_bolt-action_sniper_rifle"
+        ],
+        "accuracy": 6.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SRVV_%22Mk.2.0%22_compensator_7.62x54_for_SV-98",
+        "itemName": "SRVV \"Mk.2.0\" compensator 7.62x54 for SV-98",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -15.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.46
+    },
+    {
+        "Compatibility": [
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Venom_Antidote_muzzlebrake_%26_compensator_for_AK",
+        "itemName": "Venom Antidote muzzlebrake & compensator for AK",
+        "lootexperience": 34.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -10.0,
+        "soldby": "Skier LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.096
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Surefire_SF3P_5.56x45_Flashhider_for_AR-15",
+        "itemName": "Surefire SF3P 5.56x45 Flashhider for AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "soldby": "Mechanic LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/Threaded_barrel_for_P226_9x19"
+        ],
+        "accuracy": -2.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TJ_Custom_9x19_Compensator",
+        "itemName": "TJ Custom 9x19 Compensator",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.036
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Muzzle_brake_Desert_Tech_5.56x45",
+        "itemName": "Muzzle brake Desert Tech 5.56x45",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/3_Lug_thread_protector",
+            "/3_Lug_threaded_protector"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -2.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_Noveske_style_muzzlebrake_%26_compensator_for_MP-5",
+        "itemName": "HK Noveske style muzzlebrake & compensator for MP-5",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 0.0,
+        "recoil%": -11.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.38
+    },
+    {
+        "Compatibility": [
+            "/TT_pistol_7.62x25_TT",
+            "/TT_pistol_7.62x25_TT_Gold"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PM-Laser_DTK-TT_muzzle_brake_for_TT_pistol",
+        "itemName": "PM-Laser DTK-TT muzzle brake for TT pistol",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.036
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.45x39_RPK-16_muzzlebrake_%26_compensator",
+        "itemName": "Izhmash 5.45x39 RPK-16 muzzlebrake & compensator",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ADAR_2-15.56x45_Flashhider",
+        "itemName": "ADAR 2-15.56x45 Flashhider",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": -2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Noveske_KX3_5.56x45_flashhider",
+        "itemName": "Noveske KX3 5.56x45 flashhider",
+        "muzzlevelocity": 4.0,
+        "recoil%": -6.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.204
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(threaded)"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Muzzlebrake_Odin_Works_Atlas-7_7.62x51_for_AR-10",
+        "itemName": "Muzzlebrake Odin Works Atlas-7 7.62x51 for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -11.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/Regular_514mm_Mosin_carabine_barrel",
+            "/Regular_730mm_Mosin_barrel"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Tacfire_Tanker_style_muzzlebrake_for_Mosin_rifle",
+        "itemName": "Tacfire Tanker style muzzlebrake for Mosin rifle",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Mechanic LL2 after completing his task The Tarkov shooter - Part 3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.25
+    },
+    {
+        "Compatibility": [
+            "/Regular_514mm_Mosin_carabine_barrel",
+            "/Regular_730mm_Mosin_barrel"
+        ],
+        "accuracy": -1.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Witt_Machine_muzzlebrake_for_Mosin_rifle",
+        "itemName": "Witt Machine muzzlebrake for Mosin rifle",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -28.0,
+        "soldby": "Mechanic LL4 after completing his task The Tarkov shooter - Part 7",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.17
+    },
+    {
+        "Compatibility": [
+            "/HK_MP7A1_4.6x30_submachinegun",
+            "/HK_MP7A2_4.6x30_submachinegun"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/HK_A1_4.6x30_Flashhider_for_MP7",
+        "itemName": "HK A1 4.6x30 Flashhider for MP7",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.08
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51"
+        ],
+        "accuracy": 4.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DS_Arms_%22Austrian_Style%22_7.62x51_muzzle_brake_for_SA-58",
+        "itemName": "DS Arms \"Austrian Style\" 7.62x51 muzzle brake for SA-58",
+        "muzzlevelocity": 5.0,
+        "recoil%": -9.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.11
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(threaded)"
+        ],
+        "accuracy": 4.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Compensator_2A_%22X3%22_7.62x51_for_AR-10",
+        "itemName": "Compensator 2A \"X3\" 7.62x51 for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -7.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.06
+    },
+    {
+        "Compatibility": [
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX",
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Annihilator_7.62x39,_5.56x45_and_9mm_flash_hider_for_AR-15",
+        "itemName": "Annihilator 7.62x39, 5.56x45 and 9mm flash hider for AR-15",
+        "muzzlevelocity": 4.0,
+        "recoil%": -6.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.128
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DS_Arms_%223_prong_trident%22_7.62x51_Flashhider_for_SA-58",
+        "itemName": "DS Arms \"3 prong trident\" 7.62x51 Flashhider for SA-58",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Phantom_7.62x51_muzzlebrake_%26_compensator_for_M14",
+        "itemName": "Phantom 7.62x51 muzzlebrake & compensator for M14",
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.07
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(threaded)"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Vortex_DC_7.62x51_muzzlebrake_%26_compensator_for_M14",
+        "itemName": "Vortex DC 7.62x51 muzzlebrake & compensator for M14",
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.06
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/National_Match_7.62x51_muzzlebrake_%26_compensator_for_M1A",
+        "itemName": "National Match 7.62x51 muzzlebrake & compensator for M1A",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.14
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/JP_Enterprises_tactical_compensator_7.62x51_muzzlebrake_%26_compensator_for_M14",
+        "itemName": "JP Enterprises tactical compensator 7.62x51 muzzlebrake & compensator for M14",
+        "muzzlevelocity": 5.0,
+        "recoil%": -12.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.13
+    },
+    {
+        "Compatibility": [
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 1.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Good_Iron_7.62x51_muzzlebrake_%26_compensator_for_M14",
+        "itemName": "Good Iron 7.62x51 muzzlebrake & compensator for M14",
+        "muzzlevelocity": 5.0,
+        "recoil%": -8.0,
+        "soldby": "Mechanic LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.14
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.45x39_AK-74_muzzlebrake_%26_compensator_(6P20_0-20)",
+        "itemName": "Izhmash 5.45x39 AK-74 muzzlebrake & compensator (6P20 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Prapor LL1",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/Kalashnikov_AKS-74UN_5.45x39",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/Taktika_Tula_AK_and_AKM_adapter",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zenit_DTK-1_7.62x39_%26_5.45x39_muzzlebrake_%26_compensator_for_AK",
+        "itemName": "Zenit DTK-1 7.62x39 & 5.45x39 muzzlebrake & compensator for AK",
+        "muzzlevelocity": 4.0,
+        "recoil%": -7.0,
+        "soldby": "Skier LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.128
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74UN_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.45x39_muzzle_break_for_AKS-74U_(6P26_0-20)",
+        "itemName": "Izhmash 5.45x39 muzzle break for AKS-74U (6P26 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Prapor LL1",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Colt_USGI_A2_5.56x45_Flashhider_for_AR-15",
+        "itemName": "Colt USGI A2 5.56x45 Flashhider for AR-15",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Mechanic LL2Peacekeeper LL1",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PWS_CQB_5.56_x_45_Muzzle_brake",
+        "itemName": "PWS CQB 5.56 x 45 Muzzle brake",
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "soldby": "Skier LL3Peacekeeper LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/203_mm_9x19_barrel_for_MPX",
+            "/10.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/A2_9x19_Flashhider_for_MPX",
+        "itemName": "A2 9x19 Flashhider for MPX",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.063
+    },
+    {
+        "Compatibility": [
+            "/SV-98_bolt-action_sniper_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SV-98_muzzle_device",
+        "itemName": "SV-98 muzzle device",
+        "muzzlevelocity": 0.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.105
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 4.0,
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Muzzle_brake_Vendetta_precision_VP-09_5.56x45",
+        "itemName": "Muzzle brake Vendetta precision VP-09 5.56x45",
+        "muzzlevelocity": 5.0,
+        "recoil%": -7.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.2
+    },
+    {
+        "Compatibility": [
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_9x19_PP-19-01_muzzle_brake/compensator",
+        "itemName": "Izhmash 9x19 PP-19-01 muzzle brake/compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -4.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/Saiga-9_9x19_Carbine",
+            "/Submachinegun_19-01_Vityaz-SN_9x19"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_9x19_Saiga-9_muzzle_brake/compensator",
+        "itemName": "Izhmash 9x19 Saiga-9 muzzle brake/compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "soldby": "Prapor LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PWS_CQB_74_5.45x39_Muzzle_brake",
+        "itemName": "PWS CQB 74 5.45x39 Muzzle brake",
+        "muzzlevelocity": 5.0,
+        "recoil%": -11.0,
+        "soldby": "Skier LL3",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.19
+    },
+    {
+        "Compatibility": [
+            "/660mm_.308_barrel_for_DVL-10_M2"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DVL-10_M2_muzzle_break",
+        "itemName": "DVL-10 M2 muzzle break",
+        "muzzlevelocity": 0.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.098
+    },
+    {
+        "Compatibility": [
+            "/500mm_.308_barrel_for_DVL-10"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/DVL-10_muzzle_device",
+        "itemName": "DVL-10 muzzle device",
+        "muzzlevelocity": 0.0,
+        "recoil%": -5.0,
+        "soldby": "Skier LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.105
+    },
+    {
+        "Compatibility": [
+            "/ME_Cylinder_muzzle_adapter_12_ga",
+            "/Saiga_12ga_ver._10_12/76_shotgun"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -3.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Tromix_Monster_Claw_12ga_muzzle_brake",
+        "itemName": "Tromix Monster Claw 12ga muzzle brake",
+        "muzzlevelocity": 0.0,
+        "recoil%": -24.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.34
+    },
+    {
+        "Compatibility": [
+            "/16%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(threaded)",
+        "itemName": "Socom 16 7.62x51 muzzlebrake & compensator for M1A (threaded)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -1.0,
+        "soldby": "Mechanic LL4",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.11
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.56x45_%D0%90K-101_muzzlebrake_%26_compensator",
+        "itemName": "Izhmash 5.56x45 \u0410K-101 muzzlebrake & compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.45x39_%D0%90K-74M_muzzlebrake_%26_compensator_(6P20_0-20)",
+        "itemName": "Izhmash 5.45x39 \u0410K-74M muzzlebrake & compensator (6P20 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.45x39_%D0%90K-105_muzzlebrake_%26_compensator_(6P44_0-20)",
+        "itemName": "Izhmash 5.45x39 \u0410K-105 muzzlebrake & compensator (6P44 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/Taktika_Tula_AK_and_AKM_adapter"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_7.62x39_%D0%90K-104_muzzlebrake_%26_compensator_(6P46_0-20)",
+        "itemName": "Izhmash 7.62x39 \u0410K-104 muzzlebrake & compensator (6P46 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/Taktika_Tula_AK_and_AKM_adapter"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_7.62x39_%D0%90K-103_muzzlebrake_%26_compensator",
+        "itemName": "Izhmash 7.62x39 \u0410K-103 muzzlebrake & compensator",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Izhmash_5.56x45_%D0%90K-102_muzzlebrake_%26_compensator_(6P44_0-20)",
+        "itemName": "Izhmash 5.56x45 \u0410K-102 muzzlebrake & compensator (6P44 0-20)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/16%22_barrel_for_a_M1A_7.62x51_NATO"
+        ],
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Socom_16_7.62x51_muzzlebrake_%26_compensator_for_M1A_(unthreaded)",
+        "itemName": "Socom 16 7.62x51 muzzlebrake & compensator for M1A (unthreaded)",
+        "muzzlevelocity": 5.0,
+        "recoil%": -3.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.14
+    },
+    {
+        "Compatibility": [
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AKM_7.62x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Spike_tactical_dynacomp_7.62x39_muzzlebrake_%26_compensator_for_AK",
+        "itemName": "Spike tactical dynacomp 7.62x39 muzzlebrake & compensator for AK",
+        "muzzlevelocity": -1.0,
+        "recoil%": -8.0,
+        "soldby": "Mechanic LL2",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.076
+    },
+    {
+        "Compatibility": [
+            "/Regular_514mm_Mosin_carabine_barrel",
+            "/Regular_730mm_Mosin_barrel"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Texas_Precision_Products_muzzlebrake_for_Mosin_rifle",
+        "itemName": "Texas Precision Products muzzlebrake for Mosin rifle",
+        "muzzlevelocity": 5.0,
+        "recoil%": -19.0,
+        "soldby": "Mechanic LL3 after completing his task The Tarkov shooter - Part 5",
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.19
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fortis_Red_Brake_7.62x51_muzzle_brake_for_AR-10",
+        "itemName": "Fortis Red Brake 7.62x51 muzzle brake for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -12.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.108
+    },
+    {
+        "Compatibility": [
+            "/ASh-12_12.7x55_assault_rifle"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/ASh-12_regular_muzzlebrake_12.7x55",
+        "itemName": "ASh-12 regular muzzlebrake 12.7x55",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -18.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.15
+    },
+    {
+        "Compatibility": [
+            "/10.5%22_barrel_for_P90_5.7x28"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/FN_P90_5.7x28_flash_hider",
+        "itemName": "FN P90 5.7x28 flash hider",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -5.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AK-101_5.56x45_assault_rifle",
+            "/AK-102_5.56x45_assault_rifle",
+            "/AK-105_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle",
+            "/Kalashnikov_AKS-74U_5.45x39",
+            "/Kalashnikov_AKS-74UB_5.45x39",
+            "/Kalashnikov_AKS-74UN_5.45x39",
+            "/15%22_barrel_for_RPK-16_and_compatible_5.45x39",
+            "/22%22_barrel_for_RPK-16_and_compatible_5.45x39"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SRVV_5.45x39_AK-74_muzzlebrake",
+        "itemName": "SRVV 5.45x39 AK-74 muzzlebrake",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -8.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/AK-103_7.62x39_assault_rifle",
+            "/AK-104_7.62x39_assault_rifle",
+            "/Custom_Mosin_rifle_thread_adapter",
+            "/Taktika_Tula_AK_and_AKM_adapter",
+            "/Weapon_Tuning_Mosin_rifle_tread_adapter",
+            "/Weapon_Tuning_SKS_tread_adapter"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SRVV_7.62x39_AK_muzzlebrake_%26_compensator",
+        "itemName": "SRVV 7.62x39 AK muzzlebrake & compensator",
+        "lootexperience": 10.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -9.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.1
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": -1.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/TROY_Claymore_5.56x45_muzzle_brakefor_AR-15",
+        "itemName": "TROY Claymore 5.56x45 muzzle brakefor AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -6.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.064
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Muzzlebrake_Keeno_Arms_SHREWD_7.62x51_for_AR-10",
+        "itemName": "Muzzlebrake Keeno Arms SHREWD 7.62x51 for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 4.0,
+        "recoil%": -9.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Muzzlebrake_Precision_Armament_M-11_7.62x51_for_AR-10",
+        "itemName": "Muzzlebrake Precision Armament M-11 7.62x51 for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -8.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/203_mm_9x19_barrel_for_MPX",
+            "/4.5%22_9x19_barrel_for_MPX",
+            "/6.5%22_9x19_barrel_for_MPX",
+            "/14%22_9x19_barrel_for_MPX"
+        ],
+        "accuracy": 2.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Carbine_brake_for_SIG_MPX_by_TACCOM",
+        "itemName": "Carbine brake for SIG MPX by TACCOM",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -10.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.079
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Bulletec_ST-6012_5.56x45_Flashhider_for_AR-15",
+        "itemName": "Bulletec ST-6012 5.56x45 Flashhider for AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -11.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.125
+    },
+    {
+        "Compatibility": [
+            "/Direct_Thread_adapter_for_the_Lantac_Blast_mitigation_device."
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Lantac_%22Blast_mitigation_device%22_7.62x51",
+        "itemName": "Lantac \"Blast mitigation device\" 7.62x51",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 4.0,
+        "recoil%": -4.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.176
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 1.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Daniel_Defense_Wave_Muzzle_Brake_5.56x45",
+        "itemName": "Daniel Defense Wave Muzzle Brake 5.56x45",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -7.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.109
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 3.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Nordic_Corvette_7.62x51_muzzle_brake_for_AR-10",
+        "itemName": "Nordic Corvette 7.62x51 muzzle brake for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -8.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.125
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Fortis_Red_Brake_7.62x51_muzzle_brake_for_AR-10",
+        "itemName": "Fortis Red Brake 7.62x51 muzzle brake for AR-10",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 1.0,
+        "recoil%": -12.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.108
+    },
+    {
+        "Compatibility": [
+            "/10.6%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/11%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/14.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/16.5%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/20%22_barrel_for_416A5_and_compatible_5.56x45",
+            "/260mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/370mm_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_Molot_barrel_for_AR-15_and_compatible_5.56x45",
+            "/18%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/20%22_barrel_for_AR-15_and_compatible_5.56x45",
+            "/406mm_barrel_for_MDR_and_compatible_5.56x45"
+        ],
+        "accuracy": 1.0,
+        "ergonomics": 0.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Nordic_Corvette_5.56x45_compensator_for_AR-15",
+        "itemName": "Nordic Corvette 5.56x45 compensator for AR-15",
+        "lootexperience": 40.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -8.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.125
+    },
+    {
+        "Compatibility": [
+            "/11%22_barrel_for_SA-58_7.62x51",
+            "/16%22_barrel_for_SA-58_7.62x51",
+            "/21%22_barrel_for_SA-58_7.62x51",
+            "/18%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/22%22_barrel_for_a_AR-10_and_compatible_7.62x51_NATO",
+            "/20%22_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/20%22_stainless_steel_barrel_for_a_Remington_M700_7.62x51_NATO",
+            "/22%22_barrel_for_a_M1A_7.62x51_NATO",
+            "/Tiger_Rock_Mosin_rifle_tread_adapter"
+        ],
+        "accuracy": 1.0,
+        "ergonomics": 0.0,
+        "examineexperience": 5.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Daniel_Defence_Wave_Muzzle_Brake_7.62x51",
+        "itemName": "Daniel Defence Wave Muzzle Brake 7.62x51",
+        "lootexperience": 20.0,
+        "muzzlevelocity": 5.0,
+        "recoil%": -7.0,
+        "type": "Flash hider/muzzle brake",
+        "weight": 0.109
+    }
+]

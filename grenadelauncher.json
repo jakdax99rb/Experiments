@@ -1,0 +1,38 @@
+[
+    {
+        "acceptedammunition": "30x29 mm VOG-30",
+        "caliber": "30x29mm",
+        "defaultammo": "30x29 mm VOG-30",
+        "firingmodes": "Full Auto",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AGS",
+        "itemName": "AGS 30x29 mm automatic grenade launcher",
+        "type": "Grenade launcher"
+    },
+    {
+        "Compatibility": [
+            "/AKS-74_5.45x39_assault_rifle",
+            "/AK-74_5.45x39_assault_rifle",
+            "/AKMS_7.62x39_assault_rifle",
+            "/AKMSN_7.62x39_assault_rifle",
+            "/AKMN_7.62x39_assault_rifle",
+            "/Vepr_KM_/_VPO-136_7.62x39_carbine",
+            "/AK-74N_5.45x39_assault_rifle",
+            "/AK-101_5.56x45_assault_rifle",
+            "/AKM_7.62x39_assault_rifle",
+            "/AK-103_7.62x39_assault_rifle",
+            "/Vepr_AKM_/_VPO-209_366TKM_carbine",
+            "/AK-74M_5.45x39_assault_rifle",
+            "/AKS-74N_5.45x39_assault_rifle"
+        ],
+        "acceptedammunition": "\n40 mm VOG-25",
+        "caliber": "40x53mm",
+        "defaultammo": "40 mm VOG-25",
+        "ergonomics": -2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/GP-34_underbarrel_grenade_launcher",
+        "itemName": "GP-34 underbarrel grenade launcher",
+        "recoil%": -1.0,
+        "type": "Grenade launcher",
+        "weight": 1.4
+    }
+]

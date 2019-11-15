@@ -1,0 +1,99 @@
+[
+    {
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Belomo_PK-06_reflex_sight",
+        "itemName": "Belomo PK-06 reflex sight",
+        "modes": "3",
+        "sightingrange": "100 m",
+        "soldby": "Skier LL1",
+        "type": "Compact reflex sight",
+        "weight": 0.09
+    },
+    {
+        "Compatibility": [
+            "/Aimpoint_mount_for_the_sights_of_Micro_series",
+            "/Aimpoint_Micro_Spacer_High"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Aimpoint_Micro_T-1_reflex_sight",
+        "itemName": "Aimpoint Micro T-1 reflex sight",
+        "modes": "1",
+        "sightingrange": "150",
+        "soldby": "Peacekeeper LL1 after completing his task Fishing Gear",
+        "type": "Compact reflex sight",
+        "weight": 0.084
+    },
+    {
+        "Compatibility": [
+            "/Burris_FastFire_Weaver_Base"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Burris_FastFire_3_Reflex_Sight",
+        "itemName": "Burris FastFire 3 Reflex Sight",
+        "modes": "1",
+        "sightingrange": "100",
+        "soldby": "Skier LL2Peacekeeper LL1",
+        "type": "Compact reflex sight",
+        "weight": 0.025
+    },
+    {
+        "Compatibility": [
+            "/30mm_ring-mount_made_by_JP",
+            "/Cross_Slot_Mount_base_for_Deltapoint_scopes",
+            "/Leupold_Mark_4_HAMR_4x24mm_DeltaPoint_hybrid_assault_scope"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Leupold_DeltaPoint_Reflex_Sight",
+        "itemName": "Leupold DeltaPoint Reflex Sight",
+        "modes": "1",
+        "sightingrange": "150",
+        "soldby": "Peacekeeper LL2",
+        "type": "Compact reflex sight",
+        "weight": 0.053
+    },
+    {
+        "Compatibility": [
+            "/Glock_Zev_Tech_Hex_Spartan_slide",
+            "/High_profile_mount_for_Trijicon_RMR",
+            "/Low_profile_mount_for_Trijicon_RMR",
+            "/Trijicon_RMR_mount_for_a_Sig-Sauer_pistols",
+            "/Trijicon_RMR_mount_for_ACOG_scopes",
+            "/Zev_Tech_Hex_Gen3_slide"
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Trijicon_RMR",
+        "itemName": "Trijicon RMR",
+        "modes": "1",
+        "sightingrange": "150",
+        "soldby": "Peacekeeper LL2",
+        "type": "Compact reflex sight",
+        "weight": 0.025
+    },
+    {
+        "Compatibility": [
+            "/Sig_Sauer_mount_for_the_sights_of_Romeo_series."
+        ],
+        "accuracy": 0.0,
+        "ergonomics": -1.0,
+        "examineexperience": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Sig_Sauer_Romeo_4_reflex_sight",
+        "itemName": "Sig Sauer Romeo 4 reflex sight",
+        "lootexperience": 20.0,
+        "modes": "1",
+        "sightingrange": "150",
+        "soldby": "Peacekeeper LL2",
+        "type": "Compact reflex sight",
+        "weight": 0.089
+    }
+]

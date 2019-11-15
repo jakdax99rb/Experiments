@@ -1,0 +1,44 @@
+[
+    {
+        "examineexperience": 4.0,
+        "explosiondelay": "3.5s",
+        "explosionradius": "3-8 meters",
+        "fragmentscount": "150x F1 Shrapnel",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/F-1",
+        "itemName": "F-1 Hand grenade",
+        "lootexperience": 20.0,
+        "soldby": "Prapor LL4",
+        "throwstrength": "100",
+        "type": "Fragmentation grenade",
+        "weight": 0.6
+    },
+    {
+        "examineexperience": 4.0,
+        "explosiondelay": "5s",
+        "explosionradius": "3-9 meters",
+        "fragmentscount": "100x M67 Shrapnel",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/M67",
+        "itemName": "M67 Hand grenade",
+        "lootexperience": 20.0,
+        "soldby": "Peacekeeper LL2 after completing his task Spa Tour - Part 2",
+        "throwstrength": "115",
+        "type": "Fragmentation grenade",
+        "weight": 0.396
+    },
+    {
+        "examineexperience": 4.0,
+        "explosiondelay": "3.5s",
+        "explosionradius": "3-7 meters",
+        "fragmentscount": "100x RGD-5 Shrapnel",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/RGD-5",
+        "itemName": "RGD-5 hand grenade",
+        "lootexperience": 20.0,
+        "soldby": "Prapor LL3",
+        "throwstrength": "110",
+        "type": "Fragmentation grenade",
+        "weight": 0.31
+    }
+]

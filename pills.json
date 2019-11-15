@@ -1,0 +1,34 @@
+[
+    {
+        "effect": "Removes:Adds: for 175 seconds",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Analgin_painkillers",
+        "itemName": "Analgin painkillers",
+        "lootexperience": 10.0,
+        "soldby": "Therapist LL1",
+        "type": "Pills",
+        "usetime": "3s",
+        "weight": 0.1
+    },
+    {
+        "effect": "Removes:, Toxication.Adds: for 205 seconds",
+        "examineexperience": 25.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Augmentin_antibiotic_pills",
+        "itemName": "Augmentin antibiotic pills",
+        "lootexperience": 50.0,
+        "soldby": "Therapist LL4",
+        "type": "Pills",
+        "usetime": "5s",
+        "weight": 0.3
+    },
+    {
+        "effect": "Removes:Adds: for 505 seconds",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Ibuprofen_painkillers",
+        "itemName": "Ibuprofen painkillers",
+        "type": "Pills",
+        "usetime": "5s",
+        "weight": 0.1
+    }
+]

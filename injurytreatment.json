@@ -1,0 +1,70 @@
+[
+    {
+        "effect": "Removes:Adds:",
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Aseptic_bandage",
+        "itemName": "Aseptic bandage",
+        "lootexperience": 10.0,
+        "soldby": "Therapist LL1",
+        "type": "Injury treatment",
+        "usetime": "4s",
+        "weight": 0.04
+    },
+    {
+        "effect": "Removes:Adds:",
+        "examineexperience": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Army_bandage",
+        "itemName": "Army bandage",
+        "lootexperience": 20.0,
+        "soldby": "Therapist LL2 after completing her task Operation Aquarius - Part 2",
+        "type": "Injury treatment",
+        "usetime": "4s",
+        "weight": 0.043
+    },
+    {
+        "effect": "Removes:",
+        "examineexperience": 2.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Immobilizing_splint",
+        "itemName": "Immobilizing splint",
+        "lootexperience": 40.0,
+        "soldby": "Therapist LL1",
+        "type": "Injury treatment",
+        "usetime": "5s",
+        "weight": 0.17
+    },
+    {
+        "effect": "Removes:",
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Immobilizing_splint_(alu)",
+        "itemName": "Immobilizing splint (alu)",
+        "soldby": "Therapist LL3",
+        "type": "Injury treatment",
+        "usetime": "3s",
+        "weight": 0.22
+    },
+    {
+        "effect": "Removes: Adds: for 500 seconds",
+        "examineexperience": 4.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Vaseline",
+        "itemName": "Vaseline",
+        "lootexperience": 100.0,
+        "type": "Injury treatment",
+        "usetime": "6s",
+        "weight": 0.01
+    },
+    {
+        "effect": "Removes: , Toxication for 600 seconds, Radiation Exposure for 600 secondsAdds: for 600 seconds\nBuffs:Increases hydration recovery for 5 seconds (1 per second)\n\nIncreases energy recovery for 5 seconds (1 per second)",
+        "examineexperience": 4.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Golden_Star_Balm",
+        "itemName": "Golden Star Balm",
+        "lootexperience": 250.0,
+        "type": "Injury treatment",
+        "usetime": "7s",
+        "weight": 0.1
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "explosiondelay": "3.5s",
+        "gridsize": "1x2",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/RDG-2B",
+        "itemName": "RDG-2B Smoke grenade",
+        "lootexperience": 20.0,
+        "soldby": "Prapor LL2",
+        "type": "Smoke grenade",
+        "weight": 0.6
+    }
+]

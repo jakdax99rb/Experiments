@@ -1,0 +1,195 @@
+[
+    {
+        "Compatibility": [
+            "/Fab_Defence_AGR-870_pistol_grip_for_Remington-870"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/AGR-870_protection_cap",
+        "itemName": "AGR-870 protection cap",
+        "lootexperience": 5.0,
+        "recoil%": 0.0,
+        "soldby": "Skier LL3",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/NSPU-M_night_Scope"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/NSPU-M_scope_eyecup",
+        "itemName": "NSPU-M scope eyecup",
+        "lootexperience": 5.0,
+        "soldby": "Prapor LL2",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/Vulcan_MG_night_scope_3.5x"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Vulcan_MG_scope_eyecup",
+        "itemName": "Vulcan MG scope eyecup",
+        "lootexperience": 5.0,
+        "soldby": "Mechanic LL3",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/Cobra_EKP-8-18_reflex_sight",
+            "/Cobra_EKP-8-02_reflex_sight"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Cobra_Family_Sights_Shade",
+        "itemName": "Cobra Family Sights Shade",
+        "lootexperience": 5.0,
+        "soldby": "Prapor LL1",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/Zenit-Belomo_PSO_1_4x24_scope",
+            "/Zenit-Belomo_PSO_1M2_4x24_scope",
+            "/Zenit-Belomo_PSO_1M2-1_4x24_scope"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/PSO_scope_eyecup",
+        "itemName": "PSO scope eyecup",
+        "lootexperience": 5.0,
+        "soldby": "Prapor LL3",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/Trijicon_REAP-IR_thermal_riflescope"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/REAP-IR_scope_eyecup",
+        "itemName": "REAP-IR scope eyecup",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/SV-98_bolt-action_sniper_rifle"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/SV-98_anti-heat_ribbon",
+        "itemName": "SV-98 anti-heat ribbon",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.053
+    },
+    {
+        "Compatibility": [
+            "/Regular_SV-98_7.62x54_silencer"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Heat_shield_for_SV-98_silencer",
+        "itemName": "Heat shield for SV-98 silencer",
+        "lootexperience": 5.0,
+        "soldby": "Prapor LL3",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/Glock_Zev_Tech_Hex_Spartan_slide",
+            "/Zev_Tech_Hex_Gen3_slide"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Zev_Tech_sight_mount_cap",
+        "itemName": "Zev Tech sight mount cap",
+        "soldby": "Mechanic LL3",
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/NPZ_USP-1_4x_scope"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/USP-1_scope_eyecup",
+        "itemName": "USP-1 scope eyecup",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/KMZ_1P59_3-10x_riflescope",
+            "/KMZ_1P69_3-10x_riflescope"
+        ],
+        "ergonomics": 1.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/1P59_scope_eyecup",
+        "itemName": "1P59 scope eyecup",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/URX_3_8%22_handguard_for_AR15",
+            "/URX_3.1_10.75%22_handguard_for_AR15"
+        ],
+        "ergonomics": 1.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/KAC_short_panel_for_URX_3/3.1",
+        "itemName": "KAC short panel for URX 3/3.1",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/URX_3.1_10.75%22_handguard_for_AR15"
+        ],
+        "ergonomics": 2.0,
+        "examineexperience": 10.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/KAC_long_panel_for_URX_3/3.1",
+        "itemName": "KAC long panel for URX 3/3.1",
+        "lootexperience": 5.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    },
+    {
+        "Compatibility": [
+            "/URX_3_8%22_handguard_for_AR15",
+            "/URX_3.1_10.75%22_handguard_for_AR15"
+        ],
+        "ergonomics": 3.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/KAC_stopper_panel_for_URX_3/3.1",
+        "itemName": "KAC stopper panel for URX 3/3.1",
+        "lootexperience": 5.0,
+        "recoil%": -1.0,
+        "type": "Auxiliary part",
+        "weight": 0.005
+    }
+]

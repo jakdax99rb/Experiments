@@ -1,0 +1,30 @@
+[
+    {
+        "Compatibility": [
+            "/25_mm_mount_ring"
+        ],
+        "examineexperience": 6.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Armytek_Predator_Pro_v3_XHP35_HI_Flashlight",
+        "itemName": "Armytek Predator Pro v3 XHP35 HI Flashlight",
+        "lootexperience": 20.0,
+        "modes": "2",
+        "soldby": "Peacekeeper LL3",
+        "type": "Flashlight",
+        "weight": 0.12
+    },
+    {
+        "Compatibility": [
+            "/25_mm_mount_ring"
+        ],
+        "examineexperience": 6.0,
+        "gridsize": "1x1",
+        "itemLink": "https://escapefromtarkov.gamepedia.com/Ultrafire_WF-501B_Flashlight",
+        "itemName": "Ultrafire WF-501B Flashlight",
+        "lootexperience": 20.0,
+        "modes": "2",
+        "soldby": "Skier LL1Peacekeeper LL1",
+        "type": "Flashlight",
+        "weight": 0.12
+    }
+]
