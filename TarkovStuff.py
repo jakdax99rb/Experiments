@@ -27,7 +27,10 @@ def wikiScraper():
 
     for x in range(0, len(linkList)):
 
-        itemList.append(itemScraper(linkList[x]))
+        # stop gap to handle some errant links being passed from the google doc.
+        if(linkList[x] != ('https://escapefromtarkov.gamepedia.com' and '.')):
+
+            itemList.append(itemScraper(linkList[x]))
 
     masterKeyList = []
 
@@ -73,6 +76,8 @@ def itemScraper(itemLink):
 
     # This function actually gets the info from every link passed to it.
     # Once its scraped everything dynamically it returns a dict called item that contains all the stuff
+
+    print(itemLink)
 
     res = requests.get(itemLink)
     res.raise_for_status
@@ -280,9 +285,9 @@ def sortJSONByitemType():
 
 
 # sortJSONByitemType()
-# wikiScraper()
-#print(getBestStat('Handguard', 'recoil')['itemLink'])
-sortJSONByitemType()
+wikiScraper()
+# print(getBestStat('Handguard', 'recoil')['itemLink'])
+# sortJSONByitemType()
 '''
 with open('itemJSON.json', 'r') as file:
 
