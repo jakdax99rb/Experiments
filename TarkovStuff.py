@@ -44,12 +44,13 @@ def wikiScraper():
                               indent=4).replace('\xa0', ''))
 
 
-def keyGetter(itemList):
-    '''
-    This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out
-    it wasnt really needed.
-    '''
+'''
 
+This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out
+it wasnt really needed.
+
+def keyGetter(itemList):
+    
     masterKeyList = []
     tempKeyList = []
 
@@ -70,6 +71,7 @@ def keyGetter(itemList):
                 masterKeyList.append(key)
 
     return masterKeyList
+'''
 
 
 def itemScraper(itemLink):
