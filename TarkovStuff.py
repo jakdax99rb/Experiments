@@ -50,7 +50,7 @@ This is depreciated at this point, I originally wrote it to go through and get e
 it wasnt really needed.
 
 def keyGetter(itemList):
-    
+
     masterKeyList = []
     tempKeyList = []
 
@@ -186,6 +186,7 @@ def itemScraper(itemLink):
     return item
 
 
+'''
 def getBestStat(itemType, stat):
 
     # This gets the item with the best stat(recoil, ergo, etc.) right now it only fully functions for recoil and ergo as they are the most important stats.
@@ -238,6 +239,205 @@ def getBestStat(itemType, stat):
 
     return bestItem
 
+'''
+
+# takes in a string itemType to select the type of item to pull from
+# also takes in a stat string to select the proper section in the if sections
+# I was going to use a switch case but didnt have enough time to get a hold on how to execute code in a switch case in python.
+
+
+def getBestInStat(itemType,  stat):
+
+    stat = stat.strip().lower()
+
+    if stat == 'recoil':
+
+        return recoil(itemType)
+
+    elif stat == 'ergonomics':
+
+        return ergonomics(itemType)
+
+    elif stat == 'weight':
+
+        return weight(itemType)
+
+    elif stat == 'muzzlevelocity':
+
+        return muzzleVelocity(itemType)
+
+    elif stat == 'combinedrecoil':
+
+        return combinedRecoil(itemType)
+
+
+def recoil(itemType):
+    # this array will store the best items initially in backwards order (array.length-1 will store best)
+    # Ill reverse this for display later
+    sortedBestArray = []
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    sortedBestArray.append(myArray[0])
+
+    for item in myArray:
+
+        try:
+
+            if item['type'].lower() == itemType.lower():
+
+                if item['recoil%'] < sortedBestArray[len(sortedBestArray)-1]['recoil%']:
+
+                    sortedBestArray.append(item)
+
+                elif item['recoil%'] == sortedBestArray[len(sortedBestArray)-1]['recoil%']:
+
+                    if item['ergonomics'] > sortedBestArray[len(sortedBestArray)-1]['recoil%']:
+
+                        sortedBestArray.append(item)
+
+        except:
+            print("Stat not found \n" + "itemType: " +
+                  itemType + 'stat: recoil%' + '\nitem link: ' + item["itemLink"])
+
+    return sortedBestArray
+
+
+def ergonomics(itemType):
+
+    ergonomicsBest = 0
+    sortedBestArray = []
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    for item in myArray:
+
+        try:
+
+            if item['type'].lower() == itemType.lower():
+
+                if item['ergonomics'] > ergonomicsBest:
+
+                    sortedBestArray.append(item)
+                    ergonomicsBest = item['ergonomics']
+
+                elif item['ergonomics'] == ergonomicsBest:
+
+                    if item['recoil%'] < sortedBestArray[len(sortedBestArray)-1]['recoil%']:
+
+                        sortedBestArray.append(item)
+
+        except:
+            print("Stat not found \n" + "itemType: " +
+                  itemType + 'stat: ergonomics' + '\nitem link: ' + item["itemLink"])
+
+    return sortedBestArray
+
+
+def weight(itemType):
+
+    weightBest = 100000000
+    sortedBestArray = []
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    for item in myArray:
+
+        try:
+
+            if item['type'].lower() == itemType.lower():
+
+                if item['weight'] < weightBest:
+
+                    weightBest = item['weight']
+
+                elif item['weight'] == weightBest:
+
+                    if item['ergonomics'] > sortedBestArray[len(sortedBestArray)-1]["ergonomics"]:
+
+                        sortedBestArray.append(item)
+
+        except:
+            print("Stat not found \n" + "itemType: " +
+                  itemType + 'stat: weight' + '\nitem link: ' + item["itemLink"])
+
+    return sortedBestArray
+
+
+def muzzleVelocity(itemType):
+
+    muzzleVelocityBest = 0
+    sortedBestArray = []
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    for item in myArray:
+
+        try:
+
+            if item['type'].lower() == itemType.lower():
+
+                if item['muzzlevelocity'] > muzzleVelocityBest:
+
+                    sortedBestArray.append(item)
+                    muzzleVelocityBest = item['muzzlevelocity']
+
+                elif item['muzzlevelocity'] == muzzleVelocityBest:
+
+                    if item['ergonomics'] < sortedBestArray[len(sortedBestArray)-1]['ergonomics']:
+
+                        sortedBestArray.append(item)
+
+        except:
+            print("Stat not found \n" + "itemType: " +
+                  itemType + 'stat: muzzleVelocity' + '\nitem link: ' + item["itemLink"])
+
+    return sortedBestArray
+
+
+def combinedRecoil(itemType):
+
+    sortedBestArray = []
+    combinedRecoilBest = 100000000000
+    combinedRecoilTemp = 0
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    for item in myArray:
+
+        try:
+
+            if item["type"].lower() == itemType.lower():
+
+                combinedRecoilTemp = (
+                    item['horizontalRecoil'] + item['verticalRecoil'])
+
+                if combinedRecoilTemp < combinedRecoilBest:
+
+                    combinedRecoilBest = combinedRecoilTemp
+                    sortedBestArray.append(item)
+
+                elif combinedRecoilTemp == combinedRecoilBest:
+
+                    if item['ergonomics'] > sortedBestArray[len(sortedBestArray)-1]['ergonomics']:
+
+                        sortedBestArray.append(item)
+
+        except:
+            print("Stat not found \n" + "itemType: " +
+                  itemType + 'stat: combinedRecoil' + '\nitem link: ' + item["itemLink"])
+    return sortedBestArray
+
 
 def sortJSONByitemType():
     # This function sorts all of the items in itemJSON.json into a bunch of individual json files to make it easier when looking for the best items in each catagory.
@@ -287,8 +487,9 @@ def sortJSONByitemType():
 
 
 # sortJSONByitemType()
-wikiScraper()
-# print(getBestStat('Handguard', 'recoil')['itemLink'])
+# wikiScraper()
+best = getBestInStat('Assault rifle', 'ergonomics')
+print(best[len(best)-1]['itemLink'])
 # sortJSONByitemType()
 '''
 with open('itemJSON.json', 'r') as file:

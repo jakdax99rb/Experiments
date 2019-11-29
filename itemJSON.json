@@ -4921,7 +4921,7 @@
             "/XRSU47SU_Tactical_Handguard_for_AKS-74U",
             "/Zenit_B-10_AK_Handguard"
         ],
-        "ergonomics": 2.0,
+        "ergonomics": 0.0,
         "examineexperience": 6.0,
         "gridsize": "1x1",
         "itemLink": "https://escapefromtarkov.gamepedia.com/Zenit_RK-2_Foregrip",
@@ -4930,7 +4930,7 @@
         "recoil%": -5.0,
         "soldby": "Skier LL4",
         "type": "Foregrip",
-        "weight": 0.18
+        "weight": 0.2
     },
     {
         "acceptedammunition": "\n5.45x39 mm 7N39 \"Igolnik\"\n5.45x39 mm BP\n5.45x39 mm BS\n5.45x39 mm BT\n5.45x39 mm FMJ\n5.45x39 mm HP\n5.45x39 mm PP\n5.45x39 mm PRS\n5.45x39 mm PS\n5.45x39 mm SP\n5.45x39 mm T\n5.45x39 mm US",
@@ -5755,7 +5755,7 @@
         "weight": 0.21
     },
     {
-        "effect": "\nHydration: -50\nRemoves radiation exposure\nBuffs:\n\n1s Delay; 250s Duration:\nRemoves \nIncreases Stress Resistance (5)\n\nDebuffs:\n\n1s Delay; 250s Duration:\nDecreases Health (-5)\nDecreases Memory (-10)",
+        "effect": "Hydration: -50\nRemoves radiation exposure\nBuffs:\n\n1s Delay; 250s Duration:\nRemoves \nIncreases Stress Resistance (5)\n\nDebuffs:\n\n1s Delay; 250s Duration:\nDecreases Health (-5)\nDecreases Memory (-10)",
         "examineexperience": 10.0,
         "gridsize": "1x2",
         "itemLink": "https://escapefromtarkov.gamepedia.com/Bottle_of_vodka_Tarkovskaya",
@@ -6482,6 +6482,7 @@
         "lootexperience": 10.0,
         "muzzlevelocity": 0.0,
         "recoil%": -1.0,
+        "type": "Muzzle adapter",
         "weight": 0.07
     },
     {
@@ -14303,7 +14304,7 @@
         "gridsize": "1x1",
         "itemLink": "https://escapefromtarkov.gamepedia.com/UNV_DLOC-IRD_Mount_for_sights",
         "itemName": "UNV DLOC-IRD Mount for sights",
-        "soldby": "Skier LL3",
+        "soldby": "Jaeger LL4",
         "type": "Mount",
         "weight": 0.113
     },
@@ -20474,6 +20475,7 @@
         "itemName": "Hera Arms HG-15 pistol grip for AR-15 based systems",
         "lootexperience": 10.0,
         "recoil%": 0.0,
+        "soldby": "Mechanic LL4",
         "type": "Pistol grip",
         "weight": 0.08
     },
