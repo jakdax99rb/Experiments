@@ -44,36 +44,6 @@ def wikiScraper():
                               indent=4).replace('\xa0', ''))
 
 
-'''
-
-This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out
-it wasnt really needed.
-
-def keyGetter(itemList):
-
-    masterKeyList = []
-    tempKeyList = []
-
-    for key in itemList[0].keys():
-
-        masterKeyList.append(str(key))
-
-    for x in range(1, len(itemList)):
-
-        for key in itemList[x].keys():
-
-            tempKeyList.append(str(key))
-
-        for key in tempKeyList:
-
-            if not (key in masterKeyList):
-
-                masterKeyList.append(key)
-
-    return masterKeyList
-'''
-
-
 def itemScraper(itemLink):
 
     # This function actually gets the info from every link passed to it.
@@ -185,61 +155,6 @@ def itemScraper(itemLink):
 
     return item
 
-
-'''
-def getBestStat(itemType, stat):
-
-    # This gets the item with the best stat(recoil, ergo, etc.) right now it only fully functions for recoil and ergo as they are the most important stats.
-
-    if stat.lower().strip() == 'recoil':
-
-        stat = 'recoil%'
-
-    elif stat.lower().strip() == ('ergo' or 'ergonomics'):
-
-        stat = 'ergonomics'
-
-    itemType = itemType.replace(' ', '').lower()
-    itemType = itemType.replace('/', '')
-
-    with open('itemJSON.json', 'r') as file:
-
-        myArray = json.loads(file.read())
-
-    bestItem = myArray[0]
-
-    for item in myArray:
-
-        if item['type'].lower() == itemType.lower():
-
-            try:
-
-                if stat == 'ergonomics':
-
-                    if item[stat] > bestItem[stat]:
-
-                        bestItem = item
-
-                    elif item[stat] == bestItem[stat] and item['Recoil%'] < bestItem['Recoil%']:
-
-                        bestItem = item
-
-                elif item[stat] <= bestItem[stat]:
-
-                    bestItem = item
-
-                elif item[stat] == bestItem[stat] and item['Ergonomics'] > bestItem['Ergonomics']:
-
-                    bestItem = item
-
-            except:
-
-                print('Error in stat comparision process.\nStat given is: ' +
-                      stat + '\nItem given is: ' + item['itemLink'])
-
-    return bestItem
-
-'''
 
 # takes in a string itemType to select the type of item to pull from
 # also takes in a stat string to select the proper section in the if sections
@@ -439,7 +354,10 @@ def combinedRecoil(itemType):
     return sortedBestArray
 
 
+'''
+
 def sortJSONByitemType():
+    # This code is no longer needed.
     # This function sorts all of the items in itemJSON.json into a bunch of individual json files to make it easier when looking for the best items in each catagory.
     # this array stores a string value for every array already created.
     arraysAlreadyMade = []
@@ -485,12 +403,103 @@ def sortJSONByitemType():
 
             file.write(json.dumps(array, sort_keys=True, indent=4))
 
+'''
+
+'''
+
+This is depreciated at this point, I originally wrote it to go through and get every catagory(recoil, ergo, muzzle velocity) etc. but turns out
+it wasnt really needed.
+
+def keyGetter(itemList):
+
+    masterKeyList = []
+    tempKeyList = []
+
+    for key in itemList[0].keys():
+
+        masterKeyList.append(str(key))
+
+    for x in range(1, len(itemList)):
+
+        for key in itemList[x].keys():
+
+            tempKeyList.append(str(key))
+
+        for key in tempKeyList:
+
+            if not (key in masterKeyList):
+
+                masterKeyList.append(key)
+
+    return masterKeyList
+
+'''
+'''
+
+Wrote a better way but Im keeping this just in case I ever need to look back at it.
+
+def getBestStat(itemType, stat):
+
+    # This gets the item with the best stat(recoil, ergo, etc.) right now it only fully functions for recoil and ergo as they are the most important stats.
+
+    if stat.lower().strip() == 'recoil':
+
+        stat = 'recoil%'
+
+    elif stat.lower().strip() == ('ergo' or 'ergonomics'):
+
+        stat = 'ergonomics'
+
+    itemType = itemType.replace(' ', '').lower()
+    itemType = itemType.replace('/', '')
+
+    with open('itemJSON.json', 'r') as file:
+
+        myArray = json.loads(file.read())
+
+    bestItem = myArray[0]
+
+    for item in myArray:
+
+        if item['type'].lower() == itemType.lower():
+
+            try:
+
+                if stat == 'ergonomics':
+
+                    if item[stat] > bestItem[stat]:
+
+                        bestItem = item
+
+                    elif item[stat] == bestItem[stat] and item['Recoil%'] < bestItem['Recoil%']:
+
+                        bestItem = item
+
+                elif item[stat] <= bestItem[stat]:
+
+                    bestItem = item
+
+                elif item[stat] == bestItem[stat] and item['Ergonomics'] > bestItem['Ergonomics']:
+
+                    bestItem = item
+
+            except:
+
+                print('Error in stat comparision process.\nStat given is: ' +
+                      stat + '\nItem given is: ' + item['itemLink'])
+
+    return bestItem
+
+'''
+
+
 
 # sortJSONByitemType()
 # wikiScraper()
 best = getBestInStat('Assault rifle', 'ergonomics')
 print(best[len(best)-1]['itemLink'])
 # sortJSONByitemType()
+
 '''
 with open('itemJSON.json', 'r') as file:
 
