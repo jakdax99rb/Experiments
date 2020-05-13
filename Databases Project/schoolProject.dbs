@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="School Project" id="Project_4b5a33" template="Default" database="MySql" >
+	<schema name="school project" >
+		<table name="armor" generator_rows="150" >
+			<column name="zone" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="class" type="int" jt="4" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<index name="idx_armor" unique="PRIMARY_KEY" >
+				<column name="zone" />
+				<column name="item_url" />
+			</index>
+			<index name="unq_armor_class" unique="UNIQUE" >
+				<column name="class" />
+			</index>
+			<fk name="fk_armor_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="attachement_compat" generator_rows="225" >
+			<column name="attachment_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="compatible_attachment" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="idx_attachement_compat" unique="PRIMARY_KEY" >
+				<column name="attachment_url" />
+				<column name="compatible_attachment" />
+			</index>
+			<fk name="fk_attachement_compat" to_schema="school project" to_table="attachment" delete_action="cascade" update_action="cascade" >
+				<fk_column name="attachment_url" pk="item_url" />
+			</fk>
+			<fk name="fk_attachement_compat1" to_schema="school project" to_table="attachment" delete_action="cascade" update_action="cascade" >
+				<fk_column name="compatible_attachment" pk="item_url" />
+			</fk>
+		</table>
+		<table name="attachment" generator_rows="150" >
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="recoil_mod" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<column name="ergo_mod" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<index name="pk_attachment_item_url" unique="PRIMARY_KEY" >
+				<column name="item_url" />
+			</index>
+			<fk name="fk_attachment_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="caliber" generator_rows="150" >
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="damage" type="int" jt="4" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<column name="penetration" type="int" jt="4" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<index name="pk_caliber_item_url" unique="PRIMARY_KEY" >
+				<column name="item_url" />
+			</index>
+			<fk name="fk_caliber_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="chambers" generator_rows="225" >
+			<column name="caliber_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="firearm_uid" type="int" jt="4" mandatory="y" />
+			<index name="idx_chambers" unique="PRIMARY_KEY" >
+				<column name="caliber_url" />
+				<column name="firearm_uid" />
+			</index>
+			<fk name="fk_chambers_caliber" to_schema="school project" to_table="caliber" delete_action="cascade" update_action="cascade" >
+				<fk_column name="caliber_url" pk="item_url" />
+			</fk>
+			<fk name="fk_chambers_firearm" to_schema="school project" to_table="firearm" delete_action="cascade" update_action="cascade" >
+				<fk_column name="firearm_uid" pk="uid" />
+			</fk>
+		</table>
+		<table name="firearm" generator_rows="150" >
+			<column name="uid" type="int" jt="4" mandatory="y" autoincrement="y" />
+			<column name="recoil" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+				<comment><![CDATA[This is an attribute derived from the weapon_url's base recoil value and the recoil modifiers from any attachments fitted onto it. Note that recoil modifiers are handled as percentage values when calculating recoil. So a forgrip might have a recoil mod of -5 so you would multiply the base value of the weapon by .95 to get its adjusted value.]]></comment>
+			</column>
+			<column name="ergonomics" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+				<comment><![CDATA[This is an attribute derived from the weapon_url's base ergo value and the ergo modifiers from any attachments fitted onto it.]]></comment>
+			</column>
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_firearm_uid" unique="PRIMARY_KEY" >
+				<column name="uid" />
+			</index>
+			<index name="unq_firearm_item_url" unique="UNIQUE" >
+				<column name="item_url" />
+			</index>
+			<fk name="fk_firearm_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="firearm_compat" generator_rows="225" >
+			<column name="attachment_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="compatible_firearm" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="idx_attachement_compat_0" unique="PRIMARY_KEY" >
+				<column name="attachment_url" />
+				<column name="compatible_firearm" />
+			</index>
+			<fk name="fk_attachement_compat_0" to_schema="school project" to_table="firearm" delete_action="cascade" update_action="cascade" />
+			<fk name="fk_firearm_compat1" to_schema="school project" to_table="attachment" delete_action="cascade" update_action="cascade" >
+				<fk_column name="attachment_url" pk="item_url" />
+			</fk>
+		</table>
+		<table name="fitted_to" generator_rows="225" >
+			<column name="firearm_uid" type="int" jt="4" mandatory="y" />
+			<column name="attachment_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="idx_fitted_to" unique="PRIMARY_KEY" >
+				<column name="firearm_uid" />
+				<column name="attachment_url" />
+			</index>
+			<fk name="fk_fitted_to_firearm" to_schema="school project" to_table="firearm" delete_action="cascade" update_action="cascade" >
+				<fk_column name="firearm_uid" pk="uid" />
+			</fk>
+			<fk name="fk_fitted_to_attachment" to_schema="school project" to_table="attachment" delete_action="cascade" update_action="cascade" >
+				<fk_column name="attachment_url" pk="item_url" />
+			</fk>
+		</table>
+		<table name="item" generator_rows="100" >
+			<comment><![CDATA[Master item table]]></comment>
+			<column name="url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="value" type="int" jt="4" mandatory="y" />
+			<column name="type" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_item_url" unique="PRIMARY_KEY" >
+				<column name="url" />
+			</index>
+		</table>
+		<table name="owns" generator_rows="150" >
+			<column name="player_name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="amount" type="int" jt="4" mandatory="y" />
+			<column name="item_url" type="longtext" jt="-1" mandatory="y" />
+			<index name="test" unique="PRIMARY_KEY" >
+				<column name="player_name" />
+				<column name="item_url" />
+			</index>
+			<fk name="fk_owns_player" to_schema="school project" to_table="player" delete_action="cascade" update_action="cascade" >
+				<fk_column name="player_name" pk="username" />
+			</fk>
+			<fk name="fk_owns_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="penetrates" generator_rows="225" >
+			<column name="caliber_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="armor_class" type="int" jt="4" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<index name="idx_penetrates" unique="PRIMARY_KEY" >
+				<column name="caliber_url" />
+				<column name="armor_class" />
+			</index>
+			<fk name="fk_penetrates_armor" to_schema="school project" to_table="armor" delete_action="cascade" update_action="cascade" >
+				<fk_column name="armor_class" pk="class" />
+			</fk>
+			<fk name="fk_penetrates1" to_schema="school project" to_table="caliber" delete_action="cascade" update_action="cascade" >
+				<fk_column name="caliber_url" pk="item_url" />
+			</fk>
+		</table>
+		<table name="player" generator_rows="100" >
+			<column name="username" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="level" type="int" jt="4" mandatory="y" />
+			<column name="money" type="int" jt="4" mandatory="y" />
+			<index name="unq_player_username" unique="UNIQUE" >
+				<column name="username" />
+			</index>
+			<index name="pk_player_username" unique="PRIMARY_KEY" >
+				<column name="username" />
+			</index>
+		</table>
+		<table name="player_buys" generator_rows="150" >
+			<column name="purchase_id" type="int" jt="4" mandatory="y" autoincrement="y" />
+			<column name="username" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="amount" type="int" jt="4" mandatory="y" />
+			<index name="pk_player_buys_purchase_id" unique="PRIMARY_KEY" >
+				<column name="purchase_id" />
+			</index>
+			<fk name="fk_player_buys_player" to_schema="school project" to_table="player" delete_action="cascade" update_action="cascade" >
+				<fk_column name="username" pk="username" />
+			</fk>
+			<fk name="fk_player_buys_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="player_sells" generator_rows="150" >
+			<column name="sell_id" type="int" jt="4" mandatory="y" autoincrement="y" />
+			<column name="username" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="amount" type="int" jt="4" mandatory="y" />
+			<index name="pk_player_buys_purchase_id_0" unique="PRIMARY_KEY" >
+				<column name="sell_id" />
+			</index>
+			<fk name="fk_player_buys_player_0" to_schema="school project" to_table="player" delete_action="cascade" update_action="cascade" >
+				<fk_column name="username" pk="username" />
+			</fk>
+			<fk name="fk_player_buys_item_0" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="suppressed" generator_rows="225" >
+			<comment><![CDATA[This table stores whether or not a weapon is suppressed and if it is what suppressor is attached to it. Something that isnt suppressed will not be included in here.]]></comment>
+			<column name="suppressor_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="firearm_uid" type="int" jt="4" mandatory="y" />
+			<index name="idx_suppressed" unique="PRIMARY_KEY" >
+				<column name="firearm_uid" />
+			</index>
+			<fk name="fk_suppressed_suppressed" to_schema="school project" to_table="suppressor" delete_action="cascade" update_action="cascade" >
+				<fk_column name="suppressor_url" pk="item_url" />
+			</fk>
+			<fk name="fk_suppressed_firearm" to_schema="school project" to_table="firearm" delete_action="cascade" update_action="cascade" >
+				<fk_column name="firearm_uid" pk="uid" />
+			</fk>
+		</table>
+		<table name="suppressor" generator_rows="150" >
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="recoil_mod" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<column name="ergo_mod" type="double" jt="8" mandatory="y" >
+				<defo>0</defo>
+			</column>
+			<index name="pk_attachment_item_url_0" unique="PRIMARY_KEY" >
+				<column name="item_url" />
+			</index>
+			<fk name="fk_attachment_item_0" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+		</table>
+		<table name="trade" generator_rows="150" >
+			<column name="trade_uid" type="int" jt="4" mandatory="y" autoincrement="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="cost" type="int" jt="4" mandatory="y" />
+			<column name="seller" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="buyer" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_trade_trade_uid" unique="PRIMARY_KEY" >
+				<column name="trade_uid" />
+			</index>
+			<fk name="fk_trade_seller" to_schema="school project" to_table="player" delete_action="cascade" update_action="cascade" >
+				<fk_column name="seller" pk="username" />
+			</fk>
+			<fk name="fk_trade_buyer" to_schema="school project" to_table="player" delete_action="cascade" update_action="cascade" >
+				<fk_column name="buyer" pk="username" />
+			</fk>
+		</table>
+		<table name="trader_buys" generator_rows="150" >
+			<column name="trader_name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="amount" type="int" jt="4" mandatory="y" />
+			<index name="idx_trader_buys_trader_name" unique="PRIMARY_KEY" >
+				<column name="trader_name" />
+				<column name="item_url" />
+			</index>
+			<fk name="fk_trader_buys_item" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+			<fk name="fk_trader_buys_traders" to_schema="school project" to_table="traders" delete_action="cascade" update_action="cascade" >
+				<fk_column name="trader_name" pk="trader_name" />
+			</fk>
+		</table>
+		<table name="trader_sells" generator_rows="150" >
+			<column name="trader_name" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="item_url" type="varchar" length="100" jt="12" mandatory="y" />
+			<column name="amount" type="int" jt="4" mandatory="y" />
+			<index name="idx_trader_buys_trader_name_0" unique="PRIMARY_KEY" >
+				<column name="trader_name" />
+				<column name="item_url" />
+			</index>
+			<fk name="fk_trader_buys_item_0" to_schema="school project" to_table="item" delete_action="cascade" update_action="cascade" >
+				<fk_column name="item_url" pk="url" />
+			</fk>
+			<fk name="fk_trader_buys_traders_0" to_schema="school project" to_table="traders" delete_action="cascade" update_action="cascade" >
+				<fk_column name="trader_name" pk="trader_name" />
+			</fk>
+		</table>
+		<table name="traders" generator_rows="100" >
+			<column name="trader_name" type="varchar" length="100" jt="12" mandatory="y" />
+			<index name="pk_traders_trader_name" unique="PRIMARY_KEY" >
+				<column name="trader_name" />
+			</index>
+		</table>
+	</schema>
+	<connector name="" database="MySql" host="localhost" port="3306" user="root" />
+	<layout name="Default Layout" id="Layout_5122e6e" show_relation="columns" >
+		<comment><![CDATA[School Project]]></comment>
+		<entity schema="school project" name="trader_buys" color="C1D8EE" x="1136" y="832" />
+		<entity schema="school project" name="trader_sells" color="3986C1" x="1152" y="1040" />
+		<entity schema="school project" name="player_buys" color="C1D8EE" x="576" y="1120" />
+		<entity schema="school project" name="player_sells" color="3986C1" x="576" y="928" />
+		<entity schema="school project" name="owns" color="C1D8EE" x="560" y="768" />
+		<entity schema="school project" name="player" color="C1D8EE" x="256" y="912" />
+		<entity schema="school project" name="trade" color="C1D8EE" x="48" y="896" />
+		<entity schema="school project" name="traders" color="C1D8EE" x="1344" y="944" />
+		<entity schema="school project" name="attachment" color="C1D8EE" x="1328" y="560" />
+		<entity schema="school project" name="attachement_compat" color="C1D8EE" x="1424" y="240" />
+		<entity schema="school project" name="fitted_to" color="C1D8EE" x="848" y="560" />
+		<entity schema="school project" name="suppressor" color="3986C1" x="1024" y="672" />
+		<entity schema="school project" name="suppressed" color="C1D8EE" x="816" y="672" />
+		<entity schema="school project" name="chambers" color="C1D8EE" x="576" y="352" />
+		<entity schema="school project" name="caliber" color="C1D8EE" x="560" y="160" />
+		<entity schema="school project" name="penetrates" color="C1D8EE" x="304" y="176" />
+		<entity schema="school project" name="armor" color="C1D8EE" x="272" y="560" />
+		<entity schema="school project" name="firearm" color="C1D8EE" x="576" y="528" />
+		<entity schema="school project" name="item" color="C1D8EE" x="848" y="896" />
+		<entity schema="school project" name="firearm_compat" color="3986C1" x="1440" y="384" />
+		<callout x="336" y="48" pointer="Round" >
+			<comment><![CDATA[This project is in offline mode.
+Design the schema and save the design to project file. Later create or upgrade the schema on any database.
+Right-click the layout to add new tables. Drop this callout from its right-click pop-up menu.]]></comment>
+		</callout>
+		<script name="SQL_Editor" id="Editor_359560e" language="SQL" >
+			<string><![CDATA[CREATE SCHEMA `school project`;
+
+CREATE TABLE `school project`.item ( 
+	url                  varchar(100)  NOT NULL    PRIMARY KEY,
+	value                int  NOT NULL    
+ );
+
+ALTER TABLE `school project`.item COMMENT 'Master item table';
+
+CREATE TABLE `school project`.player ( 
+	username             varchar(100)  NOT NULL    PRIMARY KEY,
+	level                int  NOT NULL    ,
+	money                int  NOT NULL    ,
+	CONSTRAINT unq_player_username UNIQUE ( username ) 
+ );
+
+CREATE TABLE `school project`.player_buys ( 
+	purchase_id          int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	username             varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT fk_player_buys_player FOREIGN KEY ( username ) REFERENCES `school project`.player( username ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_player_buys_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.player_sells ( 
+	sell_id              int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	username             varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT fk_player_buys_player_0 FOREIGN KEY ( username ) REFERENCES `school project`.player( username ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_player_buys_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.suppressor ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	recoil_mod           double  NOT NULL DEFAULT 0   ,
+	ergo_mod             double  NOT NULL DEFAULT 0   ,
+	CONSTRAINT fk_attachment_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.`table` ( 
+ );
+
+CREATE TABLE `school project`.trade ( 
+	trade_uid            int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	item_url             varchar(100)  NOT NULL    ,
+	cost                 int  NOT NULL    ,
+	seller               varchar(100)  NOT NULL    ,
+	buyer                varchar(100)  NOT NULL    ,
+	CONSTRAINT fk_trade_seller FOREIGN KEY ( seller ) REFERENCES `school project`.player( username ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_trade_buyer FOREIGN KEY ( buyer ) REFERENCES `school project`.player( username ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.traders ( 
+	trader_name          varchar(100)  NOT NULL    PRIMARY KEY
+ );
+
+CREATE TABLE `school project`.armor ( 
+	zone                 varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	class                int  NOT NULL DEFAULT 0   ,
+	CONSTRAINT idx_armor PRIMARY KEY ( zone, item_url ),
+	CONSTRAINT fk_armor_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE INDEX unq_armor_class ON `school project`.armor ( class );
+
+CREATE TABLE `school project`.attachment ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	recoil_mod           double  NOT NULL DEFAULT 0   ,
+	ergo_mod             double  NOT NULL DEFAULT 0   ,
+	CONSTRAINT fk_attachment_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.caliber ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	damage               int  NOT NULL DEFAULT 0   ,
+	penetration          int  NOT NULL DEFAULT 0   ,
+	CONSTRAINT fk_caliber_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.firearm ( 
+	uid                  int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	recoil               double  NOT NULL DEFAULT 0   ,
+	ergonomics           double  NOT NULL DEFAULT 0   ,
+	`type`               varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	CONSTRAINT fk_firearm_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+ALTER TABLE `school project`.firearm MODIFY recoil double  NOT NULL DEFAULT 0  COMMENT 'This is an attribute derived from the weapon_url''s base recoil value and the recoil modifiers from any attachments fitted onto it. Note that recoil modifiers are handled as percentage values when calculating recoil. So a forgrip might have a recoil mod of -5 so you would multiply the base value of the weapon by .95 to get its adjusted value.';
+
+ALTER TABLE `school project`.firearm MODIFY ergonomics double  NOT NULL DEFAULT 0  COMMENT 'This is an attribute derived from the weapon_url''s base ergo value and the ergo modifiers from any attachments fitted onto it.';
+
+CREATE TABLE `school project`.firearm_compat ( 
+	attachment_url       varchar(100)  NOT NULL    ,
+	compatible_firearm   int  NOT NULL    ,
+	CONSTRAINT idx_attachement_compat_0 PRIMARY KEY ( attachment_url, compatible_firearm ),
+	CONSTRAINT fk_attachement_compat_0 FOREIGN KEY ( compatible_firearm ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT fk_firearm_compat1 FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.fitted_to ( 
+	firearm_uid          int  NOT NULL    ,
+	attachment_url       varchar(100)  NOT NULL    ,
+	CONSTRAINT idx_fitted_to PRIMARY KEY ( firearm_uid, attachment_url ),
+	CONSTRAINT fk_fitted_to_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_fitted_to_attachment FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.owns ( 
+	player_name          varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	item_url             longtext  NOT NULL    ,
+	CONSTRAINT test PRIMARY KEY ( player_name, item_url ),
+	CONSTRAINT fk_owns_player FOREIGN KEY ( player_name ) REFERENCES `school project`.player( username ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_owns_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.penetrates ( 
+	caliber_url          varchar(100)  NOT NULL    ,
+	armor_class          int  NOT NULL DEFAULT 0   ,
+	CONSTRAINT idx_penetrates PRIMARY KEY ( caliber_url, armor_class ),
+	CONSTRAINT fk_penetrates_armor FOREIGN KEY ( armor_class ) REFERENCES `school project`.armor( class ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_penetrates1 FOREIGN KEY ( caliber_url ) REFERENCES `school project`.caliber( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.suppressed ( 
+	suppressor_url       varchar(100)  NOT NULL    ,
+	firearm_uid          int  NOT NULL    PRIMARY KEY,
+	CONSTRAINT fk_suppressed_suppressed FOREIGN KEY ( suppressor_url ) REFERENCES `school project`.suppressor( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_suppressed_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE
+ );
+
+ALTER TABLE `school project`.suppressed COMMENT 'This table stores whether or not a weapon is suppressed and if it is what suppressor is attached to it. Something that isnt suppressed will not be included in here.';
+
+CREATE TABLE `school project`.trader_buys ( 
+	trader_name          varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT idx_trader_buys_trader_name PRIMARY KEY ( trader_name, item_url ),
+	CONSTRAINT fk_trader_buys_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_trader_buys_traders FOREIGN KEY ( trader_name ) REFERENCES `school project`.traders( trader_name ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.trader_sells ( 
+	trader_name          varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT idx_trader_buys_trader_name_0 PRIMARY KEY ( trader_name, item_url ),
+	CONSTRAINT fk_trader_buys_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_trader_buys_traders_0 FOREIGN KEY ( trader_name ) REFERENCES `school project`.traders( trader_name ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.attachement_compat ( 
+	attachment_url       varchar(100)  NOT NULL    ,
+	compatible_attachment varchar(100)  NOT NULL    ,
+	CONSTRAINT idx_attachement_compat PRIMARY KEY ( attachment_url, compatible_attachment ),
+	CONSTRAINT fk_attachement_compat FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT fk_attachement_compat1 FOREIGN KEY ( compatible_attachment ) REFERENCES `school project`.attachment( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );
+
+CREATE TABLE `school project`.chambers ( 
+	caliber_url          varchar(100)  NOT NULL    ,
+	firearm_uid          int  NOT NULL    ,
+	CONSTRAINT idx_chambers PRIMARY KEY ( caliber_url, firearm_uid ),
+	CONSTRAINT fk_chambers_caliber FOREIGN KEY ( caliber_url ) REFERENCES `school project`.caliber( item_url ) ON DELETE NO ACTION ON UPDATE NO ACTION,
+	CONSTRAINT fk_chambers_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE NO ACTION ON UPDATE NO ACTION
+ );]]></string>
+		</script>
+		<script name="SQL_Editor_001" id="Editor_18c8001" language="SQL" >
+			<string><![CDATA[CREATE SCHEMA `school project`;
+
+CREATE TABLE `school project`.item ( 
+	url                  varchar(100)  NOT NULL    PRIMARY KEY,
+	value                int  NOT NULL    
+ );
+
+ALTER TABLE `school project`.item COMMENT 'Master item table';
+
+CREATE TABLE `school project`.player ( 
+	username             varchar(100)  NOT NULL    PRIMARY KEY,
+	level                int  NOT NULL    ,
+	money                int  NOT NULL    ,
+	CONSTRAINT unq_player_username UNIQUE ( username ) 
+ );
+
+CREATE TABLE `school project`.player_buys ( 
+	purchase_id          int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	username             varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    
+ );
+
+CREATE TABLE `school project`.player_sells ( 
+	sell_id              int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	username             varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    
+ );
+
+CREATE TABLE `school project`.suppressor ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	recoil_mod           double  NOT NULL DEFAULT 0   ,
+	ergo_mod             double  NOT NULL DEFAULT 0   
+ );
+
+CREATE TABLE `school project`.trade ( 
+	trade_uid            int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	item_url             varchar(100)  NOT NULL    ,
+	cost                 int  NOT NULL    ,
+	seller               varchar(100)  NOT NULL    ,
+	buyer                varchar(100)  NOT NULL    
+ );
+
+CREATE TABLE `school project`.traders ( 
+	trader_name          varchar(100)  NOT NULL    PRIMARY KEY
+ );
+
+CREATE TABLE `school project`.armor ( 
+	zone                 varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	class                int  NOT NULL DEFAULT 0   ,
+	CONSTRAINT idx_armor PRIMARY KEY ( zone, item_url ),
+	CONSTRAINT unq_armor_class UNIQUE ( class ) 
+ );
+
+CREATE TABLE `school project`.attachment ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	recoil_mod           double  NOT NULL DEFAULT 0   ,
+	ergo_mod             double  NOT NULL DEFAULT 0   
+ );
+
+CREATE TABLE `school project`.caliber ( 
+	item_url             varchar(100)  NOT NULL    PRIMARY KEY,
+	damage               int  NOT NULL DEFAULT 0   ,
+	penetration          int  NOT NULL DEFAULT 0   
+ );
+
+CREATE TABLE `school project`.firearm ( 
+	uid                  int  NOT NULL  AUTO_INCREMENT  PRIMARY KEY,
+	recoil               double  NOT NULL DEFAULT 0   ,
+	ergonomics           double  NOT NULL DEFAULT 0   ,
+	`type`               varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    
+ );
+
+ALTER TABLE `school project`.firearm MODIFY recoil double  NOT NULL DEFAULT 0  COMMENT 'This is an attribute derived from the weapon_url''s base recoil value and the recoil modifiers from any attachments fitted onto it. Note that recoil modifiers are handled as percentage values when calculating recoil. So a forgrip might have a recoil mod of -5 so you would multiply the base value of the weapon by .95 to get its adjusted value.';
+
+ALTER TABLE `school project`.firearm MODIFY ergonomics double  NOT NULL DEFAULT 0  COMMENT 'This is an attribute derived from the weapon_url''s base ergo value and the ergo modifiers from any attachments fitted onto it.';
+
+CREATE TABLE `school project`.firearm_compat ( 
+	attachment_url       varchar(100)  NOT NULL    ,
+	compatible_firearm   int  NOT NULL    ,
+	CONSTRAINT idx_attachement_compat_0 PRIMARY KEY ( attachment_url, compatible_firearm )
+ );
+
+CREATE TABLE `school project`.fitted_to ( 
+	firearm_uid          int  NOT NULL    ,
+	attachment_url       varchar(100)  NOT NULL    ,
+	CONSTRAINT idx_fitted_to PRIMARY KEY ( firearm_uid, attachment_url )
+ );
+
+CREATE TABLE `school project`.owns ( 
+	player_name          varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	item_url             longtext  NOT NULL    ,
+	CONSTRAINT test PRIMARY KEY ( player_name, item_url )
+ );
+
+CREATE TABLE `school project`.penetrates ( 
+	caliber_url          varchar(100)  NOT NULL    ,
+	armor_class          int  NOT NULL DEFAULT 0   ,
+	CONSTRAINT idx_penetrates PRIMARY KEY ( caliber_url, armor_class )
+ );
+
+CREATE TABLE `school project`.suppressed ( 
+	suppressor_url       varchar(100)  NOT NULL    ,
+	firearm_uid          int  NOT NULL    PRIMARY KEY
+ );
+
+ALTER TABLE `school project`.suppressed COMMENT 'This table stores whether or not a weapon is suppressed and if it is what suppressor is attached to it. Something that isnt suppressed will not be included in here.';
+
+CREATE TABLE `school project`.trader_buys ( 
+	trader_name          varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT idx_trader_buys_trader_name PRIMARY KEY ( trader_name, item_url )
+ );
+
+CREATE TABLE `school project`.trader_sells ( 
+	trader_name          varchar(100)  NOT NULL    ,
+	item_url             varchar(100)  NOT NULL    ,
+	amount               int  NOT NULL    ,
+	CONSTRAINT idx_trader_buys_trader_name_0 PRIMARY KEY ( trader_name, item_url )
+ );
+
+CREATE TABLE `school project`.attachement_compat ( 
+	attachment_url       varchar(100)  NOT NULL    ,
+	compatible_attachment varchar(100)  NOT NULL    ,
+	CONSTRAINT idx_attachement_compat PRIMARY KEY ( attachment_url, compatible_attachment )
+ );
+
+CREATE TABLE `school project`.chambers ( 
+	caliber_url          varchar(100)  NOT NULL    ,
+	firearm_uid          int  NOT NULL    ,
+	CONSTRAINT idx_chambers PRIMARY KEY ( caliber_url, firearm_uid )
+ );
+
+ALTER TABLE `school project`.armor ADD CONSTRAINT fk_armor_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.attachement_compat ADD CONSTRAINT fk_attachement_compat FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.attachement_compat ADD CONSTRAINT fk_attachement_compat1 FOREIGN KEY ( compatible_attachment ) REFERENCES `school project`.attachment( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.attachment ADD CONSTRAINT fk_attachment_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.caliber ADD CONSTRAINT fk_caliber_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.chambers ADD CONSTRAINT fk_chambers_caliber FOREIGN KEY ( caliber_url ) REFERENCES `school project`.caliber( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.chambers ADD CONSTRAINT fk_chambers_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.firearm ADD CONSTRAINT fk_firearm_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.firearm_compat ADD CONSTRAINT fk_attachement_compat_0 FOREIGN KEY ( compatible_firearm ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.firearm_compat ADD CONSTRAINT fk_firearm_compat1 FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.fitted_to ADD CONSTRAINT fk_fitted_to_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.fitted_to ADD CONSTRAINT fk_fitted_to_attachment FOREIGN KEY ( attachment_url ) REFERENCES `school project`.attachment( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.owns ADD CONSTRAINT fk_owns_player FOREIGN KEY ( player_name ) REFERENCES `school project`.player( username ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.owns ADD CONSTRAINT fk_owns_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.penetrates ADD CONSTRAINT fk_penetrates_armor FOREIGN KEY ( armor_class ) REFERENCES `school project`.armor( class ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.penetrates ADD CONSTRAINT fk_penetrates1 FOREIGN KEY ( caliber_url ) REFERENCES `school project`.caliber( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.player_buys ADD CONSTRAINT fk_player_buys_player FOREIGN KEY ( username ) REFERENCES `school project`.player( username ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.player_buys ADD CONSTRAINT fk_player_buys_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.player_sells ADD CONSTRAINT fk_player_buys_player_0 FOREIGN KEY ( username ) REFERENCES `school project`.player( username ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.player_sells ADD CONSTRAINT fk_player_buys_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.suppressed ADD CONSTRAINT fk_suppressed_suppressed FOREIGN KEY ( suppressor_url ) REFERENCES `school project`.suppressor( item_url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.suppressed ADD CONSTRAINT fk_suppressed_firearm FOREIGN KEY ( firearm_uid ) REFERENCES `school project`.firearm( uid ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.suppressor ADD CONSTRAINT fk_attachment_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trade ADD CONSTRAINT fk_trade_seller FOREIGN KEY ( seller ) REFERENCES `school project`.player( username ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trade ADD CONSTRAINT fk_trade_buyer FOREIGN KEY ( buyer ) REFERENCES `school project`.player( username ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trader_buys ADD CONSTRAINT fk_trader_buys_item FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trader_buys ADD CONSTRAINT fk_trader_buys_traders FOREIGN KEY ( trader_name ) REFERENCES `school project`.traders( trader_name ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trader_sells ADD CONSTRAINT fk_trader_buys_item_0 FOREIGN KEY ( item_url ) REFERENCES `school project`.item( url ) ON DELETE CASCADE ON UPDATE CASCADE;
+
+ALTER TABLE `school project`.trader_sells ADD CONSTRAINT fk_trader_buys_traders_0 FOREIGN KEY ( trader_name ) REFERENCES `school project`.traders( trader_name ) ON DELETE CASCADE ON UPDATE CASCADE;]]></string>
+		</script>
+	</layout>
+</project>

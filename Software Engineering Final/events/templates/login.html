@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if form.errors %}
+    {% for field in form %}
+        {% for error in field.errors %}
+            <div class="alert alert-danger">
+                <strong>{{ error|escape }}</strong>
+            </div>
+        {% endfor %}
+    {% endfor %}
+    {% for error in form.non_field_errors %}
+        <div class="alert alert-danger">
+            <strong>{{ error|escape }}</strong>
+        </div>
+    {% endfor %}
+{% endif %}
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <!--Page spacing, no code needed here-->
+      </div>
+        <div class="col-lg-4">
+            <h1 class="text-center">Login</h1>
+            <form method="post" >
+                {% csrf_token %}
+                <div class='form-group'>
+                    <label for="id_username">Username:</label>
+                    <input type="text" class='form-control' name="username" autofocus autocapitalize="none" autocomplete="username" maxlength="255" required id="id_username">
+                </div>
+                <div class='form-group'>
+                    <label for="id_password">Password:</label>
+                    <input type="password" class='form-control' name="password" autocomplete="current-password" required id="id_password">
+                </div>
+                <input type="submit" class="btn btn-primary btn-block btn-lg" value="login"> 
+                <p>not registered? Sign up <a href="/signup/">here</a></p>
+                <input type="hidden" name="next" value="{{ next }}">
+                </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
