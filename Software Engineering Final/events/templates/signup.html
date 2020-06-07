@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<h2 class="text-center">Sign up</h2>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8">
+      <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn btn-primary btn-lg">Sign up</button>
+      </form>
+    </div>
+    <div class="col-lg-4">
+      <h3>Password Requirements:</h3>
+      <ul>
+        <li>Can't be too similar to your other information</li>
+        <li>Can't be entirely numeric</li>
+        <li>Must be at least 8 characters</li>
+        <li>Should not be a common Password</li>
+        <li>Inputs should not exceed 255 characters</li>
+      </ul>
+    </div>
+  </div>
+</div>
+{% endblock %}

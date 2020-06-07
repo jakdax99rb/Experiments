@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>{{ event.name }}</h1>
+
+<ul>
+    <li>name: {{ event.name }}</li>
+    <li>start: {{ event.start_datetime }}</li>
+    <li>end: {{ event.end_datetime }}</li>
+    <li>creator: {{ event.creator }}</li>
+    <li>location: {{ event.location }}</li>
+    <li>created_at: {{ event.created_at }}</li>
+    <li>last_modified: {{ event.last_modified }}</li>
+    <li>attendees: {% for attendee in event.attendees.all %} <a href="{% url 'profile' attendee.id %}">{{ attendee.username }}</a>, {% endfor %}</li>
+   <li>games: {% for game in event.games.all %} {{ game.name }}, {% endfor %}</li>
+
+</ul>
+
+<a href="{% url 'join' event_id=event.id %}" class="btn btn-primary"> join event </a>
+<a href="{% url 'leave' event_id=event.id %}" class="btn btn-primary"> leave event </a>
+
+{% endblock %}

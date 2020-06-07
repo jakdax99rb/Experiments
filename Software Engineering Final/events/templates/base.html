@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--bootstrap install and some formatting settings-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!--coloring for the page-->
+    <style>
+        .jumbotron {
+            background-color: #4d4d4d;
+            color: white;
+        }
+        body {
+            background: #2d2d30;
+            color: #bdbdbd;
+        }
+    </style>
+</head>
+<body>
+    <!--page banner-->
+      <div class="jumbotron text-center" style="margin-bottom:0">
+          <h1>Event Coordinating for Gamers</h1>
+          <p>Team 7</p> 
+        </div>
+{% if user.is_authenticated %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{% url 'index'%}">Home</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% url 'search' %}"><span class="glyphicon glyphicon-search"></span> Search</a></li>
+        <li><a href="{% url 'editprofile' %}"><span class="glyphicon glyphicon-pencil"></span> Edit Profile</a></li>
+        <li><a href="{% url 'profile' pk=user.id%}"><span class="glyphicon glyphicon-user"></span> {{ user.get_username }}</a></li>
+        <li><a href="{% url 'logout' %}"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+      </ul>
+    </div>
+  </nav>
+{% else %}
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="{% url 'index'%}">Home</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="{% url 'signup' %}"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="{% url 'login' %}"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+{% endif %}
+
+{% block content %}
+
+{% endblock %}
+</body>
+</html>

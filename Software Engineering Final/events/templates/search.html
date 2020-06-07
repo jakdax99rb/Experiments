@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="col-lg-4">
+<form action="/search/" method="post" class="form-group">
+    <label for="search_request">Search Query: </label>
+    <input id="searched" class="form-control" type="text" name="search_request" value="{{search}}">
+    <input type="submit" value="OK" class="btn btn-primary  ">
+    {% csrf_token %}
+</form>
+</div>
+{% if searched %}
+<div class="container">
+
+    <h2> Search term for "{{ search }}"</h2>
+    <ul>
+    {% for event in searched %}
+    <li><a href="/event/{{ event.id }}/">{{ event.name }}</a> ({{event.start_datetime}}) </li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No events are available.</p>
+{% endif %}
+</div>
+{% endblock %}

@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<h1>{{ profile_user.username }}</h1>
+{% if profile_user.is_staff %}
+<p>staff member</p>
+{% endif %}
+
+
+{% if profile_events %}
+<h4> Events joined </h4>
+{% for e in profile_events %} 
+<li><a  href="{% url 'info' pk=e.id%}">{{ e.name }}</a></li>
+{% endfor %}
+{% else %}
+<h4> No events joined</h4>
+{% endif %}
+
+
+{% if profile_user.info %}
+<h1> profile bio</h1>
+<p class="lead">
+    
+    {{ profile_user.info }}
+</p>
+{% endif %}
+
+{% endblock %}
