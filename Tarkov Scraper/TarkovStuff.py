@@ -493,7 +493,6 @@ def getBestStat(itemType, stat):
 '''
 
 
-
 # sortJSONByitemType()
 # wikiScraper()
 best = getBestInStat('Assault rifle', 'ergonomics')
