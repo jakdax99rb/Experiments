@@ -3,7 +3,7 @@ import os
 import smtplib
 import sys
 
-
+#borrowed from github
 def bf(src, left, right, data, idx):
     """
         brainfuck interpreter
