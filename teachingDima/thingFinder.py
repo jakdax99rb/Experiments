@@ -1,10 +1,13 @@
 file = open(
-    'C:\\Users\\Jonathan\\Documents\\GitHub\\Experiments\\teachingDima\\Updated_Medicaid.txt', 'r')
+    'C:\\Users\\jakda\\Documents\\Work\\Experiments\\teachingDima\\Updated_Medicaid.txt', 'r')
 
 charCount = 0
 notFound = True
+lineCharCount = 0
 
 for item in file:
+
+    lineCharCount += charCount - lineCharCount
 
     for char in item:
 
@@ -12,5 +15,8 @@ for item in file:
 
         if charCount == 1535 and notFound:
 
-            print("Line: ", item, '\n')
-            print("Offending Char", char, '\n')
+            print("Beginning of Line Char Count: ", lineCharCount)
+            print("Char Count: ", charCount)
+            print("Line: ", item)
+            print(' ' * (charCount - lineCharCount - 1 + 6), "^")
+            print("Offending Char", char)
