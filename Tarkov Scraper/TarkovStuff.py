@@ -28,7 +28,7 @@ def wikiScraper():
     for x in range(0, len(linkList)):
 
         # stop gap to handle some errant links being passed from the google doc.
-        if(linkList[x] != ('https://escapefromtarkov.gamepedia.com' and '.')):
+        if(linkList[x] != ('https://escapefromtarkov.gamepedia.com' and '.' and 'https://escapefromtarkov.gamepedia.comhttps://discord.gg/7ZeEyfU' and '#N/A')):
 
             itemList.append(itemScraper(linkList[x]))
 
@@ -494,9 +494,9 @@ def getBestStat(itemType, stat):
 
 
 # sortJSONByitemType()
-# wikiScraper()
-best = getBestInStat('Assault rifle', 'ergonomics')
-print(best[len(best)-1]['itemLink'])
+wikiScraper()
+# best = getBestInStat('Assault rifle', 'ergonomics')
+# print(best[len(best)-1]['itemLink'])
 # sortJSONByitemType()
 
 '''

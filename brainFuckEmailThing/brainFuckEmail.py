@@ -3,7 +3,9 @@ import os
 import smtplib
 import sys
 
-#Borrowed from https://github.com/DoctorLai/PyUtils/blob/master/bf.py
+# Borrowed from https://github.com/DoctorLai/PyUtils/blob/master/bf.py
+
+
 def bf(src, left, right, data, idx):
     """
         brainfuck interpreter
@@ -85,7 +87,7 @@ my_file = os.path.join(THIS_FOLDER, 'myfile.txt')
 
 def sendPPEmail(toAddr, fromAddr, password):
     THIS_FOLDER = os.path.dirname(os.path.abspath(__file__))
-    ppTxt = open(os.path.join(THIS_FOLDER, 'ppSmol.txt')).read()
+    ppTxt = open(os.path.join(THIS_FOLDER, 'testBFString.txt')).read()
     message = ppTxt
     message += '\n\nTranslated: '
     message += bf(ppTxt, 0, len(ppTxt)-1, [], 0)
